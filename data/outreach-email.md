@@ -42,6 +42,38 @@ Residence Relocations
 
 ---
 
+---
+
+# Follow-up email (send ~5 business days after no reply)
+
+## Subject
+Re: Partnering with [Agency] on client & tenant moves — fixed-price removalist
+
+*(Reply to your original email so it threads — don't start a new thread.)*
+
+## Body
+
+Hi [Agency] team,
+
+Just floating this back to the top of your inbox — I know how flat-out things get in property.
+
+Quick recap: we're Residence Relocations, a Brisbane removalist offering **fixed-price, fully insured moves** — a safe option to hand to your clients and tenants on settlement or lease turnover, with no hourly-rate surprises that come back on your office.
+
+If it's easier, here are two zero-effort ways to start:
+
+1. Reply "send the pack" and I'll flick through our one-page agent info sheet.
+2. Just keep our number handy for your next tricky move: **0450 195 130**.
+
+Either way, thanks for your time — and if it's a "no thanks", a one-word reply and I won't follow up again.
+
+Kind regards,
+Hayden
+Residence Relocations
+0450 195 130
+Move without compromise — premium service, fixed prices, zero surprises.
+
+---
+
 ## Notes before sending
 - Replace every `[bracketed]` field, especially your name, phone, email and website.
 - Personalise the first line with the agency name at minimum; a real person's name lifts reply rates a lot.
