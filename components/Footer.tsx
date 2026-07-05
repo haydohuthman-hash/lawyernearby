@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+import Reveal from "./Reveal";
 
 const columns = [
   {
@@ -17,9 +18,24 @@ const columns = [
 
 export default function Footer() {
   return (
-    <footer className="bg-ink pt-20 text-white">
+    <footer className="bg-ink pt-24 text-white">
       <div className="mx-auto max-w-[1440px] px-8">
-        <div className="grid grid-cols-1 gap-12 pb-14 sm:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr]">
+        <Reveal>
+          <div className="border-b border-white/10 pb-20 text-center">
+            <p className="text-[11px] font-medium tracking-[0.22em] text-white/40">READY WHEN YOU ARE</p>
+            <h2 className="mx-auto mt-6 max-w-3xl font-serif text-[44px] italic leading-[1.08] sm:text-[60px]">
+              Your next chapter, moved with care.
+            </h2>
+            <a
+              href="#quote"
+              className="btn-shine btn-shine-dark mt-10 inline-block rounded-md bg-white px-10 py-4 text-[13px] font-medium tracking-[0.1em] text-ink transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_40px_rgba(255,255,255,0.2)]"
+            >
+              GET A FIXED QUOTE
+            </a>
+          </div>
+        </Reveal>
+
+        <div className="grid grid-cols-1 gap-12 pb-14 pt-20 sm:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr]">
           <div>
             <Logo />
             <p className="mt-5 max-w-xs text-[13.5px] leading-relaxed text-white/45">

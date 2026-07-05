@@ -38,7 +38,7 @@ export default function RouteMap({
   duration: string;
 }) {
   return (
-    <div className="relative flex h-full flex-col overflow-hidden rounded-2xl bg-[#0c0f0d]">
+    <div className="relative flex h-full flex-col overflow-hidden rounded-2xl bg-[#0c0f0d] ring-1 ring-white/10 shadow-[0_24px_60px_rgba(0,0,0,0.5)]">
       <div className="relative flex-1 overflow-hidden">
         <svg
           className="absolute inset-0 h-full w-full opacity-[0.35]"
@@ -68,15 +68,16 @@ export default function RouteMap({
           <path
             d="M120 90 C 150 115, 100 130, 140 155 S 220 210, 190 250 S 260 300, 250 340"
             stroke="white"
-            strokeWidth="3"
+            strokeOpacity="0.15"
+            strokeWidth="9"
             fill="none"
             strokeLinecap="round"
           />
           <path
+            className="route-draw"
             d="M120 90 C 150 115, 100 130, 140 155 S 220 210, 190 250 S 260 300, 250 340"
             stroke="white"
-            strokeOpacity="0.15"
-            strokeWidth="9"
+            strokeWidth="3"
             fill="none"
             strokeLinecap="round"
           />
@@ -88,7 +89,10 @@ export default function RouteMap({
               <div className="font-semibold">{from.split(",")[0]}</div>
               <div className="text-ink/60">{from.split(",").slice(1).join(",").trim()}</div>
             </div>
-            <PinIcon className="h-7 w-7 drop-shadow" />
+            <div className="relative">
+              <span className="pulse-ring absolute inset-0 rounded-full bg-white" />
+              <PinIcon className="relative h-7 w-7 drop-shadow" />
+            </div>
           </div>
         </div>
 
@@ -98,7 +102,10 @@ export default function RouteMap({
               <div className="font-semibold">{to.split(",")[0]}</div>
               <div className="text-ink/60">{to.split(",").slice(1).join(",").trim()}</div>
             </div>
-            <PinIcon className="h-7 w-7 drop-shadow" />
+            <div className="relative">
+              <span className="pulse-ring absolute inset-0 rounded-full bg-white" />
+              <PinIcon className="relative h-7 w-7 drop-shadow" />
+            </div>
           </div>
         </div>
       </div>

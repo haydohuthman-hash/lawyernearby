@@ -69,7 +69,7 @@ export default function QuoteCalculator() {
 
   return (
     <div id="quote" className="grid grid-cols-1 gap-5 lg:grid-cols-[1fr_1fr]">
-      <div className="flex flex-col rounded-2xl bg-panel p-7 text-white ring-1 ring-white/10">
+      <div className="flex flex-col rounded-2xl bg-panel/90 p-7 text-white shadow-[0_24px_60px_rgba(0,0,0,0.5)] ring-1 ring-white/10 backdrop-blur-xl">
         <div className="flex items-center gap-2.5">
           <SparkleIcon className="h-4 w-4 text-white" />
           <h3 className="font-sans text-[15px] font-medium">AI Quote Calculator</h3>

@@ -7,20 +7,40 @@ const brands = [
   { name: "firstnational", style: "font-sans font-medium" },
 ];
 
+function BrandRow() {
+  return (
+    <>
+      {brands.map((b) => (
+        <div
+          key={b.name}
+          className={`shrink-0 px-12 text-[20px] text-white/60 transition duration-300 hover:text-white ${b.style}`}
+        >
+          {b.name}
+          {b.sub && <div className="-mt-1 text-center text-[8px] tracking-[0.3em] text-white/40">{b.sub}</div>}
+        </div>
+      ))}
+    </>
+  );
+}
+
 export default function TrustedBy() {
   return (
     <div className="border-t border-white/10 bg-ink">
-      <div className="mx-auto flex max-w-[1440px] flex-col items-center gap-8 px-8 py-10 sm:flex-row sm:justify-between">
-        <span className="whitespace-nowrap text-[11px] tracking-[0.16em] text-white/40">
+      <div className="mx-auto flex max-w-[1440px] flex-col items-center gap-8 px-8 py-12 lg:flex-row">
+        <span className="shrink-0 whitespace-nowrap text-[11px] tracking-[0.16em] text-white/40">
           TRUSTED BY HOMEOWNERS &amp; INDUSTRY PROFESSIONALS
         </span>
-        <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 opacity-70">
-          {brands.map((b) => (
-            <div key={b.name} className={`text-[19px] text-white ${b.style}`}>
-              {b.name}
-              {b.sub && <div className="-mt-1 text-center text-[8px] tracking-[0.3em] text-white/60">{b.sub}</div>}
-            </div>
-          ))}
+        <div
+          className="marquee relative min-w-0 flex-1 overflow-hidden"
+          style={{
+            maskImage: "linear-gradient(90deg, transparent, black 12%, black 88%, transparent)",
+            WebkitMaskImage: "linear-gradient(90deg, transparent, black 12%, black 88%, transparent)",
+          }}
+        >
+          <div className="marquee-track flex w-max items-center">
+            <BrandRow />
+            <BrandRow />
+          </div>
         </div>
       </div>
     </div>

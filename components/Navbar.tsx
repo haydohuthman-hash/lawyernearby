@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Logo from "./Logo";
 
 const links = [
@@ -9,10 +12,29 @@ const links = [
 ];
 
 export default function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <header className="sticky top-0 z-50 bg-ink/95 backdrop-blur">
-      <div className="mx-auto flex max-w-[1440px] items-center justify-between px-8 py-5">
-        <a href="#top">
+    <header
+      className={`sticky top-0 z-50 transition-all duration-500 ${
+        scrolled
+          ? "border-b border-white/10 bg-ink/85 shadow-[0_8px_32px_rgba(0,0,0,0.45)] backdrop-blur-xl"
+          : "border-b border-transparent bg-transparent"
+      }`}
+    >
+      <div
+        className={`mx-auto flex max-w-[1440px] items-center justify-between px-8 transition-all duration-500 ${
+          scrolled ? "py-3.5" : "py-6"
+        }`}
+      >
+        <a href="#top" className="transition-opacity hover:opacity-80">
           <Logo />
         </a>
         <nav className="hidden items-center gap-10 lg:flex">
@@ -20,7 +42,7 @@ export default function Navbar() {
             <a
               key={link.label}
               href={link.href}
-              className="text-[13px] tracking-[0.12em] text-white/85 transition hover:text-white"
+              className="nav-link text-[12.5px] tracking-[0.14em] text-white/80 transition hover:text-white"
             >
               {link.label.toUpperCase()}
             </a>
@@ -28,7 +50,7 @@ export default function Navbar() {
         </nav>
         <a
           href="#quote"
-          className="hidden shrink-0 border border-white/80 px-6 py-3 text-[12px] font-medium tracking-[0.14em] text-white transition hover:bg-white hover:text-ink sm:inline-block"
+          className="btn-shine hidden shrink-0 border border-white/70 px-6 py-3 text-[11.5px] font-medium tracking-[0.16em] text-white transition-all duration-300 hover:border-white hover:bg-white hover:text-ink sm:inline-block"
         >
           GET A FIXED QUOTE
         </a>
