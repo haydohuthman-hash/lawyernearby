@@ -1,13 +1,11 @@
-Agency	Office / Suburb	Contact Name	Role	Phone	Email	Source
-Spectrum Estate Agents	Brisbane	General enquiries	—	07 3707 3143	hello@spectrumea.com.au	https://spectrumestateagents.com.au/
-The Agency	Fortitude Valley	General enquiries	—	02 8376 9100	hello@theagency.com.au	https://theagency.com.au/office/50/brisbane
-Place Estate Agents	Fortitude Valley (HQ)	General enquiries	—	—	place@eplace.com.au	https://www.eplace.com.au/
-LJ Hooker Property Centre	Raby Bay / Brisbane	General enquiries	—	07 3286 2500	hello@ljhpc.com.au	https://propertycentre.ljhooker.com.au/contact-us
-Harcourts Solutions	Windsor	General enquiries	—	07 3505 4444	solutions@harcourts.com.au	https://www.harcourtssolutions.com.au/contact/
-Harcourts Solutions	Albany Creek	General enquiries	—	07 3505 4444	albanycreek@harcourtssolutions.com.au	https://www.harcourtssolutions.com.au/contact/
-Harcourts Solutions (Rentals)	Windsor	Rentals team	—	07 3112 9080	rentals.solutions@harcourts.com.au	https://www.harcourtssolutions.com.au/contact/
-Harcourts Inner East	Bulimba	General enquiries	—	07 3902 2888	innereast@harcourts.com.au	https://harcourts.net/au/office/inner-east/contact
-Harcourts	Algester	Tony Miller	Principal	07 3568 1888	tony.miller@harcourts.com.au	https://harcourts.net/au/offices/
-Harcourts AAP	Annerley	Reception	—	07 3848 7369	reception@harcourtsaap.com.au	https://harcourts.net/au/offices/
-Ray White (QLD Corporate)	Queensland state office	Corporate enquiries	—	—	corporate.qld@raywhite.com	https://www.raywhite.com/office/newfarm.qld
-Ray White New Farm	New Farm	General enquiries	—	07 3254 1022	—	https://www.raywhite.com/office/newfarm.qld
+#	Agency	Type	Suburb / Area	Email	Phone	Source
+1	Spectrum Estate Agents	Sales + Property Management	Brisbane	hello@spectrumea.com.au	07 3707 3143	https://spectrumestateagents.com.au/
+2	PMC Property Management	Property Management	Milton	rentalsqld@pmcproperty.com.au	07 3367 0126	https://www.pmcpropertymanagement.com.au/contact/
+3	Konnect Living	Property Management	Brisbane	hello@konnectliving.com.au	0414 387 101	https://www.konnectliving.com.au/
+4	Housemark	Property Management	Brisbane / SEQ	info@housemark.com.au	07 3073 3991	https://housemark.com.au/contact/
+5	Position One	Property Management	Brisbane	info@positionone.com.au	07 3843 4511	https://www.positionone.com.au/contact-us/
+6	LJ Hooker Property Centre	Sales + Property Management	Raby Bay / Brisbane	hello@ljhpc.com.au	07 3286 2500	https://propertycentre.ljhooker.com.au/contact-us
+7	Harcourts Solutions	Sales + Property Management	Windsor	solutions@harcourts.com.au	07 3505 4444	https://www.harcourtssolutions.com.au/contact/
+8	Harcourts Inner East	Sales + Property Management	Bulimba	innereast@harcourts.com.au	07 3902 2888	https://harcourts.net/au/office/inner-east/contact
+9	Place Estate Agents	Sales + Property Management	Fortitude Valley (HQ)	place@eplace.com.au	—	https://www.eplace.com.au/
+10	The Agency Brisbane	Sales + Property Management	Fortitude Valley	hello@theagency.com.au	02 8376 9100	https://theagency.com.au/office/50/brisbane
