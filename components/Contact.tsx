@@ -2,8 +2,8 @@
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-cream py-28">
-      <div className="mx-auto max-w-[1440px] px-8">
+    <section id="contact" className="bg-cream py-16 sm:py-28">
+      <div className="mx-auto max-w-[1440px] px-5 sm:px-8">
         <div className="grain relative grid grid-cols-1 gap-14 overflow-hidden rounded-3xl bg-ink px-8 py-16 text-white shadow-[0_32px_80px_rgba(10,10,10,0.3)] sm:px-14 lg:grid-cols-[1fr_1fr]">
           <div
             className="pointer-events-none absolute -right-32 -top-32 h-96 w-96 rounded-full opacity-15 blur-3xl"

@@ -28,8 +28,8 @@ const whyUs = ["Fixed, itemised pricing", "Background-checked crews", "Full tran
 
 export default function Services() {
   return (
-    <section id="services" className="bg-cream py-28">
-      <div className="mx-auto max-w-[1440px] px-8">
+    <section id="services" className="bg-cream py-16 sm:py-28">
+      <div className="mx-auto max-w-[1440px] px-5 sm:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[0.85fr_1.15fr]">
           <div>
             <Reveal>

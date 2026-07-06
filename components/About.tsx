@@ -10,12 +10,12 @@ const stats = [
 
 export default function About() {
   return (
-    <section id="about" className="grain relative overflow-hidden bg-ink py-28 text-white">
+    <section id="about" className="grain relative overflow-hidden bg-ink py-16 text-white sm:py-28">
       <div
         className="pointer-events-none absolute -left-40 top-0 h-[480px] w-[480px] rounded-full opacity-10 blur-3xl"
         style={{ background: "radial-gradient(circle, #ffffff 0%, transparent 70%)" }}
       />
-      <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 gap-14 px-8 lg:grid-cols-2 lg:items-center">
+      <div className="relative mx-auto grid max-w-[1440px] grid-cols-1 gap-14 px-5 sm:px-8 lg:grid-cols-2 lg:items-center">
         <Reveal>
           <span className="text-[11px] font-medium tracking-[0.22em] text-white/45">ABOUT US</span>
           <h2 className="mt-4 font-serif text-[40px] italic leading-[1.12] sm:text-[48px]">

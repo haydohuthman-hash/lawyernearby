@@ -18,12 +18,12 @@ const columns = [
 
 export default function Footer() {
   return (
-    <footer className="bg-ink pt-24 text-white">
-      <div className="mx-auto max-w-[1440px] px-8">
+    <footer className="bg-ink pt-16 text-white sm:pt-24">
+      <div className="mx-auto max-w-[1440px] px-5 sm:px-8">
         <Reveal>
-          <div className="border-b border-white/10 pb-20 text-center">
+          <div className="border-b border-white/10 pb-12 text-center sm:pb-20">
             <p className="text-[11px] font-medium tracking-[0.22em] text-white/40">READY WHEN YOU ARE</p>
-            <h2 className="mx-auto mt-6 max-w-3xl font-serif text-[44px] italic leading-[1.08] sm:text-[60px]">
+            <h2 className="mx-auto mt-6 max-w-3xl font-serif text-[32px] italic leading-[1.1] xs:text-[38px] sm:text-[44px] lg:text-[60px]">
               Your next chapter, moved with care.
             </h2>
             <a
@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
         </Reveal>
 
-        <div className="grid grid-cols-1 gap-12 pb-14 pt-20 sm:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr]">
+        <div className="grid grid-cols-1 gap-10 pb-14 pt-12 sm:grid-cols-2 sm:gap-12 sm:pt-20 lg:grid-cols-[1.2fr_1fr_1fr_1fr]">
           <div>
             <Logo />
             <p className="mt-5 max-w-xs text-[13.5px] leading-relaxed text-white/45">

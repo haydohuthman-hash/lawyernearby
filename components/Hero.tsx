@@ -59,7 +59,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative z-10 mx-auto max-w-[1440px] px-8 pb-24 pt-16">
+      <div className="relative z-10 mx-auto max-w-[1440px] px-5 pb-20 pt-10 sm:px-8 sm:pb-24 sm:pt-16">
         <div className="grid grid-cols-1 gap-14 lg:grid-cols-[minmax(0,1fr)_1.05fr] lg:items-start">
           <div>
             <div className="rise flex items-center gap-2 text-white/85" style={{ ["--rise-delay" as string]: "0ms" }}>
@@ -72,7 +72,7 @@ export default function Hero() {
             </div>
 
             <h1
-              className="rise mt-7 font-serif text-[58px] italic leading-[1.0] tracking-[-0.01em] text-white sm:text-[74px]"
+              className="rise mt-7 font-serif text-[42px] italic leading-[1.05] tracking-[-0.01em] text-white xs:text-[48px] sm:text-[58px] lg:text-[74px]"
               style={{ ["--rise-delay" as string]: "120ms" }}
             >
               Move Without
@@ -87,23 +87,26 @@ export default function Hero() {
               Premium moving and rubbish removal services with fixed prices and no hourly surprises.
             </p>
 
-            <div className="rise mt-9 flex flex-wrap gap-4" style={{ ["--rise-delay" as string]: "360ms" }}>
+            <div
+              className="rise mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4"
+              style={{ ["--rise-delay" as string]: "360ms" }}
+            >
               <a
                 href="#quote"
-                className="btn-shine btn-shine-dark rounded-md bg-white px-8 py-4 text-[13px] font-medium tracking-[0.08em] text-ink shadow-[0_8px_30px_rgba(255,255,255,0.12)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_40px_rgba(255,255,255,0.2)]"
+                className="btn-shine btn-shine-dark rounded-md bg-white px-8 py-4 text-center text-[13px] font-medium tracking-[0.08em] text-ink shadow-[0_8px_30px_rgba(255,255,255,0.12)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_40px_rgba(255,255,255,0.2)]"
               >
                 GET A FIXED QUOTE
               </a>
               <a
                 href="#services"
-                className="rounded-md px-8 py-4 text-[13px] font-medium tracking-[0.08em] text-white ring-1 ring-white/30 backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/10 hover:ring-white/60"
+                className="rounded-md px-8 py-4 text-center text-[13px] font-medium tracking-[0.08em] text-white ring-1 ring-white/30 backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/10 hover:ring-white/60"
               >
                 OUR SERVICES
               </a>
             </div>
 
             <div
-              className="rise mt-16 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-4 sm:gap-x-8"
+              className="rise mt-12 grid grid-cols-2 gap-x-6 gap-y-9 sm:mt-16 sm:grid-cols-4 sm:gap-x-8 sm:gap-y-10"
               style={{ ["--rise-delay" as string]: "480ms" }}
             >
               {features.map((f) => (

@@ -25,9 +25,9 @@ const steps = [
 
 export default function Approach() {
   return (
-    <section id="approach" className="bg-cream pb-28 pt-4">
-      <div className="mx-auto max-w-[1440px] px-8">
-        <div className="border-t border-ink/10 pt-24">
+    <section id="approach" className="bg-cream pb-16 pt-4 sm:pb-28">
+      <div className="mx-auto max-w-[1440px] px-5 sm:px-8">
+        <div className="border-t border-ink/10 pt-14 sm:pt-24">
           <Reveal>
             <div className="max-w-xl">
               <span className="text-[11px] font-medium tracking-[0.22em] text-ink/45">OUR APPROACH</span>

@@ -41,8 +41,8 @@ function Stars({ className }: { className?: string }) {
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="grain relative overflow-hidden bg-ink py-28 text-white">
-      <div className="relative mx-auto max-w-[1440px] px-8">
+    <section id="reviews" className="grain relative overflow-hidden bg-ink py-16 text-white sm:py-28">
+      <div className="relative mx-auto max-w-[1440px] px-5 sm:px-8">
         <Reveal>
           <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
             <div>

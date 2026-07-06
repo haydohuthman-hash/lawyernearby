@@ -76,6 +76,48 @@ body {
   }
 }
 
+/* ---- live map route styles ---- */
+.route-dashed {
+  stroke-dasharray: 8 10;
+}
+
+.route-flow {
+  stroke-dasharray: 1 16;
+  stroke-linecap: round;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .route-flow {
+    animation: route-flow 1.4s linear infinite;
+  }
+}
+
+@keyframes route-flow {
+  to {
+    stroke-dashoffset: -17;
+  }
+}
+
+.leaflet-container {
+  font-family: inherit;
+}
+
+.leaflet-control-attribution {
+  background: rgba(10, 10, 10, 0.6) !important;
+  color: rgba(255, 255, 255, 0.4) !important;
+  font-size: 9px !important;
+}
+
+.leaflet-control-attribution a {
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.leaflet-control-zoom a {
+  background: #141414 !important;
+  color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
 /* ---- pin pulse ---- */
 @keyframes pulse-ring {
   0% {

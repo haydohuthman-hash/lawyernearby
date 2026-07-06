@@ -26,7 +26,7 @@ function BrandRow() {
 export default function TrustedBy() {
   return (
     <div className="border-t border-white/10 bg-ink">
-      <div className="mx-auto flex max-w-[1440px] flex-col items-center gap-8 px-8 py-12 lg:flex-row">
+      <div className="mx-auto flex max-w-[1440px] flex-col items-center gap-8 px-5 py-12 sm:px-8 lg:flex-row">
         <span className="shrink-0 whitespace-nowrap text-[11px] tracking-[0.16em] text-white/40">
           TRUSTED BY HOMEOWNERS &amp; INDUSTRY PROFESSIONALS
         </span>
