@@ -15,6 +15,104 @@ body {
   color: #f4f3f1;
 }
 
+/* ---- article / blog prose ---- */
+.article {
+  color: rgba(10, 10, 10, 0.78);
+  font-size: 16.5px;
+  line-height: 1.75;
+}
+.article > * + * {
+  margin-top: 1.35em;
+}
+.article h2 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-style: italic;
+  font-size: 27px;
+  line-height: 1.2;
+  color: #0a0a0a;
+  margin-top: 2em;
+  margin-bottom: 0.2em;
+}
+.article h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #0a0a0a;
+  margin-top: 1.6em;
+  margin-bottom: 0.1em;
+}
+.article p {
+  color: rgba(10, 10, 10, 0.72);
+}
+.article a {
+  color: #0a0a0a;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(10, 10, 10, 0.35);
+  transition: text-decoration-color 0.2s;
+}
+.article a:hover {
+  text-decoration-color: #0a0a0a;
+}
+.article ul,
+.article ol {
+  padding-left: 1.25em;
+  color: rgba(10, 10, 10, 0.72);
+}
+.article ul {
+  list-style: none;
+  padding-left: 0;
+}
+.article ul > li {
+  position: relative;
+  padding-left: 1.5em;
+}
+.article ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0.1em;
+  top: 0.72em;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #0a0a0a;
+  opacity: 0.55;
+}
+.article ol {
+  list-style: decimal;
+}
+.article li + li {
+  margin-top: 0.5em;
+}
+.article strong {
+  color: #0a0a0a;
+  font-weight: 600;
+}
+.article blockquote {
+  border-left: 2px solid rgba(10, 10, 10, 0.25);
+  padding-left: 1.1em;
+  font-style: italic;
+  color: rgba(10, 10, 10, 0.7);
+}
+.article table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+.article th,
+.article td {
+  text-align: left;
+  padding: 0.7em 0.9em;
+  border-bottom: 1px solid rgba(10, 10, 10, 0.1);
+}
+.article th {
+  font-weight: 600;
+  color: #0a0a0a;
+  border-bottom-color: rgba(10, 10, 10, 0.25);
+}
+.article-scroll {
+  overflow-x: auto;
+}
+
 /* ---- film grain overlay ---- */
 .grain::after {
   content: "";

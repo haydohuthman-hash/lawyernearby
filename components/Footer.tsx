@@ -17,6 +17,7 @@ const columns = [
     links: [
       { label: "About", href: "/#about" },
       { label: "Our Approach", href: "/#approach" },
+      { label: "Moving Guides", href: "/blog" },
       { label: "Reviews", href: "/#reviews" },
       { label: "Contact", href: "/#contact" },
     ],
