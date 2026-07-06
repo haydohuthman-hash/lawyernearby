@@ -24,10 +24,10 @@ const columns = [
   {
     title: "Service Areas",
     links: [
+      { label: "Brisbane to Gold Coast", href: "/removalists-brisbane-to-gold-coast" },
       { label: "Brisbane", href: "/moving-brisbane" },
       { label: "Gold Coast", href: "/moving-gold-coast" },
       { label: "Sunshine Coast", href: "/#contact" },
-      { label: "Ipswich", href: "/#contact" },
     ],
   },
 ];

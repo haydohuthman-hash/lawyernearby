@@ -137,17 +137,24 @@ export default function MovingBrisbanePage() {
           <Reveal delay={330}>
             <div className="mt-14 flex flex-col gap-4 rounded-2xl bg-white/5 p-8 ring-1 ring-white/10 sm:flex-row sm:items-center sm:justify-between sm:p-10">
               <p className="max-w-md text-[15px] leading-relaxed text-white/70">
-                Also planning a clear-out before you list? See our{" "}
-                <Link href="/services/rubbish-removal" className="text-white underline underline-offset-4">
-                  Brisbane rubbish removal service
+                Moving down to the coast? We specialise in{" "}
+                <Link
+                  href="/removalists-brisbane-to-gold-coast"
+                  className="text-white underline underline-offset-4"
+                >
+                  Brisbane to Gold Coast removals
                 </Link>
-                .
+                {" "}— or add a{" "}
+                <Link href="/services/rubbish-removal" className="text-white underline underline-offset-4">
+                  rubbish removal
+                </Link>{" "}
+                before you list.
               </p>
               <Link
-                href="/moving-gold-coast"
+                href="/removalists-brisbane-to-gold-coast"
                 className="shrink-0 rounded-md px-6 py-3 text-[13px] font-medium tracking-[0.06em] text-white ring-1 ring-white/30 transition hover:bg-white/10"
               >
-                MOVING TO THE GOLD COAST?
+                BRISBANE → GOLD COAST
               </Link>
             </div>
           </Reveal>
