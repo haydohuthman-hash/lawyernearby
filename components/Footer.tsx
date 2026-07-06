@@ -1,18 +1,34 @@
+import Link from "next/link";
 import Logo from "./Logo";
 import Reveal from "./Reveal";
 
 const columns = [
   {
     title: "Services",
-    links: ["White Glove Moving", "Rubbish Removal", "Furniture & Heavy Items", "Pre Sale & Post Move Cleans"],
+    links: [
+      { label: "White Glove Moving", href: "/services/removalists" },
+      { label: "Rubbish Removal", href: "/services/rubbish-removal" },
+      { label: "Furniture & Heavy Items", href: "/#services" },
+      { label: "Pre Sale & Post Move Cleans", href: "/#services" },
+    ],
   },
   {
     title: "Company",
-    links: ["About", "Our Approach", "Reviews", "Contact"],
+    links: [
+      { label: "About", href: "/#about" },
+      { label: "Our Approach", href: "/#approach" },
+      { label: "Reviews", href: "/#reviews" },
+      { label: "Contact", href: "/#contact" },
+    ],
   },
   {
     title: "Service Areas",
-    links: ["Brisbane", "Gold Coast", "Sunshine Coast", "Ipswich"],
+    links: [
+      { label: "Brisbane", href: "/moving-brisbane" },
+      { label: "Gold Coast", href: "/moving-gold-coast" },
+      { label: "Sunshine Coast", href: "/#contact" },
+      { label: "Ipswich", href: "/#contact" },
+    ],
   },
 ];
 
@@ -26,12 +42,12 @@ export default function Footer() {
             <h2 className="mx-auto mt-6 max-w-3xl font-serif text-[32px] italic leading-[1.1] xs:text-[38px] sm:text-[44px] lg:text-[60px]">
               Your next chapter, moved with care.
             </h2>
-            <a
-              href="#quote"
+            <Link
+              href="/#quote"
               className="btn-shine btn-shine-dark mt-10 inline-block rounded-md bg-white px-10 py-4 text-[13px] font-medium tracking-[0.1em] text-ink transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_40px_rgba(255,255,255,0.2)]"
             >
               GET A FIXED QUOTE
-            </a>
+            </Link>
           </div>
         </Reveal>
 
@@ -49,10 +65,10 @@ export default function Footer() {
               </div>
               <ul className="mt-5 space-y-3">
                 {col.links.map((link) => (
-                  <li key={link}>
-                    <a href="#" className="text-[13.5px] text-white/70 transition hover:text-white">
-                      {link}
-                    </a>
+                  <li key={link.label}>
+                    <Link href={link.href} className="text-[13.5px] text-white/70 transition hover:text-white">
+                      {link.label}
+                    </Link>
                   </li>
                 ))}
               </ul>

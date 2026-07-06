@@ -1,14 +1,15 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import Logo from "./Logo";
 
 const links = [
-  { label: "Services", href: "#services" },
-  { label: "About", href: "#about" },
-  { label: "Our Approach", href: "#approach" },
-  { label: "Reviews", href: "#reviews" },
-  { label: "Contact", href: "#contact" },
+  { label: "Services", href: "/#services" },
+  { label: "About", href: "/#about" },
+  { label: "Our Approach", href: "/#approach" },
+  { label: "Reviews", href: "/#reviews" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Navbar() {
@@ -44,27 +45,27 @@ export default function Navbar() {
           scrolled ? "py-3.5" : "py-5 sm:py-6"
         }`}
       >
-        <a href="#top" className="transition-opacity hover:opacity-80" onClick={() => setMenuOpen(false)}>
+        <Link href="/" className="transition-opacity hover:opacity-80" onClick={() => setMenuOpen(false)}>
           <Logo />
-        </a>
+        </Link>
         <nav className="hidden items-center gap-10 lg:flex">
           {links.map((link) => (
-            <a
+            <Link
               key={link.label}
               href={link.href}
               className="nav-link text-[12.5px] tracking-[0.14em] text-white/80 transition hover:text-white"
             >
               {link.label.toUpperCase()}
-            </a>
+            </Link>
           ))}
         </nav>
         <div className="flex items-center gap-3">
-          <a
-            href="#quote"
+          <Link
+            href="/#quote"
             className="btn-shine hidden shrink-0 border border-white/70 px-6 py-3 text-[11.5px] font-medium tracking-[0.16em] text-white transition-all duration-300 hover:border-white hover:bg-white hover:text-ink sm:inline-block"
           >
             GET A FIXED QUOTE
-          </a>
+          </Link>
           <button
             type="button"
             onClick={() => setMenuOpen((v) => !v)}
@@ -101,22 +102,22 @@ export default function Navbar() {
         <div className="min-h-0">
           <nav className="flex flex-col gap-1 border-t border-white/10 px-6 pb-6 pt-2 sm:px-8">
             {links.map((link) => (
-              <a
+              <Link
                 key={link.label}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
                 className="border-b border-white/5 py-4 text-[15px] tracking-[0.04em] text-white/85 transition hover:text-white"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
-            <a
-              href="#quote"
+            <Link
+              href="/#quote"
               onClick={() => setMenuOpen(false)}
               className="mt-5 rounded-md bg-white px-6 py-3.5 text-center text-[12.5px] font-medium tracking-[0.14em] text-ink"
             >
               GET A FIXED QUOTE
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
