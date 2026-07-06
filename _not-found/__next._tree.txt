@@ -1,2 +1,2 @@
-:HL["/lawyernearby/_next/static/chunks/1kmrxo7o16-l1.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"XodWG7zJ9lLahGOnljDd5"}
+:HL["/lawyernearby/_next/static/chunks/3f_db2uf8k_gg.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"HVq8tvEVZEFOTfJPi2wUe"}

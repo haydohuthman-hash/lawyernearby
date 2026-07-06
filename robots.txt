@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://haydohuthman-hash.github.io/lawyernearby/sitemap.xml
