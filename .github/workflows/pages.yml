@@ -48,6 +48,7 @@ jobs:
         env:
           BASE_PATH: ${{ steps.domain.outputs.custom == 'true' && '' || '/lawyernearby' }}
           NEXT_PUBLIC_SITE_URL: ${{ steps.domain.outputs.custom == 'true' && 'https://www.residencerelocations.com.au' || 'https://haydohuthman-hash.github.io/lawyernearby' }}
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ vars.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
 
       - run: touch out/.nojekyll
 

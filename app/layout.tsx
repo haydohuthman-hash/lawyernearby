@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import JsonLd from "@/components/JsonLd";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { SITE_URL } from "@/lib/site";
 import "leaflet/dist/leaflet.css";
 import "./globals.css";
@@ -54,6 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="font-sans antialiased text-ink">
+        <GoogleAnalytics />
         {children}
         <JsonLd
           data={{
