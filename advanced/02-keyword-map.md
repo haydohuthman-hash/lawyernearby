@@ -61,8 +61,11 @@ duplicate content on the same term.
 | moving out for the first time checklist | `/blog/moving-out-for-the-first-time-checklist` |
 | downsizing checklist | `/blog/downsizing-checklist-decluttering-before-a-move` |
 | how to wrap furniture (properly) | `/blog/how-to-wrap-furniture-properly` |
-| how to pack a moving truck | Planned — see backlog |
-| how to pack boxes properly / labelling system | Planned — see backlog |
+| how to pack a moving truck | `/blog/how-to-pack-a-moving-truck-like-a-pro` |
+| how to pack boxes properly / labelling system | `/blog/how-to-pack-boxes-properly` |
+| garage sale before moving / declutter for cash | `/blog/garage-sale-guide-before-you-move` |
+| removalist insurance / what's covered | `/blog/removalist-insurance-explained` |
+| moving house with kids | `/blog/moving-with-kids-managing-the-chaos` |
 
 ## Urgency intent
 

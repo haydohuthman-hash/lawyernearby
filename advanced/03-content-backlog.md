@@ -3,7 +3,7 @@
 Status key: ✅ published · 🟡 writing now · ⬜ planned · 🧊 parked (needs something
 we don't have yet, e.g. real customer anecdotes or a new service page)
 
-## Published (22 posts as of this doc)
+## Published (27 posts as of this doc)
 
 ✅ How Much Do Removalists Cost Brisbane to Gold Coast?
 ✅ The Ultimate Brisbane to Gold Coast Moving Checklist
@@ -36,15 +36,25 @@ honest cost/labour/risk breakdown, doesn't oversell.
 ✅ Hot Tub & Spa Removal: What It Costs and How It Works — fills the "pool spa"
 value-content gap explicitly requested; no dedicated service page yet, so this post
 links to furniture-removal/rubbish-removal until volume justifies a dedicated page.
+✅ How to Pack a Moving Truck Like a Pro — loading order, weight distribution,
+straps and gap-filling, the three mistakes that cause most transit damage.
+✅ How to Pack Boxes Properly — box-size-to-weight table, a labelling system,
+fragile-item packing, links to the furniture-wrapping post.
+✅ The Ultimate Garage Sale Guide Before You Move — declutter-for-cash angle,
+timing/pricing/promotion, links to the downsizing checklist and rubbish removal.
+✅ Removalist Insurance Explained: What's Actually Covered — public liability vs
+transit cover, what's typically excluded (self-packed boxes), questions to ask.
+✅ Moving With Kids: Keeping the Chaos Manageable — first-night box, routine,
+moving-day supervision, age-appropriate involvement.
+
+All posts (existing + new) now carry an `artIcon` field rendering a graphic
+header treatment (gradient + line icon, see `components/PostArt.tsx`) in place
+of a photo — image-generation credits are currently depleted, so this is the
+interim visual solution. Revisit once credits are topped up if photographic
+imagery becomes worth the cost.
 
 ## Planned (next rounds)
 
-⬜ How to Pack a Moving Truck Like a Pro (loading order, weight distribution)
-⬜ How to Pack Boxes Properly (labelling system, fragile items, box-size guide)
-⬜ The Ultimate Garage Sale Guide Before You Move (declutter-for-cash angle,
-  complements the downsizing post)
-⬜ Removalist Insurance Explained: What's Actually Covered
-⬜ Moving With Kids: Keeping the Chaos Manageable
 ⬜ Renting vs Buying on the Gold Coast (broader lifestyle content, top-of-funnel,
   softly links back to moving services)
 ⬜ A Guide to Brisbane's Best (and Worst) Streets for a Moving Truck (fun + genuinely

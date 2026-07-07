@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
+import PostArt from "@/components/PostArt";
 import { POSTS } from "@/content/posts";
 import { SITE_URL } from "@/lib/site";
 
@@ -55,23 +56,26 @@ export default function BlogIndex() {
           <Reveal>
             <Link
               href={`/blog/${featured.slug}`}
-              className="group block rounded-2xl bg-white p-8 ring-1 ring-ink/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_28px_60px_rgba(10,10,10,0.12)] sm:p-10"
+              className="group block overflow-hidden rounded-2xl bg-white ring-1 ring-ink/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_28px_60px_rgba(10,10,10,0.12)]"
             >
-              <div className="flex items-center gap-3 text-[11px] font-medium tracking-[0.16em] text-ink/45">
-                <span>{featured.category.toUpperCase()}</span>
-                <span aria-hidden>·</span>
-                <span>{featured.readMins} MIN READ</span>
-              </div>
-              <h2 className="mt-4 font-serif text-[27px] italic leading-[1.2] text-ink sm:text-[32px]">
-                {featured.title}
-              </h2>
-              <p className="mt-4 max-w-2xl text-[14.5px] leading-relaxed text-ink/60">{featured.excerpt}</p>
-              <span className="mt-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-ink">
-                Read the guide{" "}
-                <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1.5">
-                  →
+              <PostArt icon={featured.artIcon} className="h-40 sm:h-56" />
+              <div className="p-8 sm:p-10">
+                <div className="flex items-center gap-3 text-[11px] font-medium tracking-[0.16em] text-ink/45">
+                  <span>{featured.category.toUpperCase()}</span>
+                  <span aria-hidden>·</span>
+                  <span>{featured.readMins} MIN READ</span>
+                </div>
+                <h2 className="mt-4 font-serif text-[27px] italic leading-[1.2] text-ink sm:text-[32px]">
+                  {featured.title}
+                </h2>
+                <p className="mt-4 max-w-2xl text-[14.5px] leading-relaxed text-ink/60">{featured.excerpt}</p>
+                <span className="mt-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-ink">
+                  Read the guide{" "}
+                  <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1.5">
+                    →
+                  </span>
                 </span>
-              </span>
+              </div>
             </Link>
           </Reveal>
 
@@ -80,21 +84,24 @@ export default function BlogIndex() {
               <Reveal key={post.slug} delay={i * 90}>
                 <Link
                   href={`/blog/${post.slug}`}
-                  className="group flex h-full flex-col rounded-2xl bg-white p-7 ring-1 ring-ink/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_28px_60px_rgba(10,10,10,0.12)]"
+                  className="group flex h-full flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-ink/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_28px_60px_rgba(10,10,10,0.12)]"
                 >
-                  <div className="flex items-center gap-3 text-[11px] font-medium tracking-[0.16em] text-ink/45">
-                    <span>{post.category.toUpperCase()}</span>
-                    <span aria-hidden>·</span>
-                    <span>{post.readMins} MIN READ</span>
-                  </div>
-                  <h3 className="mt-4 font-serif text-[21px] italic leading-[1.25] text-ink">{post.title}</h3>
-                  <p className="mt-3 flex-1 text-[14px] leading-relaxed text-ink/60">{post.excerpt}</p>
-                  <span className="mt-5 inline-flex items-center gap-1.5 text-[13px] font-medium text-ink">
-                    Read more{" "}
-                    <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1.5">
-                      →
+                  <PostArt icon={post.artIcon} className="h-32" />
+                  <div className="flex flex-1 flex-col p-7">
+                    <div className="flex items-center gap-3 text-[11px] font-medium tracking-[0.16em] text-ink/45">
+                      <span>{post.category.toUpperCase()}</span>
+                      <span aria-hidden>·</span>
+                      <span>{post.readMins} MIN READ</span>
+                    </div>
+                    <h3 className="mt-4 font-serif text-[21px] italic leading-[1.25] text-ink">{post.title}</h3>
+                    <p className="mt-3 flex-1 text-[14px] leading-relaxed text-ink/60">{post.excerpt}</p>
+                    <span className="mt-5 inline-flex items-center gap-1.5 text-[13px] font-medium text-ink">
+                      Read more{" "}
+                      <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1.5">
+                        →
+                      </span>
                     </span>
-                  </span>
+                  </div>
                 </Link>
               </Reveal>
             ))}

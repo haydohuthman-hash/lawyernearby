@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import type { ArtIcon } from "@/components/PostArt";
 
 export type BlogPost = {
   slug: string;
@@ -12,6 +13,7 @@ export type BlogPost = {
   date: string;
   updated: string;
   readMins: number;
+  artIcon: ArtIcon;
   faqs?: { question: string; answer: string }[];
   body: ReactNode;
 };
@@ -19,6 +21,7 @@ export type BlogPost = {
 export const POSTS: BlogPost[] = [
   {
     slug: "how-much-do-removalists-cost-brisbane-to-gold-coast",
+    artIcon: "truck",
     title: "How Much Do Removalists Cost Brisbane to Gold Coast? (2026 Price Guide)",
     metaTitle: "How Much Do Removalists Cost Brisbane to Gold Coast? 2026 Guide",
     description:
@@ -172,6 +175,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "brisbane-to-gold-coast-moving-checklist",
+    artIcon: "box",
     title: "The Ultimate Brisbane to Gold Coast Moving Checklist (Week by Week)",
     metaTitle: "Brisbane to Gold Coast Moving Checklist (Free, Week by Week)",
     description:
@@ -266,6 +270,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "moving-to-the-gold-coast-from-brisbane-suburb-guide",
+    artIcon: "house",
     title: "Moving to the Gold Coast from Brisbane: A Suburb-by-Suburb Guide",
     metaTitle: "Moving to the Gold Coast from Brisbane: Suburb Guide (2026)",
     description:
@@ -405,6 +410,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "pool-table-removal-cost-guide",
+    artIcon: "table",
     title: "How Much Does Pool Table Removal Cost? (Brisbane & Gold Coast Guide)",
     metaTitle: "Pool Table Removal Cost Brisbane & Gold Coast (2026 Guide)",
     description:
@@ -525,6 +531,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "how-to-move-a-piano-safely",
+    artIcon: "piano",
     title: "How to Move a Piano Safely (And When Not to DIY)",
     metaTitle: "How to Move a Piano Safely — Upright & Grand Guide",
     description:
@@ -617,6 +624,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "best-time-to-move-house-brisbane-gold-coast",
+    artIcon: "calendar",
     title: "The Best Time to Move House in South-East Queensland",
     metaTitle: "Best Time to Move House in Brisbane & the Gold Coast",
     description:
@@ -723,6 +731,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "last-minute-removalists-brisbane",
+    artIcon: "truck",
     title: "Last Minute Removalists Brisbane: What To Do When You've Left It Late",
     metaTitle: "Last Minute Removalists Brisbane | Same-Week Booking",
     description:
@@ -820,6 +829,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "same-day-rubbish-removal-brisbane-gold-coast",
+    artIcon: "trash",
     title: "Same-Day Rubbish Removal in Brisbane & the Gold Coast: How It Works",
     metaTitle: "Same-Day Rubbish Removal Brisbane & Gold Coast",
     description:
@@ -901,6 +911,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "cheap-removalists-brisbane-hidden-costs",
+    artIcon: "shield",
     title: "Cheap Removalists Brisbane: The Hidden Costs of the Lowest Quote",
     metaTitle: "Cheap Removalists Brisbane — What the Lowest Quote Doesn't Include",
     description:
@@ -992,6 +1003,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "moving-house-with-pets",
+    artIcon: "paw",
     title: "Moving House With Pets: A Stress-Free Guide for Cats and Dogs",
     metaTitle: "Moving House With Pets — Cats & Dogs Guide",
     description:
@@ -1082,6 +1094,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "bond-clean-vs-pre-sale-clean",
+    artIcon: "sparkle",
     title: "Bond Clean vs Pre-Sale Clean: What's the Difference?",
     metaTitle: "Bond Clean vs Pre-Sale Clean — Which Do You Need?",
     description:
@@ -1178,6 +1191,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "apartment-moving-checklist-brisbane-gold-coast",
+    artIcon: "box",
     title: "Apartment Moving Checklist: Lifts, Loading Docks & Body Corporate Rules",
     metaTitle: "Apartment Moving Checklist — Lifts & Body Corporate Rules",
     description:
@@ -1256,6 +1270,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "what-does-a-removalist-quote-include",
+    artIcon: "shield",
     title: "What Should a Removalist Quote Actually Include?",
     metaTitle: "What Should a Removalist Quote Include? (Avoid Surprise Fees)",
     description:
@@ -1358,6 +1373,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "how-to-choose-a-removalist",
+    artIcon: "star",
     title: "How to Choose a Removalist: 8 Questions to Ask Before You Book",
     metaTitle: "How to Choose a Removalist — 8 Questions to Ask First",
     description:
@@ -1439,6 +1455,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "moving-out-for-the-first-time-checklist",
+    artIcon: "house",
     title: "Moving Out for the First Time: The Beginner's Checklist",
     metaTitle: "Moving Out for the First Time — Beginner's Checklist",
     description:
@@ -1509,6 +1526,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "downsizing-checklist-decluttering-before-a-move",
+    artIcon: "box",
     title: "Downsizing Checklist: How to Declutter Before You Move",
     metaTitle: "Downsizing Checklist — Declutter Before Your Move",
     description:
@@ -1589,6 +1607,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "how-to-wrap-furniture-properly",
+    artIcon: "hand",
     title: "How to Wrap Furniture Properly for a Move",
     metaTitle: "How to Wrap Furniture Properly — A Removalist's Guide",
     description:
@@ -1713,6 +1732,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "two-men-and-a-truck-vs-full-service-removalist",
+    artIcon: "truck",
     title: "\"Two Men and a Truck\" vs a Full-Service Removalist: What's the Real Difference?",
     metaTitle: "Two Men and a Truck vs Full-Service Removalist — Compared",
     description:
@@ -1838,6 +1858,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "shifting-house-in-brisbane-guide",
+    artIcon: "house",
     title: "Shifting House in Brisbane: The Local's Guide",
     metaTitle: "Shifting House in Brisbane — A Local's Guide",
     description:
@@ -1915,6 +1936,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "13-things-every-brisbane-mover-understands",
+    artIcon: "sparkle",
     title: "13 Things Every Brisbane Mover Understands",
     metaTitle: "13 Things Every Brisbane Mover Understands (A Funny Guide)",
     description:
@@ -2003,6 +2025,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "diy-move-vs-hiring-removalists-cost-comparison",
+    artIcon: "hand",
     title: "DIY Move vs Hiring Removalists: What It Actually Costs",
     metaTitle: "DIY Move vs Removalists — Real Cost Comparison",
     description:
@@ -2113,6 +2136,7 @@ export const POSTS: BlogPost[] = [
 
   {
     slug: "hot-tub-spa-removal-cost-guide",
+    artIcon: "spa",
     title: "Hot Tub & Spa Removal: What It Costs and How It Works",
     metaTitle: "Hot Tub & Spa Removal Cost Guide — Brisbane & Gold Coast",
     description:
@@ -2206,6 +2230,529 @@ export const POSTS: BlogPost[] = [
           <Link href="/removalists-brisbane-to-gold-coast">full house move</Link>{" "}for one coordinated
           booking. <Link href="/#quote">Get a fixed quote</Link>{" "}— a couple of photos of the spa and its
           access path is usually enough for an accurate price.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "how-to-pack-a-moving-truck-like-a-pro",
+    artIcon: "truck",
+    title: "How to Pack a Moving Truck Like a Pro",
+    metaTitle: "How to Pack a Moving Truck Properly — Loading Order Guide",
+    description:
+      "The loading order professional removalists actually use — what goes in first, how weight gets distributed, and the mistakes that cause damage or a truck that won't fit everything.",
+    excerpt:
+      "The order you load a truck determines whether everything survives the trip and whether it all fits. Here's the loading order we actually use.",
+    keyword: "how to pack a moving truck",
+    category: "Guides",
+    date: "2026-07-10",
+    updated: "2026-07-10",
+    readMins: 5,
+    faqs: [
+      {
+        question: "What order should you load a moving truck?",
+        answer:
+          "Heavy, flat items go in first against the cab wall (fridges, wardrobes, dressers), then large furniture and appliances, then boxes stacked heaviest-to-lightest, with soft items (mattresses, sofas) and fragile boxes loaded last so they sit on top and come off first.",
+      },
+      {
+        question: "How do you stop items moving around in a moving truck?",
+        answer:
+          "Load wall-to-wall with no gaps — soft items like pillows, rolled blankets or rugs fill dead space so nothing has room to shift. Ratchet straps anchor tall furniture to the truck's rail, and a full load actually moves less than a half-empty one.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          The order you load a truck matters more than how carefully you wrap any single item. A badly
+          loaded truck lets furniture shift, boxes crush, and glass crack against a two-hour drive's worth
+          of braking and cornering — regardless of how well each box was taped. Here's the loading order a
+          professional crew actually follows.
+        </p>
+
+        <h2>The loading order, step by step</h2>
+        <ol>
+          <li>
+            <strong>Heavy, flat items against the cab wall first.</strong>{" "}Fridges, wardrobes, chests of
+            drawers and dressers go in first, standing upright and flush against the front wall of the
+            truck — this is the most stable position and takes the brunt of braking force.
+          </li>
+          <li>
+            <strong>Large furniture next.</strong>{" "}Sofas on their end where possible, dining tables with
+            legs removed or protected, bed frames disassembled. Anything with legs or a delicate finish
+            gets padding at every contact point.
+          </li>
+          <li>
+            <strong>Boxes, heaviest first.</strong>{" "}Books and heavy kitchen boxes go on the bottom, stacked
+            no more than three high, with medium boxes above and the lightest (linen, soft goods) on top of
+            each stack.
+          </li>
+          <li>
+            <strong>Soft items and fragile boxes last.</strong>{" "}Mattresses, rugs and cushions load last so
+            they sit on top of the stack — they're light enough not to crush anything, and they double as
+            padding against the truck's ceiling and walls.
+          </li>
+          <li>
+            <strong>Straps go on every tall stack.</strong>{" "}Ratchet straps anchored to the truck's internal
+            rail stop wardrobes and dressers toppling under braking — this step gets skipped more than any
+            other and causes more damage than any other single mistake.
+          </li>
+        </ol>
+
+        <h2>Why weight distribution matters more than most people think</h2>
+        <p>
+          It's not just about not crushing things — an unevenly loaded truck (all the weight at the back,
+          or all on one side) changes how the vehicle handles, especially braking distance and cornering.
+          Heavy items belong low and toward the front axle, not stacked at the back doors where it's
+          easiest to just stop loading.
+        </p>
+
+        <h2>Fill every gap — a full truck moves less than a half-empty one</h2>
+        <p>
+          Counterintuitively, a truck packed wall-to-wall with no dead space shifts less in transit than
+          one with room to move. Use pillows, rolled towels, and spare blankets to fill gaps between
+          furniture rather than leaving air — anything that can shift half a metre under braking can shift
+          enough to do damage.
+        </p>
+
+        <h2>Three mistakes that cause most transit damage</h2>
+        <ul>
+          <li>
+            <strong>Loading boxes before furniture.</strong>{" "}Furniture needs the stable wall position;
+            boxes stacked against the cab wall have nothing solid behind them if the load shifts forward.
+          </li>
+          <li>
+            <strong>Stacking boxes by size instead of weight.</strong>{" "}A heavy box on top of a light one
+            crushes it, no matter how sturdy either box looks.
+          </li>
+          <li>
+            <strong>Skipping straps because "it's not far."</strong>{" "}Distance doesn't matter — braking at
+            60km/h does the same thing to an unstrapped wardrobe whether the trip is 5km or 100km.
+          </li>
+        </ul>
+
+        <p>
+          If this sounds like a lot to get right on moving day, it's exactly what a professional crew
+          handles as standard — no guesswork about what goes where.{" "}
+          <Link href="/#quote">Get a fixed quote</Link>{" "}for the{" "}
+          <Link href="/removalists-brisbane-to-gold-coast">Brisbane to Gold Coast corridor</Link>{" "}and skip
+          the truck-loading puzzle altogether.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "how-to-pack-boxes-properly",
+    artIcon: "box",
+    title: "How to Pack Boxes Properly (Sizes, Labelling, Fragile Items)",
+    metaTitle: "How to Pack Boxes Properly for Moving — Sizes & Labelling",
+    description:
+      "The right box size for what you're packing, a labelling system that actually works on moving day, and how to pack fragile items so they survive the trip.",
+    excerpt:
+      "Wrong box size and a lazy labelling system are why moving day turns into chaos. Here's the system that keeps it manageable.",
+    keyword: "how to pack boxes properly",
+    category: "Guides",
+    date: "2026-07-10",
+    updated: "2026-07-10",
+    readMins: 5,
+    faqs: [
+      {
+        question: "What size boxes should I use to pack for a move?",
+        answer:
+          "Small boxes for heavy, dense items like books — a full large box of books is often too heavy to lift safely. Medium boxes suit kitchenware and toys. Large boxes are for light, bulky items like linen and lampshades. Matching weight to box size, not just fitting the items in, is what prevents blown-out bottoms.",
+      },
+      {
+        question: "What's the best way to label moving boxes?",
+        answer:
+          "Label every box with the destination room in large letters on the top and one side (so it's visible whichever way it's stacked), plus a one-word contents note and a priority mark for anything you need on day one — a coloured sticker system works well for this.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          Two things separate an easy unpack from a week of digging through unlabelled boxes: matching box
+          size to what's actually going inside, and a labelling system you'll still be able to read after
+          twelve hours of packing. Here's both.
+        </p>
+
+        <h2>Match the box size to the weight, not the item</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Box size</th>
+              <th>Best for</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Small / book box</td>
+              <td>Books, tools, tinned pantry items — anything dense and heavy</td>
+            </tr>
+            <tr>
+              <td>Medium</td>
+              <td>Kitchenware, toys, small appliances, shoes</td>
+            </tr>
+            <tr>
+              <td>Large</td>
+              <td>Linen, cushions, lampshades, light bulky items</td>
+            </tr>
+            <tr>
+              <td>Wardrobe box</td>
+              <td>Hanging clothes straight from the closet</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          The most common packing mistake is filling a large box with books because "it fits" — the box
+          usually blows out at the bottom, or becomes too heavy for one person to lift safely. If it's
+          heavy, it belongs in a small box, full stop.
+        </p>
+
+        <h2>A labelling system that survives moving day chaos</h2>
+        <ol>
+          <li>
+            <strong>Room name in large letters, on the top and one side.</strong>{" "}Boxes get stacked and
+            turned — a label only on the top is invisible half the time.
+          </li>
+          <li>
+            <strong>A one-word contents note.</strong>{" "}"Kitchen — pots" tells the crew far more than
+            "Kitchen" alone when they're deciding what goes where first.
+          </li>
+          <li>
+            <strong>A priority mark for day-one essentials.</strong>{" "}A coloured sticker or "OPEN FIRST"
+            written boldly on anything with chargers, toiletries, medications or bedding — you don't want
+            to be searching twenty identical boxes for a phone charger at 9pm.
+          </li>
+        </ol>
+
+        <h2>Packing fragile items so they actually survive</h2>
+        <ul>
+          <li>
+            <strong>Wrap individually, not just cushioned in the box.</strong>{" "}Paper or bubble wrap around
+            each item stops them knocking against each other, which is where most breakages happen.
+          </li>
+          <li>
+            <strong>Plates go on their edge, not flat.</strong>{" "}A stack of flat plates cracks under its
+            own weight far more easily than plates stood on edge like records.
+          </li>
+          <li>
+            <strong>Fill every gap.</strong>{" "}Scrunched paper in every empty corner stops items shifting —
+            an item with room to move is an item that'll crack against the box wall.
+          </li>
+          <li>
+            <strong>Mark it "FRAGILE" and "THIS WAY UP" on every side.</strong>{" "}Not just the top — boxes
+            get tilted and stacked in ways you can't control once they're on the truck.
+          </li>
+        </ul>
+        <p>
+          For anything too large to box — furniture, mirrors, artwork — see our full{" "}
+          <Link href="/blog/how-to-wrap-furniture-properly">guide to wrapping furniture properly</Link>.
+        </p>
+
+        <h2>Don't over-tape, and don't under-tape</h2>
+        <p>
+          Two strips across the bottom seam and one down each side edge is enough for a well-packed box.
+          Over-taping doesn't add strength once the seam is sealed — it just makes boxes harder to open
+          and slower to unpack on the other end.
+        </p>
+
+        <p>
+          Packed and labelled properly, a house's worth of boxes turns from chaos into a system.{" "}
+          <Link href="/#quote">Get a fixed quote</Link>{" "}for the move itself, or read our{" "}
+          <Link href="/blog/brisbane-to-gold-coast-moving-checklist">full moving checklist</Link>{" "}for
+          everything else on the timeline.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "garage-sale-guide-before-you-move",
+    artIcon: "tag",
+    title: "The Ultimate Garage Sale Guide Before You Move",
+    metaTitle: "Garage Sale Before Moving — Complete Guide (2026)",
+    description:
+      "Turn the stuff you're not taking into cash before moving day. Timing, pricing, promotion and what to do with what doesn't sell.",
+    excerpt:
+      "Every box you don't pack is money and time saved on moving day. Here's how to run a garage sale that actually clears the house.",
+    keyword: "garage sale before moving",
+    category: "Guides",
+    date: "2026-07-10",
+    updated: "2026-07-10",
+    readMins: 5,
+    body: (
+      <>
+        <p>
+          The cheapest thing you can do before a move isn't finding a better removalist quote — it's
+          moving less. Every box you don't pack is a box someone doesn't have to carry, and a garage sale
+          turns the stuff you were going to donate or bin into cash instead. Here's how to run one that
+          actually works.
+        </p>
+
+        <h2>When to hold it</h2>
+        <p>
+          Two to three weekends before moving day is the sweet spot — early enough that you're not
+          scrambling to pack what didn't sell, late enough that you've already gone through most rooms and
+          know what's actually staying. Saturday mornings from 7–8am get the serious bargain-hunters;
+          finish by early afternoon once foot traffic drops off.
+        </p>
+
+        <h2>What sells, and what doesn't</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Sells well</th>
+              <th>Usually doesn't</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kids' toys and books, in good condition</td>
+              <td>Old TVs and outdated electronics</td>
+            </tr>
+            <tr>
+              <td>Kitchenware, small appliances that work</td>
+              <td>Worn-out furniture with damage</td>
+            </tr>
+            <tr>
+              <td>Tools, garden equipment</td>
+              <td>Textbooks, VHS/DVDs (donate instead)</td>
+            </tr>
+            <tr>
+              <td>Furniture in good condition, priced to move</td>
+              <td>Anything that needs explaining to sell</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Pricing to actually clear stock, not just list it</h2>
+        <ul>
+          <li>
+            <strong>Price low enough that people don't need to think.</strong>{" "}A $2 item that sells beats
+            a $5 item that sits there until you're donating it anyway.
+          </li>
+          <li>
+            <strong>Bundle the small stuff.</strong>{" "}"$5 for the whole box" moves ten small items in one
+            transaction instead of ten separate haggling conversations.
+          </li>
+          <li>
+            <strong>Drop prices after the first hour.</strong>{" "}Early birds pay closer to asking price;
+            everything left by 11am should be priced to just get gone.
+          </li>
+        </ul>
+
+        <h2>Getting people to actually show up</h2>
+        <p>
+          Post it on local Facebook buy-swap-sell groups and Gumtree/Marketplace 3–4 days out with photos
+          of the best items — furniture and anything unusual gets the clicks that bring people to the rest
+          of the sale. Bright signage at the nearest main road corner on the morning of the sale still
+          works better than almost anything digital for walk-up traffic.
+        </p>
+
+        <h2>What to do with what doesn't sell</h2>
+        <p>
+          Don't let leftovers turn back into moving-day boxes. Charities (Vinnies, Lifeline, Salvos) will
+          take clean, working furniture and household goods — most offer pickup for larger items. Anything
+          genuinely worn out or broken is a job for a{" "}
+          <Link href="/services/rubbish-removal">same-day rubbish removal booking</Link>{" "}rather than
+          letting it sit in the garage until moving week.
+        </p>
+
+        <p>
+          A good garage sale pairs naturally with a broader declutter — see our{" "}
+          <Link href="/blog/downsizing-checklist-decluttering-before-a-move">downsizing checklist</Link>{" "}
+          for the room-by-room version. Once the house is lighter, {" "}
+          <Link href="/#quote">get a fixed quote</Link>{" "}for what's actually moving.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "removalist-insurance-explained",
+    artIcon: "shield",
+    title: "Removalist Insurance Explained: What's Actually Covered",
+    metaTitle: "Removalist Insurance Explained — What's Covered vs Not",
+    description:
+      "What removalist insurance actually covers, what it typically excludes (like owner-packed boxes), and the questions to ask before you book.",
+    excerpt:
+      "\"Fully insured\" means different things at different companies. Here's what's usually covered, what's usually excluded, and what to ask.",
+    keyword: "removalist insurance explained",
+    category: "Guides",
+    date: "2026-07-10",
+    updated: "2026-07-10",
+    readMins: 4,
+    faqs: [
+      {
+        question: "What does removalist insurance actually cover?",
+        answer:
+          "Standard removalist transit cover protects items the removalist has packed and handled against damage or loss during the move itself — dropped furniture, transit damage, items lost in transit. It doesn't automatically cover pre-existing damage, or items you packed yourself in boxes the crew never opened.",
+      },
+      {
+        question: "Are boxes I pack myself covered if something breaks?",
+        answer:
+          "Usually only partially. Most removalist insurance covers damage the crew directly causes to a box (dropping it, crushing it under something heavier), but not damage from how the contents were packed inside — a plate that broke because it wasn't wrapped isn't something the removalist can be responsible for.",
+      },
+      {
+        question: "What's the difference between public liability and transit insurance?",
+        answer:
+          "Public liability covers damage to property (like a scratched wall or doorframe) during the move — it protects the house, not your belongings. Transit or goods-in-transit insurance covers your actual items. A legitimate removalist carries both; ask for confirmation of each separately.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          "Fully insured" gets printed on every removalist's website, but it means genuinely different
+          things depending on the company. Here's what standard cover actually includes, what it usually
+          excludes, and the exact questions worth asking before you book.
+        </p>
+
+        <h2>The two types of cover a legitimate removalist carries</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>What it covers</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Public liability</td>
+              <td>Damage to the property itself — scratched walls, damaged doorframes, broken stair rails</td>
+            </tr>
+            <tr>
+              <td>Transit / goods-in-transit</td>
+              <td>Damage or loss to your actual belongings while they're being moved and handled</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Both matter, and they're separate policies covering separate things — a removalist can genuinely
+          be "insured" for one and not the other, so ask about both specifically rather than accepting
+          "yes, we're insured" as a complete answer.
+        </p>
+
+        <h2>What's typically covered</h2>
+        <ul>
+          <li>Furniture and items the crew packs, wraps and handles directly</li>
+          <li>Damage caused during loading, transit, or unloading</li>
+          <li>Items lost in transit (rare, but covered under a genuine policy)</li>
+        </ul>
+
+        <h2>What's typically excluded (and why this catches people out)</h2>
+        <ul>
+          <li>
+            <strong>Contents of boxes you packed yourself.</strong>{" "}If a plate breaks because it wasn't
+            wrapped, that's a packing issue, not a transit issue — the removalist never saw inside the box.
+          </li>
+          <li>
+            <strong>Pre-existing damage or wear.</strong>{" "}A scratch that was already there isn't a
+            transit claim, which is why a lot of removalists photograph large furniture before loading.
+          </li>
+          <li>
+            <strong>Particleboard/flat-pack furniture failure.</strong>{" "}Some policies exclude damage to
+            cheaper flat-pack furniture that wasn't built to survive being moved at all, regardless of
+            handling care.
+          </li>
+        </ul>
+
+        <h2>Questions worth asking before you book</h2>
+        <ol>
+          <li>"Do you carry both public liability and transit insurance?"</li>
+          <li>"Is my self-packed boxes' contents covered, or only the boxes themselves?"</li>
+          <li>"What's the claims process if something's damaged on the day?"</li>
+        </ol>
+        <p>
+          If a removalist can't answer these clearly and specifically, that's worth treating as a signal —
+          our{" "}
+          <Link href="/blog/what-does-a-removalist-quote-include">guide to what a proper quote includes</Link>{" "}
+          covers the other things worth checking before you book.
+        </p>
+
+        <p>
+          Every Residence Relocations booking includes transit and public liability cover as standard — no
+          add-on, no asking. <Link href="/#quote">Get a fixed quote</Link>{" "}and it's built in from the
+          start.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "moving-with-kids-managing-the-chaos",
+    artIcon: "person",
+    title: "Moving With Kids: Keeping the Chaos Manageable",
+    metaTitle: "Moving House With Kids — Practical Tips That Actually Help",
+    description:
+      "Practical ways to keep moving day manageable with kids in the house — from packing their room last to the first-night box that saves everyone's sanity.",
+    excerpt:
+      "Moving with kids in the house adds a layer most checklists ignore. Here's what actually helps on the day and the weeks around it.",
+    keyword: "moving house with kids",
+    category: "Guides",
+    date: "2026-07-10",
+    updated: "2026-07-10",
+    readMins: 4,
+    body: (
+      <>
+        <p>
+          Moving with kids means running two logistics operations at once — the actual move, and keeping a
+          small person's routine intact enough that they're not melting down on top of everything else.
+          Here's what genuinely helps.
+        </p>
+
+        <h2>Pack their room last, unpack it first</h2>
+        <p>
+          A familiar bedroom, even in a new house, does more for a smooth transition than almost anything
+          else. Keep their room as untouched as possible until the last day of packing, and make it the
+          first room set up at the new place — bed made, toys out, familiar things visible before you
+          touch another box.
+        </p>
+
+        <h2>Build a first-night box, separate from everything else</h2>
+        <ul>
+          <li>Pyjamas, a change of clothes, and their favourite comfort item</li>
+          <li>Toothbrush, any medication, a familiar snack</li>
+          <li>One or two favourite toys or books — not the whole toy box</li>
+          <li>Chargers for anything they use to wind down at night</li>
+        </ul>
+        <p>
+          Pack this last, keep it in the car (not the truck), and the first night in a new house stops
+          being a search-through-forty-boxes exercise at 8pm.
+        </p>
+
+        <h2>Give them a job, age-appropriate to what they can handle</h2>
+        <p>
+          Kids old enough to help genuinely do better with some control over the process rather than
+          having it happen around them. Let younger kids pack and decorate their own "special box," and
+          older kids handle their own room — supervised, but genuinely theirs to manage. It turns moving
+          from something happening to them into something they're part of.
+        </p>
+
+        <h2>Arrange supervision for moving day itself</h2>
+        <p>
+          Moving day is genuinely not a safe or manageable place for young kids to be underfoot — a truck
+          reversing, a steady stream of heavy furniture through doorways, and stressed adults are not a
+          combination that mixes well with a toddler. Where possible, arrange for a grandparent, friend or
+          babysitter to take the kids for the core hours of loading and unloading, and reintroduce them to
+          the new house once the heavy lifting is done.
+        </p>
+
+        <h2>Keep one routine constant through the chaos</h2>
+        <p>
+          Bath time, a bedtime story, whatever the anchor routine is — protecting it through moving week
+          matters more than almost anything on a packing checklist. Kids read a maintained routine as "this
+          is still normal" even when everything visually around them says otherwise.
+        </p>
+
+        <h2>Talk about it before it happens</h2>
+        <p>
+          A simple, honest explanation of what's happening and why — days ahead, not the morning of — gives
+          kids time to process rather than being surprised. Letting them say goodbye to a room, a backyard,
+          or a school if that's part of the move matters more than adults often expect.
+        </p>
+
+        <p>
+          For the rest of the moving-day logistics, our{" "}
+          <Link href="/blog/brisbane-to-gold-coast-moving-checklist">full moving checklist</Link>{" "}covers
+          the week-by-week plan. When you're ready to book, {" "}
+          <Link href="/#quote">get a fixed quote</Link>{" "}— fixed pricing means no surprises stacking on
+          top of an already busy day.
         </p>
       </>
     ),

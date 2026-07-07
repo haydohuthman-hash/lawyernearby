@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
+import PostArt from "@/components/PostArt";
 import { POSTS, getPost, formatPostDate } from "@/content/posts";
 import { SITE_URL } from "@/lib/site";
 
@@ -83,6 +84,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
         </header>
 
+        <PostArt icon={post.artIcon} className="h-40 sm:h-56" />
+
         <div className="bg-cream py-14 sm:py-20">
           <div className="mx-auto max-w-[760px] px-5 sm:px-8">
             <div className="article">{post.body}</div>
@@ -131,21 +134,24 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                     <Link
                       key={r.slug}
                       href={`/blog/${r.slug}`}
-                      className="group rounded-2xl bg-white p-6 ring-1 ring-ink/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_20px_44px_rgba(10,10,10,0.1)]"
+                      className="group overflow-hidden rounded-2xl bg-white ring-1 ring-ink/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_20px_44px_rgba(10,10,10,0.1)]"
                     >
-                      <div className="text-[11px] font-medium tracking-[0.16em] text-ink/45">
-                        {r.category.toUpperCase()}
-                      </div>
-                      <h3 className="mt-3 font-serif text-[18px] italic leading-[1.3] text-ink">{r.title}</h3>
-                      <span className="mt-4 inline-flex items-center gap-1.5 text-[12.5px] font-medium text-ink">
-                        Read more{" "}
-                        <span
-                          aria-hidden
-                          className="transition-transform duration-300 group-hover:translate-x-1.5"
-                        >
-                          →
+                      <PostArt icon={r.artIcon} className="h-28" />
+                      <div className="p-6">
+                        <div className="text-[11px] font-medium tracking-[0.16em] text-ink/45">
+                          {r.category.toUpperCase()}
+                        </div>
+                        <h3 className="mt-3 font-serif text-[18px] italic leading-[1.3] text-ink">{r.title}</h3>
+                        <span className="mt-4 inline-flex items-center gap-1.5 text-[12.5px] font-medium text-ink">
+                          Read more{" "}
+                          <span
+                            aria-hidden
+                            className="transition-transform duration-300 group-hover:translate-x-1.5"
+                          >
+                            →
+                          </span>
                         </span>
-                      </span>
+                      </div>
                     </Link>
                   ))}
                 </div>
