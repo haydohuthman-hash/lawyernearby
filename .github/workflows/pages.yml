@@ -36,9 +36,13 @@ jobs:
           echo "Resolved: $IPS"
           if echo "$IPS" | grep -qE '185\.199\.(108|109|110|111)\.153|github\.io'; then
             echo "custom=true" >> "$GITHUB_OUTPUT"
+            echo "base_path=" >> "$GITHUB_OUTPUT"
+            echo "site_url=https://$CUSTOM_DOMAIN" >> "$GITHUB_OUTPUT"
             echo "Custom domain is pointed at GitHub Pages — deploying to https://$CUSTOM_DOMAIN"
           else
             echo "custom=false" >> "$GITHUB_OUTPUT"
+            echo "base_path=/lawyernearby" >> "$GITHUB_OUTPUT"
+            echo "site_url=https://haydohuthman-hash.github.io/lawyernearby" >> "$GITHUB_OUTPUT"
             echo "Custom domain not pointed at GitHub Pages yet — deploying to github.io project URL"
           fi
 
@@ -46,8 +50,8 @@ jobs:
 
       - run: npm run build
         env:
-          BASE_PATH: ${{ steps.domain.outputs.custom == 'true' && '' || '/lawyernearby' }}
-          NEXT_PUBLIC_SITE_URL: ${{ steps.domain.outputs.custom == 'true' && 'https://www.residencerelocations.com.au' || 'https://haydohuthman-hash.github.io/lawyernearby' }}
+          BASE_PATH: ${{ steps.domain.outputs.base_path }}
+          NEXT_PUBLIC_SITE_URL: ${{ steps.domain.outputs.site_url }}
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ vars.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
 
       - run: touch out/.nojekyll
