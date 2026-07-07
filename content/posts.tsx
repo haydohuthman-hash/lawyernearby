@@ -1586,6 +1586,630 @@ export const POSTS: BlogPost[] = [
       </>
     ),
   },
+
+  {
+    slug: "how-to-wrap-furniture-properly",
+    title: "How to Wrap Furniture Properly for a Move",
+    metaTitle: "How to Wrap Furniture Properly — A Removalist's Guide",
+    description:
+      "The right way to wrap furniture for a move — what materials to use for each piece, how professionals wrap sofas, tables and mattresses, and the mistakes that cause damage.",
+    excerpt:
+      "The material you use matters less than the technique. Here's how professionals actually wrap furniture so it survives the trip.",
+    keyword: "how to wrap furniture properly",
+    category: "Guides",
+    date: "2026-07-09",
+    updated: "2026-07-09",
+    readMins: 5,
+    faqs: [
+      {
+        question: "What's the best material to wrap furniture in for moving?",
+        answer:
+          "Moving blankets are the professional standard for most furniture — they cushion corners and edges without leaving residue. Stretch wrap (plastic film) is best used over the top of a blanket to hold it in place, not directly on wood or leather, since it can trap moisture and mark some finishes.",
+      },
+      {
+        question: "Should I wrap furniture in bubble wrap or blankets?",
+        answer:
+          "Blankets for anything with a finish you care about (timber, leather, upholstery) — they protect without direct contact damage. Bubble wrap is better reserved for glass, mirrors and hard-edged decor items where puncture protection matters more than surface protection.",
+      },
+      {
+        question: "Do I need to wrap furniture if a removalist is doing the move?",
+        answer:
+          "Not if it's a full-service move — blanket-wrapping every piece is included as standard with a professional removalist. This guide is most useful if you're doing a DIY or partial-DIY move, or just want to understand what should be happening when you watch a crew wrap your furniture.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          Furniture doesn't get damaged in transit because of bad luck — it gets damaged because of
+          contact: corners against corners, wood against a truck wall, one box shifting into another for
+          three hours on the M1. Wrapping properly is entirely about preventing that contact, and the
+          technique matters more than the material.
+        </p>
+
+        <h2>The core materials, and what each is actually for</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Material</th>
+              <th>Best for</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Moving blankets</td>
+              <td>Sofas, tables, timber furniture, mattresses, appliances</td>
+            </tr>
+            <tr>
+              <td>Stretch wrap (plastic film)</td>
+              <td>Holding blankets in place, protecting from dust and moisture — over a blanket, not directly on wood/leather</td>
+            </tr>
+            <tr>
+              <td>Bubble wrap</td>
+              <td>Glass, mirrors, lamps, hard-edged decor</td>
+            </tr>
+            <tr>
+              <td>Corner protectors</td>
+              <td>Table and cabinet edges, artwork frames</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Wrapping a sofa or armchair</h2>
+        <ol>
+          <li>Remove any loose cushions and wrap them separately.</li>
+          <li>Drape a moving blanket over the full piece, tucking it around arms and legs.</li>
+          <li>Secure the blanket with stretch wrap or packing tape — never tape directly to the fabric.</li>
+          <li>Legs that unscrew should come off, be bagged with their hardware, and taped to the underside of the piece so nothing goes missing.</li>
+        </ol>
+
+        <h2>Wrapping tables and timber furniture</h2>
+        <ul>
+          <li>Corner-protect first, especially on glass or stone tops.</li>
+          <li>Blanket-wrap the whole surface, securing with stretch wrap rather than tape (tape can pull finish off timber when removed).</li>
+          <li>Table legs that unscrew should always come off for transport — it reduces bulk and removes the single most common breakage point.</li>
+        </ul>
+
+        <h2>Wrapping mattresses</h2>
+        <p>
+          A mattress bag (heavy-duty plastic, purpose-made) is worth the few dollars — it keeps a mattress
+          clean and dry through the move and protects it from truck-wall scuffing. If you don't have one, a
+          blanket secured with stretch wrap is the fallback, though it won't offer the same weatherproofing.
+        </p>
+
+        <h2>Wrapping glass, mirrors and artwork</h2>
+        <ol>
+          <li>Bubble wrap first, glass-side protected, taped at the edges only (not across the face).</li>
+          <li>Corner protectors on all four corners for framed pieces.</li>
+          <li>Transport vertically, never flat — flat glass under any weight is how cracks happen.</li>
+          <li>Mark clearly as fragile so anyone handling it treats it accordingly.</li>
+        </ol>
+
+        <h2>Three mistakes that cause the most damage</h2>
+        <ul>
+          <li>
+            <strong>Taping directly onto furniture surfaces</strong>{" "}— it can pull finish or paint off when
+            removed, especially on timber and painted pieces.
+          </li>
+          <li>
+            <strong>Wrapping too loosely.</strong>{" "}A blanket that shifts during transit protects nothing —
+            secure it firmly enough that it can't slide.
+          </li>
+          <li>
+            <strong>Stacking unprotected pieces against each other.</strong>{" "}Even wrapped furniture needs a
+            blanket or padding between adjacent pieces in the truck, not just on the outside.
+          </li>
+        </ul>
+
+        <p>
+          If all of this sounds like a lot to get right on moving day — it is, which is why full transit
+          insurance and professional wrapping are included as standard on every{" "}
+          <Link href="/services/removalists">Residence Relocations move</Link>. Prefer to hand it over
+          entirely? <Link href="/#quote">Get a fixed quote</Link>{" "}and we'll wrap and load everything
+          properly, no plastic-wrap learning curve required.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "two-men-and-a-truck-vs-full-service-removalist",
+    title: "\"Two Men and a Truck\" vs a Full-Service Removalist: What's the Real Difference?",
+    metaTitle: "Two Men and a Truck vs Full-Service Removalist — Compared",
+    description:
+      "Searching for a two men and a truck style mover in Brisbane? Here's an honest comparison between a small hourly crew and a full-service, fixed-price removalist.",
+    excerpt:
+      "\"Two guys and a truck\" and a full-service removalist solve different problems. Here's how to know which one you actually need.",
+    keyword: "two men and a truck brisbane",
+    category: "Pricing",
+    date: "2026-07-09",
+    updated: "2026-07-09",
+    readMins: 5,
+    faqs: [
+      {
+        question: "Is \"two men and a truck\" cheaper than a full removalist?",
+        answer:
+          "For a very small job (a few items, one room, no stairs), often yes on the headline rate. For anything bigger, the hourly model can end up costing about the same or more once time adds up — a fixed-price quote removes that uncertainty entirely.",
+      },
+      {
+        question: "What's the difference between a man with a van and a removalist company?",
+        answer:
+          "A \"man with a van\" or small two-person crew is typically an hourly, informal service best suited to single items or very small loads. A full-service removalist brings a dedicated truck, a trained multi-person crew, transit insurance, and — with us — a fixed price agreed before the day, suited to full house and apartment moves.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          If you've searched something like &ldquo;two men and a truck Brisbane&rdquo; or &ldquo;man with a
+          van Brisbane,&rdquo; you're usually after one of two things: a genuinely small, cheap job, or
+          you're not yet sure how big your move actually is. Here's an honest breakdown of when each
+          option makes sense — this isn't a comparison against any specific franchise, just the two service
+          models people usually mean by those searches.
+        </p>
+
+        <h2>What "two men and a truck" style services are good at</h2>
+        <ul>
+          <li>Moving a single item — a couch, a fridge, a bed — across town.</li>
+          <li>Small share-house or studio moves with minimal furniture.</li>
+          <li>Quick, informal jobs where flexibility matters more than insurance paperwork.</li>
+        </ul>
+        <p>
+          These are usually priced hourly, with a small crew and a single truck size. For the right job,
+          that's genuinely the most efficient option — you don't need a full removalist operation to move
+          one sofa across the suburb.
+        </p>
+
+        <h2>Where the hourly, small-crew model starts to strain</h2>
+        <ul>
+          <li>
+            <strong>Multi-bedroom homes.</strong>{" "}More furniture means more truck trips or a bigger vehicle
+            — which is exactly the point where an hourly rate can climb past what a fixed price would have
+            been.
+          </li>
+          <li>
+            <strong>Stairs, lifts or long carries.</strong>{" "}A two-person crew moving a large item up three
+            flights takes meaningfully longer than four trained movers would — and you're paying by the
+            hour for that difference.
+          </li>
+          <li>
+            <strong>Anything you'd be upset to lose.</strong>{" "}Ask directly whether your belongings are
+            covered by transit insurance, not just whether the operator has public liability cover — they're
+            not the same thing.
+          </li>
+          <li>
+            <strong>Specialty items.</strong>{" "}Pianos and slate pool tables need specific equipment (piano
+            trolleys, slate racks) that a general small-job crew may not carry.
+          </li>
+        </ul>
+
+        <h2>The real question to ask yourself</h2>
+        <p>
+          Not "which is cheaper," but "how much room is there for this job to take longer than expected?"
+          A single-item, ground-floor-to-ground-floor move has very little room for surprise — hourly is
+          fine. A full home with stairs, an unknown amount of stuff in the garage, and traffic on the M1
+          has a lot of room for surprise — that's exactly where a fixed price protects you.
+        </p>
+
+        <h2>How we compare</h2>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Small hourly crew</th>
+              <th>Residence Relocations</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pricing</td>
+              <td>Hourly, can vary</td>
+              <td>Fixed, agreed upfront</td>
+            </tr>
+            <tr>
+              <td>Best for</td>
+              <td>Single items, tiny loads</td>
+              <td>Full homes, apartments, specialty items</td>
+            </tr>
+            <tr>
+              <td>Transit insurance</td>
+              <td>Ask directly</td>
+              <td>Included as standard</td>
+            </tr>
+            <tr>
+              <td>Disassembly/reassembly</td>
+              <td>Ask directly</td>
+              <td>Included as standard</td>
+            </tr>
+            <tr>
+              <td>Corridor specialty</td>
+              <td>Usually local-only</td>
+              <td>Brisbane ↔ Gold Coast, daily</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          If your move is bigger than "one sofa across town," see how a fixed-price quote actually compares
+          — <Link href="/#quote">get an instant quote in 30 seconds</Link>, or read more about our{" "}
+          <Link href="/removalists-brisbane-to-gold-coast">Brisbane to Gold Coast service</Link>.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "shifting-house-in-brisbane-guide",
+    title: "Shifting House in Brisbane: The Local's Guide",
+    metaTitle: "Shifting House in Brisbane — A Local's Guide",
+    description:
+      "Shifting house in Brisbane? A practical local guide covering what Brisbane movers need to know — suburb quirks, traffic timing, and how to make shifting day painless.",
+    excerpt:
+      "\"Shifting house\" is what Queenslanders actually call it. Here's the local's guide to doing it painlessly.",
+    keyword: "shifting house brisbane",
+    category: "Guides",
+    date: "2026-07-09",
+    updated: "2026-07-09",
+    readMins: 5,
+    body: (
+      <>
+        <p>
+          If you grew up in Queensland, you don't "move house" — you're "shifting." Whatever you call it,
+          shifting day in Brisbane has its own local quirks that a generic moving guide won't cover. Here's
+          the version written for actual Brisbane streets.
+        </p>
+
+        <h2>Brisbane's housing stock changes the plan</h2>
+        <p>
+          A huge share of Brisbane homes are Queenslanders — timber, on stumps, often with stairs and a
+          steep or narrow driveway. Shifting out of one of these is a genuinely different job to shifting
+          out of a modern brick townhouse: furniture often has to come down external stairs, sometimes over
+          a veranda rail with lifting straps, and access needs to be assessed before the truck turns up, not
+          on the day.
+        </p>
+        <p>
+          If you're shifting into or out of a Queenslander, tell your removalist about the stairs, stumps
+          and driveway slope when you book — it changes crew size, not just the quote.
+        </p>
+
+        <h2>Time your shift around traffic, not just the calendar</h2>
+        <p>
+          Brisbane's inner-city streets (New Farm, Paddington, West End) get genuinely difficult for a
+          truck during school pick-up and peak commuter hours. A shift scheduled for an early morning start
+          almost always runs smoother than a midday one, purely because of how much easier the streets are
+          to navigate and park in before 9am.
+        </p>
+
+        <h2>Council permits: worth checking before shifting day</h2>
+        <p>
+          Inner-city Brisbane streets are often permit-zoned. If your street doesn't have obvious space for
+          a truck, a quick call to Brisbane City Council or a check of the street signage can save a
+          frustrating morning circling for parking. A good removalist will flag this at quote stage if your
+          address looks tight.
+        </p>
+
+        <h2>Shifting to the Gold Coast? It's a bigger decision than a local shift</h2>
+        <p>
+          Plenty of Brisbane shifts these days aren't across the suburb — they're down the M1 entirely.
+          If that's you, the logistics are genuinely different: a single dedicated truck for the whole
+          route, one loading and one unloading window in the same day, and a fixed price that accounts for
+          the drive. See our full{" "}
+          <Link href="/removalists-brisbane-to-gold-coast">Brisbane to Gold Coast guide</Link>{" "}if that's the
+          shift you're planning.
+        </p>
+
+        <h2>The shifting-day basics, Brisbane edition</h2>
+        <ul>
+          <li>Book your removalist and lock in your date — weekends and end-of-month book out fastest here too.</li>
+          <li>Flag stairs, stumps, steep driveways or narrow streets when you get your quote.</li>
+          <li>Schedule an early start if your street gets busy with school or commuter traffic.</li>
+          <li>Check permit parking rules a week out, not the morning of.</li>
+          <li>Pack a first-night box so shifting day doesn't end with you digging through 20 identical boxes.</li>
+        </ul>
+
+        <p>
+          We run Brisbane shifts every day, Queenslander stairs and all —{" "}
+          <Link href="/#quote">get your fixed quote</Link>{" "}and tell us about your street when you book.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "13-things-every-brisbane-mover-understands",
+    title: "13 Things Every Brisbane Mover Understands",
+    metaTitle: "13 Things Every Brisbane Mover Understands (A Funny Guide)",
+    description:
+      "A slightly funny, very true list of 13 things every Brisbane or Gold Coast mover understands — from Queenslander stairs to the M1 at 4pm on a Friday.",
+    excerpt:
+      "Queenslander stairs, mystery garage boxes, and the M1 at exactly the wrong time. 13 truths every Brisbane mover knows.",
+    keyword: "moving house brisbane funny",
+    category: "Guides",
+    date: "2026-07-09",
+    updated: "2026-07-09",
+    readMins: 4,
+    body: (
+      <>
+        <p>
+          Moving is universally chaotic, but Brisbane and the Gold Coast add a few local flavours of chaos
+          all their own. If you've shifted house here, you'll recognise every one of these.
+        </p>
+
+        <h2>1. The garage box you forgot you owned</h2>
+        <p>
+          Every Brisbane garage has at least one box that hasn't been opened since the last move. Nobody
+          knows what's in it. Nobody ever opens it at the new place either.
+        </p>
+
+        <h2>2. Queenslander stairs are a personality trait</h2>
+        <p>
+          If you've lived in a Queenslander, you have Opinions about stairs, stumps and the physics of
+          getting a couch around that one impossible corner. You will tell people about it for years.
+        </p>
+
+        <h2>3. The M1 at 4pm on a Friday is not a road, it's a weather system</h2>
+        <p>
+          Anyone who has driven the corridor knows: schedule the move for the morning, or accept your fate.
+        </p>
+
+        <h2>4. You will find at least one thing that belongs to a housemate from three addresses ago</h2>
+        <p>No explanation. It's just there. It's always there.</p>
+
+        <h2>5. "It'll fit in the lift" has ended more than one friendship</h2>
+        <p>
+          Gold Coast tower dwellers know this pain specifically. Measure twice. Argue about the sofa zero
+          times.
+        </p>
+
+        <h2>6. Everyone becomes a weather expert on moving day</h2>
+        <p>
+          Suddenly you're checking radar like a storm chaser, because a Brisbane summer afternoon downpour
+          waits for nobody's furniture.
+        </p>
+
+        <h2>7. There is always one box labelled "MISC" that is doing an enormous amount of work</h2>
+        <p>It weighs as much as the fridge. Nobody knows why.</p>
+
+        <h2>8. You will develop a sudden, deep respect for removalists</h2>
+        <p>
+          Usually somewhere around attempt three at getting a mattress down a Paddington staircase.
+        </p>
+
+        <h2>9. Every share house has a "whose couch is this" negotiation</h2>
+        <p>It never ends amicably. Someone always claims the good one arrived "already there."</p>
+
+        <h2>10. The first-night box always gets packed last, and packed badly</h2>
+        <p>
+          You will open it at 9pm looking for a toothbrush and instead find a photo frame and one shoe.
+        </p>
+
+        <h2>11. Body corporate paperwork is its own extreme sport on the Gold Coast</h2>
+        <p>Certificate of currency, lift booking form, loading dock time slot — bring snacks.</p>
+
+        <h2>12. You will Google "how many boxes for a 2 bedroom" and still be wrong</h2>
+        <p>It's always more boxes. It is always, always more boxes.</p>
+
+        <h2>13. By the end, you will have opinions about moving trucks you never expected to have</h2>
+        <p>
+          Turning radius, ramp angle, tie-down points — congratulations, you now know things.
+        </p>
+
+        <p>
+          If reading all of that made you tired just thinking about it — fair. Let a crew who's genuinely
+          seen it all handle the truck part. <Link href="/#quote">Get a fixed quote</Link>{" "}and keep your
+          opinions about moving trucks purely theoretical.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "diy-move-vs-hiring-removalists-cost-comparison",
+    title: "DIY Move vs Hiring Removalists: What It Actually Costs",
+    metaTitle: "DIY Move vs Removalists — Real Cost Comparison",
+    description:
+      "Is a DIY move actually cheaper than hiring removalists? A real cost comparison covering truck hire, your time, injury risk and damage risk — not just the sticker price.",
+    excerpt:
+      "The truck hire fee isn't the real cost of a DIY move. Here's the honest comparison, numbers included.",
+    keyword: "diy move vs removalists cost",
+    category: "Pricing",
+    date: "2026-07-09",
+    updated: "2026-07-09",
+    readMins: 5,
+    faqs: [
+      {
+        question: "Is it cheaper to move yourself or hire removalists?",
+        answer:
+          "For a small, single-level move with willing helpers, DIY can be genuinely cheaper on paper. Once you factor in your own time, fuel, potential damage, and the physical toll, a fixed-price removalist is often closer in real cost than people expect — especially for anything bigger than a studio or 1-bedroom.",
+      },
+      {
+        question: "What does a DIY move actually cost, all in?",
+        answer:
+          "Budget for truck hire ($80-$150/day for a ute or small truck), fuel, packing materials, and realistically a case of drinks or a meal for any friends helping. A day of DIY moving for a 2-3 bedroom home commonly lands in the $200-$400 range once everything is counted — before factoring in your own time or any damage.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          The sticker price of truck hire makes DIY moving look like the obvious cheap option. Once you add
+          up everything else involved, the gap to a fixed-price removalist is often smaller than people
+          expect — and sometimes it's not there at all. Here's the honest breakdown.
+        </p>
+
+        <h2>What a DIY move actually costs</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Typical cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Truck/ute hire (1 day)</td><td>$80–$180</td></tr>
+            <tr><td>Fuel</td><td>$30–$60</td></tr>
+            <tr><td>Packing materials (boxes, tape, wrap)</td><td>$50–$120</td></tr>
+            <tr><td>Feeding/thanking helpers</td><td>$50–$100</td></tr>
+            <tr><td><strong>Rough total</strong></td><td><strong>$210–$460</strong></td></tr>
+          </tbody>
+        </table>
+        <p>
+          That's before counting: your own labour (a full day, sometimes two), the physical toll of lifting
+          heavy furniture without the right equipment, and the real risk of damaging your belongings, a
+          rental wall, or your back.
+        </p>
+
+        <h2>What you're not pricing in</h2>
+        <ul>
+          <li>
+            <strong>Your time.</strong>{" "}A DIY move for a 2-3 bedroom home commonly takes a full day, often
+            spilling into a second for unpacking and returning the truck.
+          </li>
+          <li>
+            <strong>Injury risk.</strong>{" "}Moving heavy furniture without proper technique or equipment
+            (trolleys, straps, ramps) is one of the most common causes of moving-day back injuries.
+          </li>
+          <li>
+            <strong>Damage risk.</strong>{" "}No transit insurance means any scratch, crack or dent — to your
+            furniture or the property — is entirely your cost to absorb.
+          </li>
+          <li>
+            <strong>Truck hire excess.</strong>{" "}Rental trucks usually carry an insurance excess of several
+            hundred dollars if anything happens to the vehicle itself.
+          </li>
+        </ul>
+
+        <h2>Where DIY genuinely makes sense</h2>
+        <p>
+          A small, single-level move (a studio, or a few pieces of furniture between nearby addresses) with
+          willing, physically capable helpers can be a legitimately good DIY candidate — the risk is low and
+          the job is short. It's the equation that changes as home size, stairs, and distance increase.
+        </p>
+
+        <h2>Where a fixed-price removalist starts winning on real cost</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Factor</th>
+              <th>Tips the scale toward</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>2+ bedrooms of furniture</td><td>Removalist — the time/risk trade-off shifts fast</td></tr>
+            <tr><td>Stairs or a lift involved</td><td>Removalist — proper equipment removes injury risk</td></tr>
+            <tr><td>Specialty items (piano, pool table)</td><td>Removalist — DIY risk here is genuinely high</td></tr>
+            <tr><td>Corridor move (Brisbane–Gold Coast)</td><td>Removalist — one dedicated truck, one day, done</td></tr>
+            <tr><td>Small/studio, willing helpers, short distance</td><td>DIY can be reasonable</td></tr>
+          </tbody>
+        </table>
+
+        <h2>See the real number for your move</h2>
+        <p>
+          Rather than guess which side of that table you're on, get an actual{" "}
+          <Link href="/#quote">fixed quote</Link>{" "}and compare it directly to your realistic DIY budget,
+          time included. Sometimes DIY wins. Often, once everything's counted, it's closer than the truck
+          hire sticker price suggested.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "hot-tub-spa-removal-cost-guide",
+    title: "Hot Tub & Spa Removal: What It Costs and How It Works",
+    metaTitle: "Hot Tub & Spa Removal Cost Guide — Brisbane & Gold Coast",
+    description:
+      "Need a hot tub or spa removed in Brisbane or the Gold Coast? Here's what it costs, how the removal process actually works, and what to check before you book.",
+    excerpt:
+      "Spas and hot tubs are heavy, awkward, and easy to damage moving them wrong. Here's what removal actually involves and costs.",
+    keyword: "spa removal cost brisbane",
+    category: "Pricing",
+    date: "2026-07-09",
+    updated: "2026-07-09",
+    readMins: 4,
+    faqs: [
+      {
+        question: "How much does it cost to remove a hot tub or spa?",
+        answer:
+          "Spa and hot tub removal typically ranges from $250 to $600 depending on size, access (stairs, side gates, crane requirements) and whether it's being disposed of or relocated to a new address. Get a fixed quote with photos of the spa and its access path for an accurate number.",
+      },
+      {
+        question: "Can a spa be moved to a new house, or only removed and disposed of?",
+        answer:
+          "Both are possible. A spa in good condition can be drained, secured and transported to a new address as part of your move. Older or damaged units are more commonly disposed of responsibly, with materials sorted for recycling where possible.",
+      },
+      {
+        question: "Do I need to drain the spa myself before removal?",
+        answer:
+          "Yes — the spa needs to be fully drained before our crew arrives. We can advise on the best drainage method when you book, but arrange this a day or two ahead so it's not holding up moving day.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          A spa or hot tub is one of the heaviest, most awkward things in a backyard — several hundred
+          kilograms empty, often wedged behind a gate or deck that wasn't built with removal in mind.
+          Here's what actually goes into moving or removing one, and what it costs.
+        </p>
+
+        <h2>What it costs</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Job</th>
+              <th>Typical cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Small inflatable/portable spa removal</td><td>from ~$150</td></tr>
+            <tr><td>Standard hard-shell spa, easy access</td><td>~$250–$400</td></tr>
+            <tr><td>Larger spa, tight access or stairs</td><td>~$400–$600</td></tr>
+            <tr><td>Relocation to a new address (vs disposal)</td><td>Quoted as part of your move — ask for a bundled price</td></tr>
+          </tbody>
+        </table>
+
+        <h2>What has to happen before removal day</h2>
+        <ol>
+          <li>
+            <strong>Full drainage.</strong>{" "}A spa must be completely empty before our crew arrives — a full
+            spa can weigh well over a tonne, which isn't something any crew can safely lift.
+          </li>
+          <li>
+            <strong>Disconnect power and plumbing.</strong>{" "}Hard-wired spas need power isolated (an
+            electrician, if you're not confident doing this yourself) before the unit can be moved.
+          </li>
+          <li>
+            <strong>Clear the access path.</strong>{" "}Side gates, deck boards, or fencing sometimes need to
+            come out temporarily — we'll flag this when quoting from your photos.
+          </li>
+        </ol>
+
+        <h2>How the removal itself works</h2>
+        <p>
+          Once drained and disconnected, a spa is walked out on furniture dollies or slid on protective
+          sheeting, depending on the surface and access. Tight gates or fence lines occasionally mean a
+          panel comes out temporarily rather than forcing the unit through — better a fence panel comes off
+          cleanly than the spa's shell gets cracked squeezing through.
+        </p>
+
+        <h2>Relocating vs disposing</h2>
+        <p>
+          If the spa is coming with you to a new address, it travels much like any other oversized item —
+          strapped and padded in the truck, positioned and reconnected at the other end (reconnection is
+          usually a separate electrician/plumber step, not part of the removal itself). If it's being
+          disposed of, we sort materials for recycling where possible rather than sending everything
+          straight to landfill.
+        </p>
+
+        <h2>Combine it with your move or a clear-out</h2>
+        <p>
+          Getting rid of a spa is often part of a bigger property clear-out before a sale, or a straight
+          swap when a new owner doesn't want the old one. Pair it with our{" "}
+          <Link href="/services/rubbish-removal">rubbish removal service</Link>{" "}or your{" "}
+          <Link href="/removalists-brisbane-to-gold-coast">full house move</Link>{" "}for one coordinated
+          booking. <Link href="/#quote">Get a fixed quote</Link>{" "}— a couple of photos of the spa and its
+          access path is usually enough for an accurate price.
+        </p>
+      </>
+    ),
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
