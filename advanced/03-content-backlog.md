@@ -3,7 +3,7 @@
 Status key: ✅ published · 🟡 writing now · ⬜ planned · 🧊 parked (needs something
 we don't have yet, e.g. real customer anecdotes or a new service page)
 
-## Published (31 posts as of this doc)
+## Published (37 posts as of this doc)
 
 ✅ How Much Do Removalists Cost Brisbane to Gold Coast?
 ✅ The Ultimate Brisbane to Gold Coast Moving Checklist
@@ -55,6 +55,18 @@ loading dock booking windows, permit zones).
 counterpart to the last-minute post, with a by-season notice table.
 ✅ Office Fit-Out Waste: What Counts as Rubbish vs What to Donate — sorts
 donate/recycle/e-waste/general rubbish for office clear-outs.
+✅ How to Choose the Right Size Moving Truck — decision table by home size,
+"when in doubt go bigger" framing, companion to the pack-a-truck post.
+✅ Moving Sustainably: Cutting Landfill Waste From Your Move — ties together
+the garage sale, downsizing, and office waste posts under one sustainability angle.
+✅ Removalist Etiquette: Tipping, Tea and What's Actually Expected — direct-answer
+AEO format on tipping norms, the tea/water custom, other on-the-day etiquette.
+✅ Storm Season and Your Move: Planning Around Brisbane's Wet Season — wet-weather
+protection steps, flood-prone street awareness, seasonal companion to best-time-to-move.
+✅ Moving a Home Office or Home Gym Setup — cable labelling, monitor packing,
+dense-weight box rule for gym plates, links office relocations service.
+✅ Strata & Body Corporate Move-In Rules on the Gold Coast — COI requirement,
+lift/loading dock booking windows, move-in fees.
 
 All posts now carry an `artIcon` field rendering a graphic header treatment
 (gradient + line icon, see `components/PostArt.tsx`) in place of a photo —
@@ -64,19 +76,9 @@ worth the cost.
 
 ## Planned (next rounds)
 
-⬜ How to Choose the Right Size Moving Truck (practical companion to the
-  pack-a-truck post — ute vs 4t vs 8t vs full semi, by home size)
-⬜ Moving Sustainably: Cutting Landfill Waste From Your Move (ties together the
-  garage sale, downsizing, and office waste posts under one sustainability angle)
-⬜ Removalist Etiquette: Tipping, Tea and What's Actually Expected (fun,
-  genuinely useful direct-answer piece — AEO-friendly "is tipping expected"
-  question format)
-⬜ Storm Season and Your Move: Planning Around Brisbane's Wet Season (seasonal
-  companion to the best-time-to-move post, practical wet-weather moving-day tips)
-⬜ Moving a Home Office or Gym Setup (desks, monitors, home gym equipment — a
-  growing WFH-era search niche, ties to office relocations service)
-⬜ Strata & Body Corporate Move-In Rules on the Gold Coast (lift bookings,
-  COI requirements, move-in fees — genuinely useful for apartment movers)
+Backlog is currently clear — no posts queued. Next round of ideas to be added
+once there's a fresh angle worth writing (new season, new keyword gap found via
+Search Console performance data, or genuine customer stories to draw from).
 
 ## Parked (need something first)
 

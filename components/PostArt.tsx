@@ -60,7 +60,9 @@ export default function PostArt({ icon, className = "" }: { icon: ArtIcon; class
         style={{ background: "radial-gradient(circle, #ffffff 0%, transparent 70%)" }}
       />
       <div className="relative flex h-full items-center justify-center">
-        <Icon className="h-16 w-16 text-white/25 sm:h-24 sm:w-24" />
+        <span aria-hidden="true">
+          <Icon className="h-16 w-16 text-white/25 sm:h-24 sm:w-24" />
+        </span>
       </div>
     </div>
   );

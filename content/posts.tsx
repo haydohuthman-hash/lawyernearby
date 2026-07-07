@@ -3130,6 +3130,534 @@ export const POSTS: BlogPost[] = [
       </>
     ),
   },
+  {
+    slug: "how-to-choose-the-right-size-moving-truck",
+    artIcon: "truck",
+    title: "How to Choose the Right Size Moving Truck",
+    metaTitle: "What Size Moving Truck Do I Need? — By Home Size",
+    description:
+      "Ute, van, 4-tonne or 8-tonne — the right truck size for your move, matched to home size, so you're not paying for empty space or squeezing in a second trip.",
+    excerpt:
+      "Get the truck size wrong and you're either paying for empty space or making a second trip. Here's how to match it to your home.",
+    keyword: "what size moving truck do i need",
+    category: "Guides",
+    date: "2026-07-12",
+    updated: "2026-07-12",
+    readMins: 4,
+    faqs: [
+      {
+        question: "What size truck do I need for a 3 bedroom house?",
+        answer:
+          "A standard 3-bedroom home typically needs an 8-tonne furniture van — enough for a full lounge suite, bedroom furniture for 2–3 rooms, kitchen boxes, and a washing machine or fridge, with room to spare for awkward items.",
+      },
+      {
+        question: "Is it better to get a bigger truck than I need?",
+        answer:
+          "Generally yes, within reason — a truck with some spare room means no second trip if you've underestimated, and loading is easier with a bit of breathing space. The real cost of going too small is a second trip, which almost always costs more than the next size up.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          Get the truck size wrong in either direction and it costs you — too small
+          means a second trip, too big means paying for space you didn't use.
+          Here's how truck size actually maps to home size.
+        </p>
+
+        <h2>Truck size by home size</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Home size</th>
+              <th>Typical truck</th>
+              <th>What it fits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Studio / 1 bedroom</td>
+              <td>Ute or small van</td>
+              <td>Bed, small furniture, boxes — occasionally a second small trip</td>
+            </tr>
+            <tr>
+              <td>2 bedroom apartment</td>
+              <td>4-tonne van</td>
+              <td>Full bedroom set, lounge, dining, kitchen boxes</td>
+            </tr>
+            <tr>
+              <td>3 bedroom house</td>
+              <td>8-tonne furniture van</td>
+              <td>Full home contents, 2–3 bedrooms, appliances, some spare room</td>
+            </tr>
+            <tr>
+              <td>4+ bedroom house</td>
+              <td>8-tonne+, sometimes two trucks</td>
+              <td>Full family home, multiple large items, garage/shed contents</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>When in doubt, go bigger</h2>
+        <p>
+          A truck with spare room costs you nothing extra to load — you just don't
+          fill it completely. A truck that's too small costs you a second trip,
+          which almost always works out more expensive than booking the next size
+          up in the first place. If your move sits right on the line between two
+          sizes, the bigger truck is the safer call.
+        </p>
+
+        <h2>What actually changes the answer</h2>
+        <ul>
+          <li>
+            <strong>Garage and shed contents.</strong>{" "}These get forgotten in truck-size estimates
+            more than anything else — tools, bikes, garden equipment add up fast.
+          </li>
+          <li>
+            <strong>Large single items.</strong>{" "}A pool table, piano, or spa doesn't just add weight, it
+            takes up dead space around it that can't be packed efficiently.
+          </li>
+          <li>
+            <strong>How much you're taking vs starting fresh.</strong>{" "}A downsized load (see our{" "}
+            <Link href="/blog/downsizing-checklist-decluttering-before-a-move">downsizing checklist</Link>)
+            genuinely needs a smaller truck than a full household move.
+          </li>
+        </ul>
+
+        <h2>Why this is one less thing to worry about with us</h2>
+        <p>
+          This is exactly the calculation we make behind every quote — you tell us your home size, not
+          your truck size, and we bring the right vehicle and crew for the job. No under-quoting that
+          turns into a surprise second trip, no oversized truck you're paying to drive around empty.{" "}
+          <Link href="/#quote">Get a fixed quote</Link>{" "}based on your home size and we handle the rest.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "moving-sustainably-cutting-landfill-waste",
+    artIcon: "leaf",
+    title: "Moving Sustainably: Cutting Landfill Waste From Your Move",
+    metaTitle: "How to Move Sustainably — Reduce Moving Waste",
+    description:
+      "A house move generates more landfill waste than most people realise. Here's how to cut it down — reusing boxes, donating before bin day, and choosing a removalist that sorts materials properly.",
+    excerpt:
+      "Moving house generates a surprising amount of landfill waste. Here's how to cut it down without adding stress to an already busy week.",
+    keyword: "how to move sustainably",
+    category: "Guides",
+    date: "2026-07-12",
+    updated: "2026-07-12",
+    readMins: 4,
+    body: (
+      <>
+        <p>
+          A house move generates more landfill waste than most people expect — packing materials, broken
+          furniture, and everything decluttered along the way. None of it needs to end up in a skip bin by
+          default. Here's how to cut it down without adding extra stress to an already busy week.
+        </p>
+
+        <h2>Source boxes before you buy them</h2>
+        <ul>
+          <li>
+            <strong>Ask local shops for their leftover boxes.</strong>{" "}Bottle shops and supermarkets
+            often have sturdy boxes headed for recycling anyway — free, and one less thing bought new.
+          </li>
+          <li>
+            <strong>Check community buy-swap-sell groups.</strong>{" "}Someone who just moved almost always
+            has a stack of good boxes they don't need anymore.
+          </li>
+          <li>
+            <strong>Reusable plastic crates are worth it for a bigger move.</strong>{" "}Several rental
+            services deliver and collect them — no cardboard waste at all, and they stack better than boxes.
+          </li>
+        </ul>
+
+        <h2>Donate before you bin</h2>
+        <p>
+          A genuine amount of what gets thrown out during a move is still perfectly usable — furniture,
+          kitchenware, kids' toys, clothes. Our{" "}
+          <Link href="/blog/garage-sale-guide-before-you-move">garage sale guide</Link>{" "}and{" "}
+          <Link href="/blog/downsizing-checklist-decluttering-before-a-move">downsizing checklist</Link>{" "}
+          both cover this in more detail, but the short version: charities take more than most people
+          assume, and most offer pickup for anything too large to drop off.
+        </p>
+
+        <h2>Recycle packing materials properly</h2>
+        <ul>
+          <li>Cardboard boxes — flatten and recycle, or better, pass them on to the next person moving</li>
+          <li>Bubble wrap and plastic — check if your council recycling accepts soft plastics separately</li>
+          <li>Packing paper — genuinely recyclable, no need to bin it with general waste</li>
+        </ul>
+
+        <h2>Choose a removalist that sorts waste, not just dumps it</h2>
+        <p>
+          If part of your move includes clearing out furniture or old items, ask whether the removalist
+          sorts materials for recycling or donation before landfill, rather than sending everything straight
+          to the tip. It's a fair question to ask any quote — see our{" "}
+          <Link href="/services/rubbish-removal">rubbish removal service</Link>{" "}for how we handle it.
+        </p>
+
+        <h2>The net effect</h2>
+        <p>
+          None of this adds real time to a move — sourcing free boxes takes one phone call, donating takes
+          one drop-off or pickup booking, and choosing a removalist that sorts materials costs nothing
+          extra. It just means less of your move ends up in landfill by default.{" "}
+          <Link href="/#quote">Get a fixed quote</Link>{" "}for your move or clear-out, and mention if
+          sorting/donation matters to you — we build it into the job either way.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "removalist-etiquette-tipping-and-what-to-expect",
+    artIcon: "hand",
+    title: "Removalist Etiquette: Tipping, Tea and What's Actually Expected",
+    metaTitle: "Do You Tip Removalists in Australia? — Etiquette Guide",
+    description:
+      "Is tipping expected for removalists in Australia? The honest answer, plus the other on-the-day etiquette that actually matters — from access to a cup of tea.",
+    excerpt:
+      "Is tipping expected for removalists in Australia? Here's the honest answer, and the etiquette that actually matters more.",
+    keyword: "do you tip removalists in australia",
+    category: "Guides",
+    date: "2026-07-12",
+    updated: "2026-07-12",
+    readMins: 3,
+    faqs: [
+      {
+        question: "Is tipping expected for removalists in Australia?",
+        answer:
+          "No — tipping isn't a standard expectation in Australia the way it can be in the US. It's genuinely optional and appreciated for exceptional service, but a crew won't expect it and won't think less of you for not tipping.",
+      },
+      {
+        question: "How much should I tip removalists if I want to?",
+        answer:
+          "There's no fixed rule, but $20–$50 per crew member for a job that went particularly well is a common range if you choose to tip. Splitting it evenly among the crew, handed to the team lead, is the simplest approach.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          No — tipping isn't a standard expectation for removalists in Australia, unlike in the US. It's
+          genuinely optional. That said, there's real etiquette that matters more than a tip on moving day,
+          and it's worth knowing.
+        </p>
+
+        <h2>Is tipping expected?</h2>
+        <p>
+          Not as a rule. Removalist pricing in Australia is built around the job, not a tip-supplemented
+          wage — a crew turns up expecting to be paid what was quoted, nothing more. A tip for genuinely
+          exceptional service (careful with something fragile, handled a tricky staircase well, finished
+          faster than expected) is always appreciated, never expected.
+        </p>
+
+        <h2>The genuinely Australian custom: offer a cup of tea</h2>
+        <p>
+          More than tipping, offering the crew tea, coffee or cold water on a hot day is the actual local
+          custom — small, genuinely appreciated, and costs nothing. A moving day is physical work over
+          several hours; a drink offered partway through goes a long way.
+        </p>
+
+        <h2>Other etiquette that actually matters</h2>
+        <ul>
+          <li>
+            <strong>Clear the path before the crew arrives.</strong>{" "}Hallways and driveways free of
+            obstacles means the job starts moving items, not moving things out of the way first.
+          </li>
+          <li>
+            <strong>Be present (or reachable) at the start.</strong>{" "}Someone needs to point out what's
+            moving vs staying, and flag anything fragile or special before boxes start loading.
+          </li>
+          <li>
+            <strong>Flag access issues ahead of time, not on the day.</strong>{" "}Steep driveways, narrow
+            gates or a loading dock booking window — mentioned when you book, not discovered by the crew
+            when they arrive.
+          </li>
+          <li>
+            <strong>Keep kids and pets managed elsewhere.</strong>{" "}Not about manners so much as safety —
+            see our{" "}
+            <Link href="/blog/moving-with-kids-managing-the-chaos">moving with kids guide</Link>{" "}for
+            more on this.
+          </li>
+        </ul>
+
+        <h2>If you do want to tip</h2>
+        <p>
+          There's no fixed rule, but $20–$50 per crew member for a job that went particularly well is a
+          common range. Handing it to the team lead to split is simpler than trying to give it to each
+          person individually.
+        </p>
+
+        <p>
+          None of this is required to get a great result — it's just what makes a moving day genuinely
+          smooth for everyone involved. <Link href="/#quote">Get a fixed quote</Link>{" "}and we'll handle
+          the rest professionally either way.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "storm-season-moving-brisbane-wet-weather",
+    artIcon: "cloud",
+    title: "Storm Season and Your Move: Planning Around Brisbane's Wet Season",
+    metaTitle: "Moving House in Brisbane's Wet Season — What to Know",
+    description:
+      "Storm season doesn't have to delay your move. Here's how Brisbane and Gold Coast removalists plan around wet weather, and what to do to protect your belongings.",
+    excerpt:
+      "Storm season doesn't have to derail moving day. Here's how it's actually handled, and how to protect your things either way.",
+    keyword: "moving house wet season brisbane",
+    category: "Guides",
+    date: "2026-07-12",
+    updated: "2026-07-12",
+    readMins: 4,
+    faqs: [
+      {
+        question: "Can you move house in the rain in Brisbane?",
+        answer:
+          "Yes — a professional crew moves in the rain regularly during SEQ's November–April storm season. Furniture gets wrapped and protected regardless of weather, and trucks are loaded to keep boxes dry. Only genuinely severe weather (storm warnings, dangerous conditions) would delay a booking.",
+      },
+      {
+        question: "What's Brisbane's storm season and does it affect moving bookings?",
+        answer:
+          "Storm season runs roughly November to April, with the heaviest rain typically January–March. It doesn't reduce booking availability — it's simply planned around with extra protective wrapping and a flexible eye on the forecast for the day itself.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          Storm season in South-East Queensland runs roughly November to April — and no, it doesn't mean
+          you should delay a move. It means planning around wet weather properly, which is a routine part
+          of moving in this climate, not a reason to reschedule.
+        </p>
+
+        <h2>What actually changes when it's wet</h2>
+        <ul>
+          <li>
+            <strong>Extra plastic wrapping on upholstery and mattresses.</strong>{" "}Standard practice
+            during storm season regardless of the forecast that morning — better protected than not.
+          </li>
+          <li>
+            <strong>Walkways get covered or timed carefully.</strong>{" "}Tarps over the path between house
+            and truck when rain is genuinely falling during the load.
+          </li>
+          <li>
+            <strong>Boxes get loaded to stay dry, not just stacked efficiently.</strong>{" "}Priority goes to
+            keeping anything cardboard away from open truck edges.
+          </li>
+        </ul>
+
+        <h2>What to do on your end</h2>
+        <ol>
+          <li>
+            <strong>Check your street for flood risk.</strong>{" "}Some streets genuinely flood in heavy
+            downpours — worth knowing ahead of time if you're on one (see our{" "}
+            <Link href="/blog/best-worst-streets-for-a-moving-truck-brisbane">
+              guide to Brisbane's trickier streets
+            </Link>{" "}for access-related issues generally).
+          </li>
+          <li>
+            <strong>Have a dry entry point ready.</strong>{" "}A garage, carport or covered porch to move
+            boxes through rather than straight into open weather.
+          </li>
+          <li>
+            <strong>Keep valuables and electronics in your own car, not the truck.</strong>{" "}Simple
+            insurance against any weather-related risk, storm season or not.
+          </li>
+        </ol>
+
+        <h2>When would a booking actually be affected?</h2>
+        <p>
+          Genuinely severe weather — an active storm warning, dangerous wind, or flooding that makes roads
+          impassable — is the only thing that would move a booking, and that's a safety call, not a
+          convenience one. Regular rain, even heavy rain, is planned around as routine.
+        </p>
+
+        <h2>Timing your move around the season</h2>
+        <p>
+          If you have flexibility, our{" "}
+          <Link href="/blog/best-time-to-move-house-brisbane-gold-coast">best time to move guide</Link>{" "}
+          covers month-by-month timing in more detail. But if storm season lines up with when you actually
+          need to move, don't let it hold you back — it's genuinely business as usual for a crew that
+          moves in this climate every week of the year.{" "}
+          <Link href="/#quote">Get a fixed quote</Link>{" "}regardless of the forecast.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "moving-a-home-office-or-gym-setup",
+    artIcon: "monitor",
+    title: "Moving a Home Office or Home Gym Setup",
+    metaTitle: "Moving Home Office & Home Gym Equipment — What to Know",
+    description:
+      "Desks, monitors, and home gym equipment need different handling to standard furniture. Here's how to pack and move them without damage or a chiropractor visit.",
+    excerpt:
+      "Home offices and home gyms need different handling to standard furniture. Here's how to move both without damage.",
+    keyword: "moving home office equipment",
+    category: "Guides",
+    date: "2026-07-12",
+    updated: "2026-07-12",
+    readMins: 4,
+    body: (
+      <>
+        <p>
+          Home offices and home gyms have both become standard parts of the modern house move — and both
+          need handling that's genuinely different to a normal lounge room. Here's what actually matters
+          for each.
+        </p>
+
+        <h2>Moving a home office</h2>
+        <ul>
+          <li>
+            <strong>Label cables before disconnecting anything.</strong>{" "}A phone photo of the setup plus
+            masking tape labels on each cable saves a genuinely frustrating reassembly puzzle later.
+          </li>
+          <li>
+            <strong>Monitors travel upright, in their original box if you kept it.</strong>{" "}No original
+            box, no problem — bubble wrap around the screen and a snug fit in a box sized correctly (see
+            our{" "}
+            <Link href="/blog/how-to-pack-boxes-properly">box-size guide</Link>{" "}for matching box to
+            item).
+          </li>
+          <li>
+            <strong>Small components go in one clearly labelled box.</strong>{" "}Chargers, mice, cables,
+            adapters — scattered across three boxes is how half of them go missing.
+          </li>
+          <li>
+            <strong>Ergonomic chairs need padding at the base and armrests.</strong>{" "}The mechanisms
+            underneath are more fragile than they look.
+          </li>
+        </ul>
+
+        <h2>Moving a home gym</h2>
+        <ul>
+          <li>
+            <strong>Weight plates are dense — small box rule applies.</strong>{" "}A "small" amount of
+            weight plates is genuinely heavy; box them the same way you'd box books, not linen.
+          </li>
+          <li>
+            <strong>Dismantle large equipment where possible.</strong>{" "}Racks, benches and larger machines
+            usually break down into flat-packable pieces — check the original assembly instructions if you
+            still have them.
+          </li>
+          <li>
+            <strong>Protect upholstered benches like furniture, not gym gear.</strong>{" "}Blanket-wrapped the
+            same way a sofa would be — see our{" "}
+            <Link href="/blog/how-to-wrap-furniture-properly">guide to wrapping furniture properly</Link>.
+          </li>
+          <li>
+            <strong>Heavy equipment needs a genuine weight estimate given to your removalist.</strong>{" "}
+            A loaded barbell rack or a treadmill is a two-person lift minimum — flag it ahead of time.
+          </li>
+        </ul>
+
+        <h2>Why this is worth mentioning when you book</h2>
+        <p>
+          A home office setup and a home gym both change what a crew needs to bring — extra care for
+          electronics, extra hands for genuinely heavy equipment. Mentioning either when you book means the
+          right crew size and the right protective gear turn up, instead of being figured out on the day.
+        </p>
+
+        <p>
+          Setting up a home office as part of a business move too? Our{" "}
+          <Link href="/services/office-relocations">office relocations service</Link>{" "}covers exactly
+          this. <Link href="/#quote">Get a fixed quote</Link>{" "}and mention what you're bringing.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "strata-body-corporate-move-in-rules-gold-coast",
+    artIcon: "shield",
+    title: "Strata & Body Corporate Move-In Rules on the Gold Coast",
+    metaTitle: "Gold Coast Apartment Move-In Rules — Strata & Body Corporate",
+    description:
+      "Gold Coast high-rises almost always have move-in requirements — lift bookings, certificates of currency, and move-in fees. Here's what to sort out before moving day.",
+    excerpt:
+      "Most Gold Coast apartment buildings have move-in rules that catch new residents off guard. Here's what to sort out ahead of time.",
+    keyword: "gold coast apartment move in rules body corporate",
+    category: "Guides",
+    date: "2026-07-12",
+    updated: "2026-07-12",
+    readMins: 4,
+    faqs: [
+      {
+        question: "Do Gold Coast apartments require a certificate of currency for movers?",
+        answer:
+          "Many strata-managed buildings do — a certificate of currency (COI) is proof of your removalist's insurance, and body corporate management typically wants it submitted a few days before moving day, not on the day itself.",
+      },
+      {
+        question: "How far ahead should I book a lift for moving in a Gold Coast high-rise?",
+        answer:
+          "1–2 weeks ahead is typical for booking a building's lift or loading dock time slot, separate from booking your removalist. Popular buildings and weekend slots fill up faster, so earlier is safer if you have a fixed move date.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          Most Gold Coast high-rises have move-in requirements that catch new residents off guard — not
+          because they're complicated, just because nobody mentions them until moving week. Here's what to
+          sort out ahead of time.
+        </p>
+
+        <h2>The certificate of currency (COI)</h2>
+        <p>
+          Many strata-managed buildings require proof of your removalist's insurance before they'll allow
+          the lift or loading dock to be used — this is the certificate of currency. It's a standard
+          document any legitimate removalist can provide (see our{" "}
+          <Link href="/blog/removalist-insurance-explained">insurance explained guide</Link>{" "}for what
+          that cover actually includes), but building management usually wants it submitted a few days
+          ahead, not handed over on the day.
+        </p>
+
+        <h2>Booking the lift or loading dock</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Typical timing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Book removalist</td>
+              <td>2–4 weeks ahead (see our notice guide)</td>
+            </tr>
+            <tr>
+              <td>Submit COI to building management</td>
+              <td>3–5 business days before move</td>
+            </tr>
+            <tr>
+              <td>Book lift/loading dock time slot</td>
+              <td>1–2 weeks ahead — popular buildings fill up faster</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Move-in fees and bonds</h2>
+        <p>
+          Many buildings charge a move-in fee, and some hold a refundable bond against damage to common
+          areas (lifts, corridors, walls) during the move. Check with your building manager or the
+          property listing — these vary a lot between buildings and aren't something a removalist can tell
+          you, since it's set by each individual strata scheme.
+        </p>
+
+        <h2>What happens if you skip this</h2>
+        <p>
+          Turning up without a booked lift slot or a submitted COI is the single most common cause of
+          delays on Gold Coast apartment moves — not because the move itself is hard, but because building
+          security won't release the lift without the paperwork sorted. A quick call to building management
+          when you get your move date locked in avoids this entirely.
+        </p>
+
+        <p>
+          Moving into (or out of) a Gold Coast apartment? Our{" "}
+          <Link href="/blog/apartment-moving-checklist-brisbane-gold-coast">apartment moving checklist</Link>{" "}
+          covers the rest of the logistics, and{" "}
+          <Link href="/#quote">a fixed quote</Link>{" "}includes providing your COI as standard, no extra
+          admin on your end.
+        </p>
+      </>
+    ),
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {

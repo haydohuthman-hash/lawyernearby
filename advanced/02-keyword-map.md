@@ -72,6 +72,12 @@ duplicate content on the same term.
 | renting vs buying gold coast | `/blog/renting-vs-buying-gold-coast`. Top-of-funnel
   lifestyle content, not a competing service page — softly links back into the
   suburb guide and corridor service. |
+| what size moving truck do i need | `/blog/how-to-choose-the-right-size-moving-truck` |
+| how to move sustainably / reduce moving waste | `/blog/moving-sustainably-cutting-landfill-waste` |
+| do you tip removalists in australia | `/blog/removalist-etiquette-tipping-and-what-to-expect` |
+| moving house wet season brisbane | `/blog/storm-season-moving-brisbane-wet-weather` |
+| moving home office / home gym equipment | `/blog/moving-a-home-office-or-gym-setup` |
+| gold coast apartment move in rules / body corporate | `/blog/strata-body-corporate-move-in-rules-gold-coast` |
 
 ## Urgency intent
 
