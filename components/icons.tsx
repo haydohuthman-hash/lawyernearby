@@ -248,3 +248,45 @@ export function RoadIcon({ className }: { className?: string }) {
     </svg>
   );
 }
+
+export function LeafIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M5 19c-1-6 1.5-13 14-14 1 12.5-6 15-14 14Z"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinejoin="round"
+      />
+      <path d="M6 18c3-4 6.5-7 12.5-12" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function CloudRainIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M6.5 15a4 4 0 0 1 .5-8 5.5 5.5 0 0 1 10.6 1A3.5 3.5 0 0 1 17 15H6.5Z"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M8 18.5 7 21M12.5 18.5 11.5 21M17 18.5 16 21"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function MonitorIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="3" y="4.5" width="18" height="12" rx="1.2" stroke="currentColor" strokeWidth="1.4" />
+      <path d="M9 20.5h6M12 16.5v4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+    </svg>
+  );
+}
