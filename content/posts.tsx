@@ -111,9 +111,11 @@ export const POSTS: BlogPost[] = [
         </p>
         <h3>2. Distance along the corridor</h3>
         <p>
-          A move from New Farm to Broadbeach covers different ground than Chermside to Coolangatta. Distance is
-          built into your quote, but on this corridor it&apos;s a predictable 75–95 minute run each way, not an
-          interstate haul.
+          A move from <Link href="/removalists/new-farm">New Farm</Link> to{" "}
+          <Link href="/removalists/broadbeach">Broadbeach</Link> covers different ground than{" "}
+          <Link href="/removalists/chermside">Chermside</Link> to{" "}
+          <Link href="/removalists/coolangatta">Coolangatta</Link>. Distance is built into your quote, but
+          on this corridor it&apos;s a predictable 75–95 minute run each way, not an interstate haul.
         </p>
         <h3>3. Access at both ends</h3>
         <p>
@@ -290,47 +292,70 @@ export const POSTS: BlogPost[] = [
         </p>
         <ul>
           <li>
-            <strong>Robina</strong> — master-planned, great schools, hospital, shopping and train station.
-            The reliable family all-rounder.
+            <strong>
+              <Link href="/removalists/robina">Robina</Link>
+            </strong>{" "}
+            — master-planned, great schools, hospital, shopping and train station. The reliable family
+            all-rounder.
           </li>
           <li>
-            <strong>Varsity Lakes</strong> — waterways, parks and Bond University nearby; popular with young
-            families and professionals.
+            <strong>
+              <Link href="/removalists/varsity-lakes">Varsity Lakes</Link>
+            </strong>{" "}
+            — waterways, parks and Bond University nearby; popular with young families and professionals.
           </li>
           <li>
-            <strong>Helensvale &amp; Coomera</strong> — the northern growth corridor, newer homes, and the
-            easiest run back up to Brisbane on the M1 and train line.
+            <strong>
+              <Link href="/removalists/helensvale">Helensvale</Link> &amp;{" "}
+              <Link href="/removalists/coomera">Coomera</Link>
+            </strong>{" "}
+            — the northern growth corridor, newer homes, and the easiest run back up to Brisbane on the M1
+            and train line.
           </li>
         </ul>
 
         <h2>If you&apos;re a professional or couple</h2>
         <ul>
           <li>
-            <strong>Broadbeach</strong> — walkable, dining and cafe culture, beach at your door, and a more
-            grown-up feel than Surfers.
+            <strong>
+              <Link href="/removalists/broadbeach">Broadbeach</Link>
+            </strong>{" "}
+            — walkable, dining and cafe culture, beach at your door, and a more grown-up feel than Surfers.
           </li>
           <li>
-            <strong>Burleigh Heads</strong> — the it-suburb: beach, national park, buzzing food scene. In high
-            demand, so move quickly when something comes up.
+            <strong>
+              <Link href="/removalists/burleigh-heads">Burleigh Heads</Link>
+            </strong>{" "}
+            — the it-suburb: beach, national park, buzzing food scene. In high demand, so move quickly
+            when something comes up.
           </li>
           <li>
-            <strong>Mermaid Beach &amp; Nobby Beach</strong> — quieter, stylish, and a short hop to everything.
+            <strong>
+              <Link href="/removalists/mermaid-beach">Mermaid Beach</Link> &amp; Nobby Beach
+            </strong>{" "}
+            — quieter, stylish, and a short hop to everything.
           </li>
         </ul>
 
         <h2>If you&apos;re after the beach lifestyle</h2>
         <ul>
           <li>
-            <strong>Palm Beach</strong> — long stretch of sand, relaxed, family-and-surf friendly, still
-            improving fast.
+            <strong>
+              <Link href="/removalists/palm-beach">Palm Beach</Link>
+            </strong>{" "}
+            — long stretch of sand, relaxed, family-and-surf friendly, still improving fast.
           </li>
           <li>
-            <strong>Currumbin &amp; Tugun</strong> — southern, laid-back, close to the airport and the NSW
-            border.
+            <strong>
+              <Link href="/removalists/currumbin">Currumbin</Link> &amp; <Link href="/removalists/tugun">Tugun</Link>
+            </strong>{" "}
+            — southern, laid-back, close to the airport and the NSW border.
           </li>
           <li>
-            <strong>Main Beach</strong> — polished and central, marina lifestyle, walk to Surfers without being
-            in the middle of it.
+            <strong>
+              <Link href="/removalists/main-beach">Main Beach</Link>
+            </strong>{" "}
+            — polished and central, marina lifestyle, walk to Surfers without being in the middle of it.
           </li>
         </ul>
 
@@ -348,16 +373,20 @@ export const POSTS: BlogPost[] = [
         <h2>A few things Brisbane movers should know</h2>
         <ul>
           <li>
-            <strong>The commute back to Brisbane</strong> is very doable from the northern suburbs (Coomera,
-            Helensvale) via the M1 and train — worth weighing if you&apos;ll still travel up for work.
+            <strong>The commute back to Brisbane</strong> is very doable from the northern suburbs (
+            <Link href="/removalists/coomera">Coomera</Link>,{" "}
+            <Link href="/removalists/helensvale">Helensvale</Link>) via the M1 and train — worth weighing
+            if you&apos;ll still travel up for work.
           </li>
           <li>
             <strong>Apartment living is different here.</strong> Many Gold Coast towers require lift bookings
             and move-in time slots — factor that into moving day.
           </li>
           <li>
-            <strong>Beachside suburbs move fast.</strong> Good rentals and listings in Burleigh and Broadbeach
-            don&apos;t last, so line up your removalist early so you can commit when the right place appears.
+            <strong>Beachside suburbs move fast.</strong> Good rentals and listings in{" "}
+            <Link href="/removalists/burleigh-heads">Burleigh</Link> and{" "}
+            <Link href="/removalists/broadbeach">Broadbeach</Link> don&apos;t last, so line up your
+            removalist early so you can commit when the right place appears.
           </li>
         </ul>
 
@@ -610,9 +639,11 @@ export const POSTS: BlogPost[] = [
         <h2>The demand calendar</h2>
         <h3>Peak: December – January</h3>
         <p>
-          School holidays, lease turnovers and the new-year fresh start collide. Beach suburbs like
-          Burleigh and Palm Beach are at their busiest, trucks book out weeks ahead, and everyone wants
-          the same Saturdays. If you must move now, book 3–4 weeks out and take a weekday if you can.
+          School holidays, lease turnovers and the new-year fresh start collide. Beach suburbs like{" "}
+          <Link href="/removalists/burleigh-heads">Burleigh</Link> and{" "}
+          <Link href="/removalists/palm-beach">Palm Beach</Link> are at their busiest, trucks book out
+          weeks ahead, and everyone wants the same Saturdays. If you must move now, book 3–4 weeks out and
+          take a weekday if you can.
         </p>
         <h3>Busy: end of every month + all Saturdays</h3>
         <p>
