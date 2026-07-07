@@ -45,6 +45,9 @@ export const metadata: Metadata = {
       "Premium moving and rubbish removal services with fixed prices and no hourly surprises.",
     images: [OG_IMAGE],
   },
+  ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION
+    ? { verification: { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION } }
+    : {}),
 };
 
 export default function RootLayout({

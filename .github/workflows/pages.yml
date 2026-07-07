@@ -53,6 +53,7 @@ jobs:
           BASE_PATH: ${{ steps.domain.outputs.base_path }}
           NEXT_PUBLIC_SITE_URL: ${{ steps.domain.outputs.site_url }}
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ vars.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
+          NEXT_PUBLIC_GSC_VERIFICATION: ${{ vars.NEXT_PUBLIC_GSC_VERIFICATION }}
 
       - run: touch out/.nojekyll
 
