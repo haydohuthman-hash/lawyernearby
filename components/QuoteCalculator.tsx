@@ -116,6 +116,11 @@ export default function QuoteCalculator() {
 
     if (typeof window !== "undefined") {
       window.location.href = `mailto:hello@residencerelocations.com.au?subject=${subject}&body=${body}`;
+      window.gtag?.("event", "generate_lead", {
+        value: estimatedPrice,
+        currency: "AUD",
+        service_type: serviceType,
+      });
     }
     setSubmitted(true);
   }

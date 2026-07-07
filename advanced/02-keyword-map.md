@@ -66,6 +66,12 @@ duplicate content on the same term.
 | garage sale before moving / declutter for cash | `/blog/garage-sale-guide-before-you-move` |
 | removalist insurance / what's covered | `/blog/removalist-insurance-explained` |
 | moving house with kids | `/blog/moving-with-kids-managing-the-chaos` |
+| how much notice do removalists need / booking timeline | `/blog/how-much-notice-do-removalists-need` |
+| office fit out waste / what to donate vs bin | `/blog/office-fit-out-waste-guide` |
+| brisbane streets moving truck access | `/blog/best-worst-streets-for-a-moving-truck-brisbane` |
+| renting vs buying gold coast | `/blog/renting-vs-buying-gold-coast`. Top-of-funnel
+  lifestyle content, not a competing service page — softly links back into the
+  suburb guide and corridor service. |
 
 ## Urgency intent
 

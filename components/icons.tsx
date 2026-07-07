@@ -219,3 +219,32 @@ export function TagIcon({ className }: { className?: string }) {
     </svg>
   );
 }
+
+export function KeyIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="7.5" cy="14.5" r="4" stroke="currentColor" strokeWidth="1.4" />
+      <path
+        d="M10.5 11.5 19 3M16.5 6l2.5 2.5M14 8.5 16 10.5"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function RoadIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M9 3 4 21M15 3l5 18" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+      <path
+        d="M11.2 9.5h1.6M10.4 14h3.2M9.6 18.5h4.8"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}

@@ -14,6 +14,8 @@ import {
   PawIcon,
   CalendarIcon,
   TagIcon,
+  KeyIcon,
+  RoadIcon,
 } from "./icons";
 
 const ICONS = {
@@ -32,6 +34,8 @@ const ICONS = {
   paw: PawIcon,
   calendar: CalendarIcon,
   tag: TagIcon,
+  key: KeyIcon,
+  road: RoadIcon,
 } as const;
 
 export type ArtIcon = keyof typeof ICONS;

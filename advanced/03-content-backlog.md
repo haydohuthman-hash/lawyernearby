@@ -3,7 +3,7 @@
 Status key: ✅ published · 🟡 writing now · ⬜ planned · 🧊 parked (needs something
 we don't have yet, e.g. real customer anecdotes or a new service page)
 
-## Published (27 posts as of this doc)
+## Published (31 posts as of this doc)
 
 ✅ How Much Do Removalists Cost Brisbane to Gold Coast?
 ✅ The Ultimate Brisbane to Gold Coast Moving Checklist
@@ -46,22 +46,37 @@ timing/pricing/promotion, links to the downsizing checklist and rubbish removal.
 transit cover, what's typically excluded (self-packed boxes), questions to ask.
 ✅ Moving With Kids: Keeping the Chaos Manageable — first-night box, routine,
 moving-day supervision, age-appropriate involvement.
+✅ Renting vs Buying on the Gold Coast — top-of-funnel lifestyle content, honest
+rent-first-to-learn-the-area framing, links back into the suburb guide.
+✅ A Guide to Brisbane's Best (and Worst) Streets for a Moving Truck — fun +
+genuinely useful local-knowledge piece on real access issues (steep driveways,
+loading dock booking windows, permit zones).
+✅ How Much Notice Do Removalists Actually Need? — the planning-ahead
+counterpart to the last-minute post, with a by-season notice table.
+✅ Office Fit-Out Waste: What Counts as Rubbish vs What to Donate — sorts
+donate/recycle/e-waste/general rubbish for office clear-outs.
 
-All posts (existing + new) now carry an `artIcon` field rendering a graphic
-header treatment (gradient + line icon, see `components/PostArt.tsx`) in place
-of a photo — image-generation credits are currently depleted, so this is the
-interim visual solution. Revisit once credits are topped up if photographic
-imagery becomes worth the cost.
+All posts now carry an `artIcon` field rendering a graphic header treatment
+(gradient + line icon, see `components/PostArt.tsx`) in place of a photo —
+image-generation credits are currently depleted, so this is the interim visual
+solution. Revisit once credits are topped up if photographic imagery becomes
+worth the cost.
 
 ## Planned (next rounds)
 
-⬜ Renting vs Buying on the Gold Coast (broader lifestyle content, top-of-funnel,
-  softly links back to moving services)
-⬜ A Guide to Brisbane's Best (and Worst) Streets for a Moving Truck (fun + genuinely
-  useful local-knowledge piece)
-⬜ How Much Notice Do Removalists Actually Need? (expands on last-minute post from
-  the opposite angle — planning ahead)
-⬜ Office Fit-Out Waste: What Counts as Rubbish vs What to Donate
+⬜ How to Choose the Right Size Moving Truck (practical companion to the
+  pack-a-truck post — ute vs 4t vs 8t vs full semi, by home size)
+⬜ Moving Sustainably: Cutting Landfill Waste From Your Move (ties together the
+  garage sale, downsizing, and office waste posts under one sustainability angle)
+⬜ Removalist Etiquette: Tipping, Tea and What's Actually Expected (fun,
+  genuinely useful direct-answer piece — AEO-friendly "is tipping expected"
+  question format)
+⬜ Storm Season and Your Move: Planning Around Brisbane's Wet Season (seasonal
+  companion to the best-time-to-move post, practical wet-weather moving-day tips)
+⬜ Moving a Home Office or Gym Setup (desks, monitors, home gym equipment — a
+  growing WFH-era search niche, ties to office relocations service)
+⬜ Strata & Body Corporate Move-In Rules on the Gold Coast (lift bookings,
+  COI requirements, move-in fees — genuinely useful for apartment movers)
 
 ## Parked (need something first)
 

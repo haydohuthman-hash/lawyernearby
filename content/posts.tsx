@@ -2757,6 +2757,379 @@ export const POSTS: BlogPost[] = [
       </>
     ),
   },
+  {
+    slug: "renting-vs-buying-gold-coast",
+    artIcon: "key",
+    title: "Renting vs Buying on the Gold Coast: What Actually Makes Sense",
+    metaTitle: "Renting vs Buying on the Gold Coast — 2026 Guide",
+    description:
+      "Thinking about a move to the Gold Coast? Here's an honest look at renting vs buying — the real costs, the suburbs where each makes more sense, and questions to answer before deciding.",
+    excerpt:
+      "Moving to the Gold Coast doesn't mean you have to buy straight away. Here's how to actually decide between renting and buying.",
+    keyword: "renting vs buying gold coast",
+    category: "Guides",
+    date: "2026-07-11",
+    updated: "2026-07-11",
+    readMins: 5,
+    faqs: [
+      {
+        question: "Is it better to rent or buy on the Gold Coast?",
+        answer:
+          "It depends on how long you're planning to stay and how certain you are about which suburb suits you. Renting for 6–12 months first lets you learn the area — traffic patterns, flood zones, noise, commute reality — before committing to a purchase in the wrong pocket of the coast.",
+      },
+      {
+        question: "How long should I rent before buying on the Gold Coast?",
+        answer:
+          "Six to twelve months is common for people relocating from Brisbane or interstate — long enough to experience a full season (including a wet-season test of drainage and flood-prone streets) before locking in a suburb with a purchase.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          If you're relocating to the Gold Coast rather than having grown up here, the honest answer is:
+          you don't have to decide between renting and buying before you move — and rushing that decision
+          is one of the more expensive mistakes new arrivals make.
+        </p>
+
+        <h2>The case for renting first</h2>
+        <ul>
+          <li>
+            <strong>You learn the area properly.</strong>{" "}Suburbs that look great on a real estate
+            listing can be a nightmare commute at 7:45am, or backed onto a flood-prone canal that only
+            shows up in a wet-season downpour.
+          </li>
+          <li>
+            <strong>Flexibility while you settle work and school.</strong>{" "}A 6–12 month lease gives room
+            to change your mind about which side of the M1 actually suits your commute once you're living
+            it, not just mapping it.
+          </li>
+          <li>
+            <strong>No stamp duty, no settlement risk.</strong>{" "}Renting means no six-figure decision made
+            under time pressure from a competitive market.
+          </li>
+        </ul>
+
+        <h2>The case for buying sooner</h2>
+        <ul>
+          <li>
+            <strong>You already know the area.</strong>{" "}If you've holidayed on the coast for years or
+            have family here, the "learn the suburb" argument carries less weight.
+          </li>
+          <li>
+            <strong>Market timing and certainty.</strong>{" "}In a rising market, waiting a year to "be sure"
+            can cost more in price growth than a year of rent would have.
+          </li>
+          <li>
+            <strong>You're not planning to move again soon.</strong>{" "}Buying makes more sense the longer
+            you're certain you'll stay put — the transaction costs of buying and selling within 2–3 years
+            rarely pay off.
+          </li>
+        </ul>
+
+        <h2>Questions worth answering before you decide</h2>
+        <ol>
+          <li>How certain are you about which suburb — beachside, hinterland, or somewhere between?</li>
+          <li>Have you experienced the area in both dry season and wet season?</li>
+          <li>Is your work situation (WFH, office days, school zones) settled enough to commit to a location?</li>
+          <li>Would a bad suburb choice cost more to undo by renting again, or by selling and rebuying?</li>
+        </ol>
+
+        <h2>Whichever you choose, the move itself works the same way</h2>
+        <p>
+          Renting or buying, the actual move from Brisbane is identical logistically — same corridor, same
+          truck, same fixed-price model. Our{" "}
+          <Link href="/blog/moving-to-the-gold-coast-from-brisbane-suburb-guide">
+            suburb-by-suburb Gold Coast guide
+          </Link>{" "}is a good next read if you're still narrowing down where. When you're ready,{" "}
+          <Link href="/#quote">get a fixed quote</Link>{" "}for the{" "}
+          <Link href="/removalists-brisbane-to-gold-coast">Brisbane to Gold Coast corridor</Link>.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "best-worst-streets-for-a-moving-truck-brisbane",
+    artIcon: "road",
+    title: "A Guide to Brisbane's Best (and Worst) Streets for a Moving Truck",
+    metaTitle: "Brisbane's Best & Worst Streets for a Moving Truck",
+    description:
+      "Which Brisbane streets make moving day easy, and which ones turn it into a puzzle — steep Queenslander driveways, narrow inner-city lanes, and the access issues worth planning around.",
+    excerpt:
+      "Some Brisbane streets are a moving day dream. Others turn a simple job into a three-point-turn puzzle. Here's what actually causes the trouble.",
+    keyword: "brisbane streets moving truck access",
+    category: "Guides",
+    date: "2026-07-11",
+    updated: "2026-07-11",
+    readMins: 4,
+    body: (
+      <>
+        <p>
+          Every Brisbane removalist has a mental list of streets that make a job easy and streets that make
+          a crew's heart sink a little on the drive over. It's rarely about distance — it's about access.
+          Here's what actually causes the trouble, suburb by suburb.
+        </p>
+
+        <h2>What actually makes a street hard to move on</h2>
+        <ul>
+          <li>
+            <strong>Steep, narrow driveways.</strong>{" "}Classic Queenslander blocks in suburbs like
+            Paddington and Red Hill often have driveways cut into a hillside — fine for a car, tight for a
+            truck with a wide turning circle.
+          </li>
+          <li>
+            <strong>No truck parking directly out front.</strong>{" "}Inner-city terrace streets (parts of
+            New Farm, West End) sometimes mean parking half a block away and carrying everything further
+            than the quote assumed.
+          </li>
+          <li>
+            <strong>Council permit zones.</strong>{" "}Some inner-city streets require a temporary parking
+            permit for a truck over a certain size — worth checking with your local council if you're on a
+            permit-zoned street.
+          </li>
+          <li>
+            <strong>Body corporate loading dock booking windows.</strong>{" "}High-rise apartment streets on
+            the river (New Farm, Kangaroo Point, South Bank) often require the building's loading dock
+            booked in a specific time slot — turn up outside it and you're waiting, not moving.
+          </li>
+        </ul>
+
+        <h2>Suburbs that are genuinely easy</h2>
+        <p>
+          Newer suburbs with wide, straight streets and double garages — much of the outer south and
+          western corridors, and newer Gold Coast estates — are about as simple as moving day gets. Wide
+          driveways, easy truck parking, no permits, no steep pitches.
+        </p>
+
+        <h2>Suburbs where it pays to plan ahead</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Suburb type</th>
+              <th>What to plan for</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hillside Queenslander streets (Paddington, Red Hill, Bardon)</td>
+              <td>Steep driveways, narrow street width — confirm truck access when booking</td>
+            </tr>
+            <tr>
+              <td>Inner-city terrace streets (parts of New Farm, West End)</td>
+              <td>Limited direct parking — factor in a longer carry distance</td>
+            </tr>
+            <tr>
+              <td>High-rise apartment blocks (Kangaroo Point, South Bank)</td>
+              <td>Loading dock booking window — book this before moving day, not on it</td>
+            </tr>
+            <tr>
+              <td>Permit-zoned inner-city streets</td>
+              <td>Check with council for a temporary truck parking permit if required</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>The fix is always the same: tell us before moving day</h2>
+        <p>
+          None of these are actually problems — they're just things a crew plans for when they know about
+          them ahead of time. A quick note about stairs, steep driveways, or a loading dock booking window
+          when you book means the right size truck and the right crew turn up, instead of discovering it on
+          the day.
+        </p>
+
+        <p>
+          Moving from one of Brisbane's trickier streets, or just want a fixed price regardless?{" "}
+          <Link href="/#quote">Get a fixed quote</Link>{" "}and mention any access quirks — we plan around
+          them, not around surprises.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "how-much-notice-do-removalists-need",
+    artIcon: "calendar",
+    title: "How Much Notice Do Removalists Actually Need?",
+    metaTitle: "How Much Notice Do Removalists Need? — Booking Timeline Guide",
+    description:
+      "The honest answer on how far ahead to book a removalist — by season, by home size, and what actually happens if you leave it later than ideal.",
+    excerpt:
+      "Booking early gets you the best date and price. Here's exactly how much notice actually matters, and when.",
+    keyword: "how much notice do removalists need",
+    category: "Guides",
+    date: "2026-07-11",
+    updated: "2026-07-11",
+    readMins: 4,
+    faqs: [
+      {
+        question: "How far in advance should I book a removalist?",
+        answer:
+          "2–4 weeks ahead is comfortable for most moves. During peak periods (school holidays, end/start of month, summer) 4–6 weeks gives you the best choice of dates. Less notice is often still workable — see our last-minute removalists guide — but your preferred date and time slot narrows the closer you get.",
+      },
+      {
+        question: "What's the busiest time of year to book a removalist in Brisbane and the Gold Coast?",
+        answer:
+          "The end and start of each month are consistently busiest (lease turnover dates), with December–February the busiest season overall due to school holidays and warmer weather. Booking 4–6 weeks ahead during these windows is worth the extra planning.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          The honest answer: 2–4 weeks ahead is comfortable for most moves, and 4–6 weeks is worth aiming
+          for if you're moving during a busy period. Here's how that breaks down and what actually happens
+          if you're booking later than that.
+        </p>
+
+        <h2>The general rule, by timing</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Notice given</th>
+              <th>What to expect</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>4–6 weeks</td>
+              <td>Full choice of date and time slot, best rate visibility, no rush</td>
+            </tr>
+            <tr>
+              <td>2–4 weeks</td>
+              <td>Comfortable for most moves — good availability outside peak periods</td>
+            </tr>
+            <tr>
+              <td>1–2 weeks</td>
+              <td>Still workable most of the year — fewer time-slot options</td>
+            </tr>
+            <tr>
+              <td>Under a week</td>
+              <td>
+                Often possible — see our{" "}
+                <Link href="/blog/last-minute-removalists-brisbane">last-minute removalists guide</Link>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>What actually makes a date "busy"</h2>
+        <ul>
+          <li>
+            <strong>End and start of each month.</strong>{" "}Most leases turn over on the 1st, so the last
+            weekend of the month and the first few days of the next are consistently the busiest across
+            every removalist in Brisbane and the Gold Coast.
+          </li>
+          <li>
+            <strong>School holidays.</strong>{" "}Families time moves around the school calendar wherever
+            possible, tightening availability in those windows.
+          </li>
+          <li>
+            <strong>Summer (December–February).</strong>{" "}The busiest season overall — better weather,
+            school holidays, and end-of-year lease timing all stack up together.
+          </li>
+        </ul>
+
+        <h2>If you can be flexible, use it</h2>
+        <p>
+          A mid-week move, or a date away from the 1st of the month, is consistently easier to book and
+          often better priced — the demand simply isn't stacked on those days the way it is on a Saturday
+          at month's end.
+        </p>
+
+        <h2>Booking early vs booking exactly right</h2>
+        <p>
+          Booking early doesn't just secure a date — it means the crew size and truck are matched properly
+          to your job from the start, rather than adjusted last-minute. That said, if your notice is
+          shorter than ideal, don't assume it's impossible — call and ask.{" "}
+          <Link href="/#quote">Get a fixed quote</Link>{" "}either way and we'll tell you straight if your
+          date's tight rather than leaving you guessing.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "office-fit-out-waste-guide",
+    artIcon: "trash",
+    title: "Office Fit-Out Waste: What Counts as Rubbish vs What to Donate",
+    metaTitle: "Office Fit-Out Waste Removal — What to Bin, Donate or Recycle",
+    description:
+      "Clearing an office fit-out or relocation? Here's what's genuinely rubbish, what's worth donating, and how to handle e-waste and furniture responsibly.",
+    excerpt:
+      "An office clear-out generates more usable furniture than most businesses realise. Here's what to bin, what to donate, and what needs special handling.",
+    keyword: "office fit out waste removal",
+    category: "Guides",
+    date: "2026-07-11",
+    updated: "2026-07-11",
+    readMins: 4,
+    body: (
+      <>
+        <p>
+          An office fit-out or relocation generates a genuinely large amount of waste fast — but a
+          surprising amount of it isn't rubbish at all. Here's how to sort it properly instead of sending
+          everything to landfill by default.
+        </p>
+
+        <h2>What's genuinely rubbish</h2>
+        <ul>
+          <li>Damaged or broken furniture beyond reasonable repair</li>
+          <li>Worn carpet tiles, old partition panels, outdated signage</li>
+          <li>Obsolete cabling, damaged fixtures, general fit-out demolition debris</li>
+        </ul>
+
+        <h2>What's worth donating instead</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Where it can go</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Desks, chairs, filing cabinets in good condition</td>
+              <td>Charities, community organisations, or resale via office furniture recyclers</td>
+            </tr>
+            <tr>
+              <td>Working monitors, keyboards, small electronics</td>
+              <td>School programs, community groups, or certified e-waste recyclers</td>
+            </tr>
+            <tr>
+              <td>Meeting room furniture, soft seating</td>
+              <td>Charities and startups often take good-condition furniture directly</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>What needs special handling, not the general skip</h2>
+        <ul>
+          <li>
+            <strong>E-waste.</strong>{" "}Monitors, computers, and anything with a battery shouldn't go to
+            general landfill — e-waste recycling is widely available and often free for businesses.
+          </li>
+          <li>
+            <strong>Fluorescent tubes and old lighting.</strong>{" "}Contains materials that need proper
+            disposal, not a general waste bin.
+          </li>
+          <li>
+            <strong>Confidential documents.</strong>{" "}Should be shredded or securely destroyed before
+            disposal, separate from the general clear-out.
+          </li>
+        </ul>
+
+        <h2>Why sorting matters beyond doing the right thing</h2>
+        <p>
+          Donating usable furniture and separating e-waste genuinely reduces what you're paying to send to
+          landfill — most rubbish removal pricing scales with volume, so anything diverted to donation or
+          recycling is volume you're not paying disposal rates on.
+        </p>
+
+        <p>
+          Clearing an office for a relocation or fit-out? Our{" "}
+          <Link href="/services/rubbish-removal">rubbish removal service</Link>{" "}sorts materials for
+          recycling where possible, and pairs naturally with an{" "}
+          <Link href="/services/office-relocations">office relocation booking</Link>{" "}if you're moving to
+          a new space at the same time. <Link href="/#quote">Get a fixed quote</Link>{" "}for either.
+        </p>
+      </>
+    ),
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
