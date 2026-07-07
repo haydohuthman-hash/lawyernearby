@@ -110,9 +110,15 @@ visits, which lift domain authority for everything else.
 | Idea | Notes |
 |---|---|
 | Funny/relatable "things every Brisbane mover understands" | `/blog/13-things-every-brisbane-mover-understands` |
-| Weirdest/most memorable items ever moved | Good candidate once we have real
-  anecdotes from the team — flag for a future update with genuine stories rather than
-  invented ones. |
+| Unusual/strange items removalists move | `/blog/strangest-things-removalists-get-asked-to-move`.
+  Written as an honest general guide to categories of unusual items, not
+  specific real anecdotes. Real team stories remain parked separately in
+  `03-content-backlog.md` if they become available. |
+| What a move actually looks like / moving day walkthrough | `/blog/what-a-brisbane-to-gold-coast-move-actually-looks-like`.
+  Clearly framed as illustrative, not a specific customer case study. |
+| "Too much stuff" moving humour | `/blog/five-stages-of-realising-you-own-too-much-stuff` |
+| Real estate listing language / moving day translation | `/blog/real-estate-listing-words-vs-what-they-actually-mean` |
+| Queenslander stairs / local architecture humour | `/blog/a-field-guide-to-queenslander-stairs` |
 
 ## Deliberately not targeting
 

@@ -3,7 +3,7 @@
 Status key: ✅ published · 🟡 writing now · ⬜ planned · 🧊 parked (needs something
 we don't have yet, e.g. real customer anecdotes or a new service page)
 
-## Published (37 posts as of this doc)
+## Published (42 posts as of this doc)
 
 ✅ How Much Do Removalists Cost Brisbane to Gold Coast?
 ✅ The Ultimate Brisbane to Gold Coast Moving Checklist
@@ -67,6 +67,21 @@ protection steps, flood-prone street awareness, seasonal companion to best-time-
 dense-weight box rule for gym plates, links office relocations service.
 ✅ Strata & Body Corporate Move-In Rules on the Gold Coast — COI requirement,
 lift/loading dock booking windows, move-in fees.
+✅ The Strangest Things Removalists Get Asked to Move (And How We Handle Them) —
+reframed from the parked "weirdest items" idea as a genuine, honest guide to
+categories of unusual items (safes, fish tanks, wine, arcade machines, home
+bars), explicitly not framed as specific real customer stories.
+✅ What a Brisbane to Gold Coast Move Actually Looks Like, Start to Finish —
+reframed from the parked "customer case study" idea as an honest, clearly
+illustrative walkthrough of the process end to end, not a specific customer's
+story or a fabricated testimonial.
+✅ The Five Stages of Realising You Own Too Much Stuff — entertainment/listicle,
+grief-stages parody, links garage sale and downsizing posts.
+✅ Real Estate Listing Words vs What They Actually Mean (Moving Day Edition) —
+entertainment listicle translating listing language into moving-day reality.
+✅ A Field Guide to Queenslander Stairs (A Love Letter, and a Complaint) —
+entertainment + genuinely useful, local-architecture humour with real technique
+tips woven in.
 
 All posts now carry an `artIcon` field rendering a graphic header treatment
 (gradient + line icon, see `components/PostArt.tsx`) in place of a photo —
@@ -82,10 +97,13 @@ Search Console performance data, or genuine customer stories to draw from).
 
 ## Parked (need something first)
 
-🧊 Weirdest/Most Memorable Items We've Ever Moved — needs real anecdotes from the
-  team, not invented ones. Revisit once we have genuine stories to tell.
-🧊 Customer spotlight / case study posts — needs real customer permission and
-  quotes; don't fabricate testimonials.
+🧊 Real weirdest/most-memorable-items anecdotes, with the team's actual stories —
+  the generic version of this idea shipped above; this entry is specifically for
+  if/when real, specific team anecdotes become available to use instead.
+🧊 Real customer spotlight / case study posts, with actual customer permission
+  and quotes — the generic "what a move looks like" version shipped above; this
+  entry is for real named customer stories if permission is ever obtained. Don't
+  fabricate testimonials.
 🧊 Dedicated Spa/Hot Tub Removal service page — worth building once the blog post
   above shows real search traffic/demand for it.
 

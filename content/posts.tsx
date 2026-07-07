@@ -3658,6 +3658,378 @@ export const POSTS: BlogPost[] = [
       </>
     ),
   },
+  {
+    slug: "strangest-things-removalists-get-asked-to-move",
+    artIcon: "sparkle",
+    title: "The Strangest Things Removalists Get Asked to Move (And How We Handle Them)",
+    metaTitle: "Unusual Items Removalists Move — And How It's Done",
+    description:
+      "Pianos and pool tables are just the start. Here's how removalists actually handle the genuinely unusual stuff — safes, fish tanks, wine collections, arcade machines and more.",
+    excerpt:
+      "Pianos and pool tables are the well-known ones. Here's how the genuinely unusual stuff actually gets moved.",
+    keyword: "unusual items removalists move",
+    category: "Entertainment",
+    date: "2026-07-13",
+    updated: "2026-07-13",
+    readMins: 5,
+    body: (
+      <>
+        <p>
+          Every removalist has a mental list of the items that make a job genuinely interesting — not
+          because they're impossible, but because they need a completely different approach to a sofa or a
+          box of books. This is a general guide to the kinds of unusual items that come up regularly, not a
+          single specific story — but every category here is a real, common request.
+        </p>
+
+        <h2>Safes</h2>
+        <p>
+          Small document safes are straightforward. Genuine floor safes are a different problem entirely —
+          some weigh more than a fridge in a fraction of the footprint, which concentrates weight onto a
+          tiny area of flooring and stairs. These get moved on specialist trolleys with load spread across
+          multiple points, not just carried.
+        </p>
+
+        <h2>Fish tanks (the big ones)</h2>
+        <p>
+          A goldfish bowl is furniture. A 6-foot aquarium is an engineering problem — it must be fully
+          drained, and the tank itself (especially older glass, as opposed to acrylic) can crack under its
+          own weight if lifted wrong once empty, since the frame was never designed to be lifted without
+          water supporting it evenly from inside.
+        </p>
+
+        <h2>Wine collections</h2>
+        <p>
+          Temperature-sensitive, often genuinely valuable, and surprisingly heavy in volume. These travel
+          in purpose-built wine transit boxes, upright, padded between bottles — not stacked loose in a
+          regular box, which is a fast way to turn a valuable collection into a fridge full of very
+          expensive vinegar.
+        </p>
+
+        <h2>Arcade machines and pinball tables</h2>
+        <p>
+          Heavier than they look, top-heavy, and full of genuinely fragile internal components (CRT
+          screens in older cabinets, delicate pinball mechanisms). These get wrapped and moved upright,
+          never laid flat, with the same care a piano gets — see our{" "}
+          <Link href="/blog/how-to-move-a-piano-safely">piano moving guide</Link>{" "}for the same underlying
+          principles.
+        </p>
+
+        <h2>Home bars and pool tables</h2>
+        <p>
+          Pool tables specifically need full disassembly — slate, rails, felt — which is exactly why we
+          run a{" "}
+          <Link href="/services/pool-table-removal">dedicated pool table removal service</Link>{" "}rather
+          than treating it like standard furniture. Home bars with built-in fridges and glass shelving fall
+          into a similar category — more disassembly than a normal piece of furniture, but genuinely
+          manageable with the right approach.
+        </p>
+
+        <h2>What all of these actually have in common</h2>
+        <p>
+          None of it is actually about brute strength — it's about knowing which items need disassembly,
+          which need specialist equipment, and which are more fragile than they look. That's the difference
+          between a removalist who's handled the unusual stuff before and one who hasn't.
+        </p>
+
+        <p>
+          Got something unusual on your inventory? Mention it when you{" "}
+          <Link href="/#quote">get a fixed quote</Link>{" "}— a couple of photos is usually all we need to
+          plan for it properly.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "what-a-brisbane-to-gold-coast-move-actually-looks-like",
+    artIcon: "calendar",
+    title: "What a Brisbane to Gold Coast Move Actually Looks Like, Start to Finish",
+    metaTitle: "Brisbane to Gold Coast Move — What to Expect, Start to Finish",
+    description:
+      "A walkthrough of what a typical Brisbane to Gold Coast move actually involves, from getting a quote to the last box unpacked — illustrative, not a specific customer story.",
+    excerpt:
+      "Wondering what moving day actually looks like? Here's a realistic walkthrough, start to finish.",
+    keyword: "what happens on moving day brisbane gold coast",
+    category: "Guides",
+    date: "2026-07-13",
+    updated: "2026-07-13",
+    readMins: 5,
+    body: (
+      <>
+        <p>
+          This is a general walkthrough of what a typical Brisbane to Gold Coast move involves — not one
+          specific customer's story, just a realistic picture of the process end to end, since "what
+          actually happens on moving day" is one of the most common things people want to know before
+          booking.
+        </p>
+
+        <h2>2–4 weeks out: the quote</h2>
+        <p>
+          Most bookings start with our{" "}
+          <Link href="/#quote">quote calculator</Link>{" "}— home size, addresses, and a move date give an
+          instant fixed-price estimate. A follow-up call or a couple of photos (for anything unusual — see
+          our{" "}
+          <Link href="/blog/what-does-a-removalist-quote-include">guide to what a quote should include</Link>)
+          locks in the final price and confirms crew size.
+        </p>
+
+        <h2>The week before: packing</h2>
+        <p>
+          Most self-packed moves box up the non-essentials first — books, decor, out-of-season items — and
+          leave daily essentials until the last day or two. Our{" "}
+          <Link href="/blog/how-to-pack-boxes-properly">box-packing guide</Link>{" "}and{" "}
+          <Link href="/blog/how-to-wrap-furniture-properly">furniture-wrapping guide</Link>{" "}cover this in
+          detail if you're packing yourself rather than booking a full-service pack.
+        </p>
+
+        <h2>Moving day morning: the crew arrives</h2>
+        <p>
+          The crew does a quick walkthrough to confirm what's moving, loads heavy furniture first against
+          the truck's cab wall, then boxes, then soft items on top — the exact order covered in our{" "}
+          <Link href="/blog/how-to-pack-a-moving-truck-like-a-pro">truck-loading guide</Link>. A typical
+          3-bedroom home takes 2–4 hours to load depending on access and stairs.
+        </p>
+
+        <h2>The drive: Brisbane to the Gold Coast</h2>
+        <p>
+          The corridor run itself is usually 1–1.5 hours depending on where exactly you're starting and
+          finishing and M1 traffic conditions at the time — this is the one part of the day that's largely
+          out of anyone's control, which is why we build a realistic buffer into scheduling rather than
+          booking jobs back-to-back with no margin.
+        </p>
+
+        <h2>Unloading and setup</h2>
+        <p>
+          Furniture goes straight into the rooms you've indicated (a quick labelling system — see our{" "}
+          <Link href="/blog/how-to-pack-boxes-properly">labelling guide</Link>{" "}— makes this much faster),
+          beds get reassembled, and heavy items get placed exactly where you want them the first time,
+          since re-shifting a wardrobe after it's already positioned is exactly the kind of thing nobody
+          wants to do twice.
+        </p>
+
+        <h2>The first night</h2>
+        <p>
+          Most people don't fully unpack on day one — bed made, kitchen essentials out, and the rest
+          follows over the coming days. If kids are part of the move, our{" "}
+          <Link href="/blog/moving-with-kids-managing-the-chaos">guide to moving with kids</Link>{" "}covers
+          the first-night essentials worth having sorted in advance.
+        </p>
+
+        <h2>Ready to see your own numbers?</h2>
+        <p>
+          This is the general shape of it — your specific move will vary by home size, access, and
+          distance. <Link href="/#quote">Get a fixed quote</Link>{" "}for the actual numbers on your move.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "five-stages-of-realising-you-own-too-much-stuff",
+    artIcon: "box",
+    title: "The Five Stages of Realising You Own Too Much Stuff",
+    metaTitle: "The Five Stages of Realising You Own Too Much Stuff",
+    description:
+      "A tongue-in-cheek walk through the five stages everyone goes through the moment moving boxes reveal exactly how much stuff has accumulated.",
+    excerpt:
+      "Every move has a moment of reckoning. Here are the five stages everyone goes through, in order.",
+    keyword: "moving house too much stuff funny",
+    category: "Entertainment",
+    date: "2026-07-13",
+    updated: "2026-07-13",
+    readMins: 3,
+    body: (
+      <>
+        <p>
+          There's a very specific moment in every move where the boxes start piling up and a quiet horror
+          sets in: how did one household accumulate this much stuff? It always goes the same five stages.
+        </p>
+
+        <h2>Stage 1: Denial</h2>
+        <p>
+          "We don't really have that much stuff." Famous last words, usually spoken while standing in a
+          garage that hasn't been fully seen since the last move.
+        </p>
+
+        <h2>Stage 2: Bargaining</h2>
+        <p>
+          "I'll definitely use this someday." Applied liberally to: a bread maker used twice, exactly one
+          single roller-blade, and a box of cables for devices that no longer exist.
+        </p>
+
+        <h2>Stage 3: Anger</h2>
+        <p>
+          Directed entirely at past-self for buying a "space-saving" storage solution that now itself needs
+          to be packed, moved, and stored somewhere.
+        </p>
+
+        <h2>Stage 4: The Garage Sale Epiphany</h2>
+        <p>
+          A sudden, genuine realisation that most of it can become cash instead of a box. This is the
+          healthiest stage, and also the one that actually reduces the pile — see our{" "}
+          <Link href="/blog/garage-sale-guide-before-you-move">garage sale guide</Link>{" "}for how to do
+          it properly rather than just staring at the pile some more.
+        </p>
+
+        <h2>Stage 5: Acceptance (and a much lighter truck)</h2>
+        <p>
+          What's left is what actually matters — and it turns out that's a lot less than what filled the
+          garage. Our{" "}
+          <Link href="/blog/downsizing-checklist-decluttering-before-a-move">downsizing checklist</Link>{" "}
+          is the more serious version of this same process, room by room.
+        </p>
+
+        <p>
+          Wherever you land in the five stages, {" "}
+          <Link href="/#quote">get a fixed quote</Link>{" "}based on however much (or little) is actually
+          left by moving day — the price adjusts either way, no penalty for stage 1 optimism.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "real-estate-listing-words-vs-what-they-actually-mean",
+    artIcon: "house",
+    title: "Real Estate Listing Words vs What They Actually Mean (Moving Day Edition)",
+    metaTitle: "Real Estate Listing Words vs What They Actually Mean",
+    description:
+      "A tongue-in-cheek translation guide to real estate listing language, and what it actually means for moving day once you've signed the lease.",
+    excerpt:
+      "\"Cosy.\" \"Character.\" \"Low-maintenance garden.\" Here's what these actually mean once the moving truck shows up.",
+    keyword: "real estate listing words moving day funny",
+    category: "Entertainment",
+    date: "2026-07-13",
+    updated: "2026-07-13",
+    readMins: 3,
+    body: (
+      <>
+        <p>
+          Real estate listings have their own dialect, and it only fully translates once the moving truck
+          is parked outside and the actual dimensions of the place become undeniable. A field guide.
+        </p>
+
+        <h2>"Cosy"</h2>
+        <p>
+          Translation: the sofa will need to go in at an angle, and there's a real chance the dining table
+          negotiation happens on the footpath before it goes anywhere near the door.
+        </p>
+
+        <h2>"Character home"</h2>
+        <p>
+          Translation: beautiful, genuinely charming, and also almost certainly a Queenslander with stairs
+          that were built for a smaller, more agile population. Budget extra time — and see our{" "}
+          <Link href="/blog/how-to-wrap-furniture-properly">furniture-wrapping guide</Link>{" "}for the
+          corners that take the most damage on a staircase like this.
+        </p>
+
+        <h2>"Low-maintenance garden"</h2>
+        <p>
+          Translation: concrete, or close enough to it. Genuinely great news for moving day — nothing to
+          protect, no muddy path, no garden bed casualties from a wide dresser taking a corner too tight.
+        </p>
+
+        <h2>"Close to everything"</h2>
+        <p>
+          Translation: also close to everyone else trying to park a moving truck on the same street on the
+          same Saturday. Worth checking parking realistically — our{" "}
+          <Link href="/blog/best-worst-streets-for-a-moving-truck-brisbane">
+            guide to Brisbane's trickier streets
+          </Link>{" "}covers exactly this kind of thing.
+        </p>
+
+        <h2>"Open plan"</h2>
+        <p>
+          Translation: genuinely great for moving day. Fewer doorways to navigate a sofa through, fewer
+          tight corners, and usually a much faster unload than the listing photos even hinted at.
+        </p>
+
+        <h2>"Sold as is"</h2>
+        <p>
+          Translation, if you're the one leaving: a genuinely good moment to stop packing and start a{" "}
+          <Link href="/blog/garage-sale-guide-before-you-move">garage sale</Link>{" "}instead for anything
+          not worth the box space.
+        </p>
+
+        <p>
+          Whatever the listing said, {" "}
+          <Link href="/#quote">get a fixed quote</Link>{" "}based on the reality of the place, not the
+          photos — we've seen every version of "cosy" there is.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "a-field-guide-to-queenslander-stairs",
+    artIcon: "stairs",
+    title: "A Field Guide to Queenslander Stairs (A Love Letter, and a Complaint)",
+    metaTitle: "Moving Furniture on Queenslander Stairs — A Field Guide",
+    description:
+      "Queenslander stairs are beautiful, iconic, and genuinely brutal on moving day. A tongue-in-cheek (but genuinely useful) field guide to getting furniture up and down them intact.",
+    excerpt:
+      "Queenslander stairs are beautiful right up until a wardrobe needs to go up them. A field guide, with love.",
+    keyword: "moving furniture queenslander stairs",
+    category: "Entertainment",
+    date: "2026-07-13",
+    updated: "2026-07-13",
+    readMins: 4,
+    body: (
+      <>
+        <p>
+          There is no piece of Brisbane architecture more beloved, more photographed, and more genuinely
+          brutal on moving day than the classic Queenslander staircase. This is a field guide, written with
+          real affection and a healthy amount of complaint.
+        </p>
+
+        <h2>The turn landing: the real boss level</h2>
+        <p>
+          Every Queenslander staircase has at least one turn landing that looked completely reasonable
+          until a three-seater sofa needed to navigate it at an angle nobody designed for. This is where a
+          genuine plan — which end goes first, who's calling directions, whether the sofa needs to go over
+          the balcony rail instead — actually matters more than raw strength.
+        </p>
+
+        <h2>The handrail: beautiful, and directly in the way</h2>
+        <p>
+          Original timber handrails are genuinely gorgeous and also exactly where a mattress edge wants to
+          scuff. Padding the rail itself before anything goes up or down it is a five-minute job that saves
+          a very visible mark on a feature nobody wants damaged.
+        </p>
+
+        <h2>The gap under the house: not actually usable space</h2>
+        <p>
+          Yes, there's often tempting extra room underneath a high-set Queenslander. No, it's rarely a
+          practical staging area for furniture mid-move — usually too low, too exposed to weather, and full
+          of whatever's already stored there.
+        </p>
+
+        <h2>What actually works</h2>
+        <ul>
+          <li>
+            <strong>Measure the awkward bits before moving day, not during.</strong>{" "}The turn landing
+            width, the ceiling height at the top, any low doorframes — know the numbers ahead of time.
+          </li>
+          <li>
+            <strong>Disassemble anything that can be disassembled.</strong>{" "}A bed frame in five pieces
+            takes the stairs far better than one in one piece.
+          </li>
+          <li>
+            <strong>Pad every hard corner.</strong>{" "}See our{" "}
+            <Link href="/blog/how-to-wrap-furniture-properly">furniture-wrapping guide</Link>{" "}for the
+            technique.
+          </li>
+          <li>
+            <strong>Book a crew that's actually done this before.</strong>{" "}Queenslander stairs are
+            genuinely routine for a Brisbane-based crew — much less so for anyone unfamiliar with the
+            layout.
+          </li>
+        </ul>
+
+        <p>
+          We run Queenslander staircases every week — it's practically a rite of passage for a Brisbane
+          removalist. <Link href="/#quote">Get a fixed quote</Link>{" "}and mention the stairs; we'll bring
+          the right crew size for it.
+        </p>
+      </>
+    ),
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
