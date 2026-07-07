@@ -3,6 +3,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [claude/website-creation-xvm5th]
+  schedule:
+    # Re-deploy every 6 hours so the custom-domain cutover below happens
+    # automatically once DNS is pointed at GitHub Pages — no push needed.
+    - cron: "23 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,6 +15,9 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: true
+
+env:
+  CUSTOM_DOMAIN: www.residencerelocations.com.au
 
 jobs:
   deploy:
@@ -21,11 +28,33 @@ jobs:
         with:
           node-version: 22
           cache: npm
+
+      - name: Detect custom domain DNS
+        id: domain
+        run: |
+          IPS=$(dig +short "$CUSTOM_DOMAIN" | tr '\n' ' ')
+          echo "Resolved: $IPS"
+          if echo "$IPS" | grep -qE '185\.199\.(108|109|110|111)\.153|github\.io'; then
+            echo "custom=true" >> "$GITHUB_OUTPUT"
+            echo "Custom domain is pointed at GitHub Pages — deploying to https://$CUSTOM_DOMAIN"
+          else
+            echo "custom=false" >> "$GITHUB_OUTPUT"
+            echo "Custom domain not pointed at GitHub Pages yet — deploying to github.io project URL"
+          fi
+
       - run: npm ci
+
       - run: npm run build
         env:
-          BASE_PATH: /lawyernearby
+          BASE_PATH: ${{ steps.domain.outputs.custom == 'true' && '' || '/lawyernearby' }}
+          NEXT_PUBLIC_SITE_URL: ${{ steps.domain.outputs.custom == 'true' && 'https://www.residencerelocations.com.au' || 'https://haydohuthman-hash.github.io/lawyernearby' }}
+
       - run: touch out/.nojekyll
+
+      - name: Write CNAME for custom domain
+        if: steps.domain.outputs.custom == 'true'
+        run: echo "$CUSTOM_DOMAIN" > out/CNAME
+
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

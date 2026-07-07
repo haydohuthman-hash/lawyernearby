@@ -373,6 +373,322 @@ export const POSTS: BlogPost[] = [
       </>
     ),
   },
+
+  {
+    slug: "pool-table-removal-cost-guide",
+    title: "How Much Does Pool Table Removal Cost? (Brisbane & Gold Coast Guide)",
+    metaTitle: "Pool Table Removal Cost Brisbane & Gold Coast (2026 Guide)",
+    description:
+      "What pool table removal really costs in Brisbane and the Gold Coast — price ranges by table type, why slate changes everything, and what's included in a proper quote.",
+    excerpt:
+      "Slate changes everything. What a pool table move actually costs, what a proper quote includes, and the mistakes that crack slate beds.",
+    keyword: "pool table removal cost",
+    category: "Pricing",
+    date: "2026-07-08",
+    updated: "2026-07-08",
+    readMins: 5,
+    faqs: [
+      {
+        question: "How much does it cost to move a pool table?",
+        answer:
+          "In Brisbane and on the Gold Coast, moving a slate pool table typically costs $350–$550 as a standalone job, or from around $220 when added to a house move. Non-slate (MDF) tables are cheaper — usually $150–$250 — because they can move in fewer pieces. Access (stairs, tight turns) and table size are the main price factors.",
+      },
+      {
+        question: "Why is slate pool table removal more expensive?",
+        answer:
+          "A slate bed comes in one to three pieces weighing 150–300kg combined, and it cracks if it flexes. Moving it safely means full disassembly, slate trolleys, padded edge-transport and precision re-levelling at the destination — specialist labour and equipment a standard furniture move doesn't need.",
+      },
+      {
+        question: "Can I move a pool table myself to save money?",
+        answer:
+          "For a slate table, we'd genuinely advise against it. The slates are the heaviest, most fragile part, and a cracked slate usually costs more to replace than the professional move would have. If it's a lightweight MDF table and a ground-floor-to-ground-floor move, a careful DIY with four people is feasible.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          Pool tables are the item that makes most removalists suddenly &ldquo;unavailable.&rdquo; The
+          reason is slate — and slate is also why prices for pool table removal vary so much. Here&apos;s an
+          honest breakdown of what it costs in Brisbane and on the Gold Coast, and what a proper quote
+          should include.
+        </p>
+
+        <h2>Price guide at a glance</h2>
+        <div className="article-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Job type</th>
+                <th>Typical price</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Slate table, added to a house move</td>
+                <td>from ~$220</td>
+                <td>Cheapest way — the crew and truck are already booked</td>
+              </tr>
+              <tr>
+                <td>Slate table, standalone move</td>
+                <td>~$350–$550</td>
+                <td>7ft–9ft, includes disassembly + re-level</td>
+              </tr>
+              <tr>
+                <td>Non-slate (MDF) table</td>
+                <td>~$150–$250</td>
+                <td>Lighter, moves in fewer pieces</td>
+              </tr>
+              <tr>
+                <td>Stairs / difficult access</td>
+                <td>+$50–$150</td>
+                <td>Priced into the fixed quote up front</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>What actually drives the price</h2>
+        <h3>Slate vs. MDF</h3>
+        <p>
+          Knock on the bed under the cloth: a dull solid knock is slate, a hollow one is MDF. Slate plays
+          beautifully and lasts forever, but it&apos;s brutally heavy and cracks under flex — which is why
+          it must be removed and transported as separate, padded pieces. MDF tables are far lighter and
+          more forgiving.
+        </p>
+        <h3>Table size and slate count</h3>
+        <p>
+          An 8ft home table usually carries one or three slate pieces; a 9ft pub-size table is heavier
+          again. Three-piece slates are easier to carry but need more precise re-levelling; one-piece
+          slates need more muscle and a clearer path.
+        </p>
+        <h3>Access at both ends</h3>
+        <p>
+          Ground floor to ground floor is the base case. Stairs, split levels, tight doorways and long
+          carries add crew and time — flagging them up front is what keeps the quote fixed and the day
+          drama-free.
+        </p>
+
+        <h2>What a proper quote includes</h2>
+        <ul>
+          <li>Full disassembly: rails, pockets, cloth care, slates and frame</li>
+          <li>Slate trolleys and padded, on-edge slate transport</li>
+          <li>Reassembly with slate shimming and precision levelling</li>
+          <li>A roll test before the crew leaves</li>
+          <li>Transit insurance covering the table door to door</li>
+        </ul>
+        <p>
+          If a quote is dramatically cheaper than the ranges above, ask which of those steps it skips —
+          the usual answer is the levelling, and an unlevel table is a table you&apos;ll hate playing on.
+        </p>
+
+        <h2>The corridor advantage</h2>
+        <p>
+          Moving between Brisbane and the Gold Coast? A pool table rides beautifully as part of a{" "}
+          <Link href="/removalists-brisbane-to-gold-coast">corridor house move</Link> — the specialist
+          handling is the same, and you save the standalone call-out. See our full{" "}
+          <Link href="/services/pool-table-removal">pool table removal service</Link> or{" "}
+          <Link href="/#quote">get a fixed quote</Link> with the table included.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "how-to-move-a-piano-safely",
+    title: "How to Move a Piano Safely (And When Not to DIY)",
+    metaTitle: "How to Move a Piano Safely — Upright & Grand Guide",
+    description:
+      "A practical guide to moving a piano safely: weights by type, the equipment professionals use, what a DIY move risks, and what piano removal costs in Brisbane and the Gold Coast.",
+    excerpt:
+      "Pianos weigh 200–500kg, carry their value in fragile places, and punish shortcuts. What a safe move looks like — and where the DIY line is.",
+    keyword: "how to move a piano",
+    category: "Guides",
+    date: "2026-07-08",
+    updated: "2026-07-08",
+    readMins: 5,
+    body: (
+      <>
+        <p>
+          A piano is the heaviest fragile thing most households own. An upright runs 200–300kg, a grand
+          300–500kg — and the value lives in delicate places: the soundboard, the action, the polished
+          case. Here&apos;s how professionals move them, what you can safely do yourself, and where the
+          DIY line sits.
+        </p>
+
+        <h2>Know your piano&apos;s weight class</h2>
+        <ul>
+          <li>
+            <strong>Digital piano:</strong> 20–60kg. Two careful people, blankets, done.
+          </li>
+          <li>
+            <strong>Console / small upright:</strong> ~180–250kg. Piano trolley territory.
+          </li>
+          <li>
+            <strong>Full upright / pianola:</strong> ~250–350kg. Professional job.
+          </li>
+          <li>
+            <strong>Baby grand / grand:</strong> 300–500kg, plus leg removal and a skid board.
+            Absolutely professional territory.
+          </li>
+        </ul>
+
+        <h2>How professionals actually move an upright</h2>
+        <ol>
+          <li>Lock or tape the keyboard lid and wrap the whole case in thick blankets.</li>
+          <li>Tilt the piano just enough to slide a piano trolley under the centre of gravity.</li>
+          <li>Roll on the flat; use ramps over every step — never lift up stairs freestyle.</li>
+          <li>In the truck: against the wall, strapped top and bottom, never on its back.</li>
+          <li>At the destination: same in reverse, then let it acclimatise before tuning.</li>
+        </ol>
+
+        <h2>Grands are a different sport</h2>
+        <p>
+          A grand travels on its side on a padded skid board. The lid, lyre (pedal assembly) and legs come
+          off in order, each wrapped separately, and the body is rotated onto the skid by people who have
+          done it many times. This is the move where a $70 saving on labour risks a five-figure
+          instrument — it&apos;s the clearest &ldquo;don&apos;t DIY&rdquo; in the moving world.
+        </p>
+
+        <h2>The DIY line</h2>
+        <p>
+          <strong>Reasonable DIY:</strong> digital pianos, and rolling an upright within a flat room to
+          reposition it (casters are for repositioning, not journeys).
+        </p>
+        <p>
+          <strong>Call professionals:</strong> any staircase, any acoustic piano leaving the building, any
+          grand, anything on polished floors you care about, and every move between houses. The physics
+          don&apos;t negotiate: 300kg with a high centre of gravity injures backs and cracks cases.
+        </p>
+
+        <h2>What it costs (so you can sanity-check quotes)</h2>
+        <p>
+          In Brisbane and on the Gold Coast, an upright typically moves for $300–$450 standalone or from
+          ~$220 as part of a house move; grands usually land between $450 and $750 depending on access.
+          Fixed pricing matters more here than anywhere: a piano move that hits a tricky staircase
+          shouldn&apos;t start billing by the hour.
+        </p>
+
+        <h2>After the move: the tuning myth</h2>
+        <p>
+          A well-executed move doesn&apos;t damage a piano, but new-room humidity will drift the tuning
+          slightly. Wait two to three weeks for the instrument to settle, then book a tuner — that&apos;s
+          normal maintenance, not moving damage.
+        </p>
+
+        <p>
+          Ready to move yours? Our{" "}
+          <Link href="/services/piano-removal">piano removal service</Link> covers uprights to grands
+          across Brisbane, the Gold Coast and the corridor between —{" "}
+          <Link href="/#quote">get a fixed quote</Link> and tell us about the stairs.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    slug: "best-time-to-move-house-brisbane-gold-coast",
+    title: "The Best Time to Move House in South-East Queensland",
+    metaTitle: "Best Time to Move House in Brisbane & the Gold Coast",
+    description:
+      "When to move house in Brisbane and the Gold Coast: the cheapest months, the days that book out, weather traps, and how far ahead to lock in your removalist.",
+    excerpt:
+      "Month by month, day by day: when moving in South-East Queensland is cheapest, coolest and easiest to book — and the dates to avoid.",
+    keyword: "best time to move house",
+    category: "Guides",
+    date: "2026-07-08",
+    updated: "2026-07-08",
+    readMins: 5,
+    body: (
+      <>
+        <p>
+          In South-East Queensland the moving calendar has real seasons — of demand, of weather and of
+          price. Pick your dates well and you&apos;ll get better availability, a calmer moving day and
+          often a friendlier quote. Here&apos;s the honest calendar.
+        </p>
+
+        <h2>The demand calendar</h2>
+        <h3>Peak: December – January</h3>
+        <p>
+          School holidays, lease turnovers and the new-year fresh start collide. Beach suburbs like
+          Burleigh and Palm Beach are at their busiest, trucks book out weeks ahead, and everyone wants
+          the same Saturdays. If you must move now, book 3–4 weeks out and take a weekday if you can.
+        </p>
+        <h3>Busy: end of every month + all Saturdays</h3>
+        <p>
+          Leases end on month-boundaries, so the last weekend of any month is the hardest slot to get all
+          year. The same move a week earlier — mid-month, mid-week — is dramatically easier to book.
+        </p>
+        <h3>The sweet spots: May – August</h3>
+        <p>
+          Winter in SEQ is the professional&apos;s favourite: 20-something degrees, low humidity, rare
+          rain, and softer demand. If your dates are flexible, a mid-week move in June or July is the
+          calmest, most bookable move of the year.
+        </p>
+
+        <h2>The weather angle (it matters here)</h2>
+        <ul>
+          <li>
+            <strong>Summer storms (Nov–Mar):</strong> afternoon storms are near-scheduled events. Summer
+            moves should load in the morning — another reason early slots go first.
+          </li>
+          <li>
+            <strong>Heat:</strong> February moves are sweaty work; crews pace differently and fragile
+            items (candles, vinyl, electronics) shouldn&apos;t sit in a hot truck longer than needed.
+          </li>
+          <li>
+            <strong>Winter:</strong> basically perfect. The M1 corridor run is also at its most
+            predictable outside holiday traffic.
+          </li>
+        </ul>
+
+        <h2>How far ahead to book</h2>
+        <div className="article-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Your target date</th>
+                <th>Book ahead</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mid-week, mid-month (off-peak)</td>
+                <td>1 week is usually fine</td>
+              </tr>
+              <tr>
+                <td>Any Saturday</td>
+                <td>2–3 weeks</td>
+              </tr>
+              <tr>
+                <td>End of month</td>
+                <td>3 weeks</td>
+              </tr>
+              <tr>
+                <td>December–January</td>
+                <td>3–4 weeks minimum</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>One more lever: flexibility beats haggling</h2>
+        <p>
+          The single best &ldquo;discount&rdquo; in moving isn&apos;t negotiating — it&apos;s offering
+          flexibility. Tell your removalist you can do any weekday in a two-week window and you become the
+          easiest job on the schedule. Fixed-price movers (like us) can then simply give you the calmest
+          slot rather than the premium one.
+        </p>
+
+        <p>
+          Once your dates are picked, work through our{" "}
+          <Link href="/blog/brisbane-to-gold-coast-moving-checklist">week-by-week moving checklist</Link>{" "}
+          and <Link href="/#quote">lock in your fixed quote</Link> — the date you want is easier to get
+          the earlier you claim it.
+        </p>
+      </>
+    ),
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {

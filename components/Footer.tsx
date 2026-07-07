@@ -8,8 +8,11 @@ const columns = [
     links: [
       { label: "White Glove Moving", href: "/services/removalists" },
       { label: "Rubbish Removal", href: "/services/rubbish-removal" },
-      { label: "Furniture & Heavy Items", href: "/#services" },
-      { label: "Pre Sale & Post Move Cleans", href: "/#services" },
+      { label: "Pool Table Removal", href: "/services/pool-table-removal" },
+      { label: "Piano Removal", href: "/services/piano-removal" },
+      { label: "Furniture Removal", href: "/services/furniture-removal" },
+      { label: "Office Relocations", href: "/services/office-relocations" },
+      { label: "Pre-Sale Cleans", href: "/services/pre-sale-cleaning" },
     ],
   },
   {
@@ -28,7 +31,7 @@ const columns = [
       { label: "Brisbane to Gold Coast", href: "/removalists-brisbane-to-gold-coast" },
       { label: "Brisbane", href: "/moving-brisbane" },
       { label: "Gold Coast", href: "/moving-gold-coast" },
-      { label: "Sunshine Coast", href: "/#contact" },
+      { label: "All Service Areas", href: "/service-areas" },
     ],
   },
 ];

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BoxIcon, HouseIcon, ShieldIcon, TrashIcon, TruckIcon } from "./icons";
 import Reveal from "./Reveal";
 
@@ -6,21 +7,25 @@ const services = [
     icon: TruckIcon,
     title: "White Glove Moving",
     body: "Careful, professional moving services for homes of all sizes.",
+    href: "/services/removalists",
   },
   {
     icon: TrashIcon,
     title: "Rubbish Removal",
     body: "Fast, responsible removal of unwanted items.",
+    href: "/services/rubbish-removal",
   },
   {
     icon: BoxIcon,
     title: "Furniture & Heavy Item Relocation",
-    body: "Specialists in heavy lifting and complex item moves.",
+    body: "Specialists in heavy lifting, pianos and pool tables.",
+    href: "/services/furniture-removal",
   },
   {
     icon: HouseIcon,
     title: "Pre Sale & Post Move Cleans",
     body: "Leave your old place spotless or come home to clean.",
+    href: "/services/pre-sale-cleaning",
   },
 ];
 
@@ -73,15 +78,15 @@ export default function Services() {
                   </div>
                   <h3 className="mt-6 font-serif text-[20px] leading-snug text-ink">{s.title}</h3>
                   <p className="mt-2.5 text-[13.5px] leading-relaxed text-ink/55">{s.body}</p>
-                  <a
-                    href="#contact"
+                  <Link
+                    href={s.href}
                     className="mt-auto inline-flex items-center gap-1.5 pt-6 text-[13px] font-medium text-ink"
                   >
                     Learn more{" "}
                     <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1.5">
                       →
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </Reveal>
             ))}
