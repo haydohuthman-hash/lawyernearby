@@ -40,13 +40,13 @@ const whyCorridor = [
   },
 ];
 
-const routePairs = [
-  { from: "New Farm", to: "Broadbeach" },
-  { from: "Paddington", to: "Burleigh Heads" },
-  { from: "Bulimba", to: "Mermaid Beach" },
-  { from: "West End", to: "Surfers Paradise" },
-  { from: "Ascot", to: "Main Beach" },
-  { from: "Indooroopilly", to: "Robina" },
+const routePairs: { from: string; to: string; fromSlug?: string; toSlug?: string }[] = [
+  { from: "New Farm", to: "Broadbeach", fromSlug: "new-farm", toSlug: "broadbeach" },
+  { from: "Paddington", to: "Burleigh Heads", fromSlug: "paddington", toSlug: "burleigh-heads" },
+  { from: "Bulimba", to: "Mermaid Beach", fromSlug: "bulimba", toSlug: "mermaid-beach" },
+  { from: "West End", to: "Surfers Paradise", fromSlug: "west-end", toSlug: "surfers-paradise" },
+  { from: "Ascot", to: "Main Beach", fromSlug: "ascot" },
+  { from: "Indooroopilly", to: "Robina", fromSlug: "indooroopilly", toSlug: "robina" },
   { from: "Carindale", to: "Varsity Lakes" },
   { from: "Chermside", to: "Helensvale" },
 ];
@@ -156,12 +156,30 @@ export default function CorridorPage() {
             {routePairs.map((pair, i) => (
               <Reveal key={`${pair.from}-${pair.to}`} delay={i * 50}>
                 <div className="flex items-center gap-3 border-b border-white/10 pb-4 text-[14.5px]">
-                  <span className="text-white">{pair.from}</span>
+                  {pair.fromSlug ? (
+                    <Link
+                      href={`/removalists/${pair.fromSlug}`}
+                      className="text-white underline decoration-white/25 underline-offset-4 transition hover:decoration-white"
+                    >
+                      {pair.from}
+                    </Link>
+                  ) : (
+                    <span className="text-white">{pair.from}</span>
+                  )}
                   <span className="flex-1 border-t border-dashed border-white/20" />
                   <span aria-hidden className="text-white/40">
                     →
                   </span>
-                  <span className="text-white">{pair.to}</span>
+                  {pair.toSlug ? (
+                    <Link
+                      href={`/removalists/${pair.toSlug}`}
+                      className="text-white underline decoration-white/25 underline-offset-4 transition hover:decoration-white"
+                    >
+                      {pair.to}
+                    </Link>
+                  ) : (
+                    <span className="text-white">{pair.to}</span>
+                  )}
                 </div>
               </Reveal>
             ))}
@@ -238,12 +256,15 @@ export default function CorridorPage() {
                   <Link href="/services/rubbish-removal" className="text-white underline underline-offset-4">
                     rubbish removal
                   </Link>{" "}
-                  to clear unwanted items before we pack, or ask about specialty items like pianos and pool
-                  tables — our{" "}
-                  <Link href="/services/removalists" className="text-white underline underline-offset-4">
-                    removalist crews
+                  to clear unwanted items before we pack — and for specialty items, our{" "}
+                  <Link href="/services/piano-removal" className="text-white underline underline-offset-4">
+                    piano
                   </Link>{" "}
-                  are equipped for the heavy, awkward pieces most movers won't touch.
+                  and{" "}
+                  <Link href="/services/pool-table-removal" className="text-white underline underline-offset-4">
+                    pool table removal
+                  </Link>{" "}
+                  crews handle the heavy, awkward pieces most movers won&apos;t touch.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-4">

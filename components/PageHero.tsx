@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { StarIcon } from "./icons";
+import JsonLd from "./JsonLd";
+import { SITE_URL } from "@/lib/site";
 
 export default function PageHero({
   eyebrow,
@@ -14,6 +16,16 @@ export default function PageHero({
 }) {
   return (
     <section className="grain relative overflow-hidden bg-ink pb-16 pt-14 text-white sm:pb-24 sm:pt-20">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+            { "@type": "ListItem", position: 2, name: breadcrumb },
+          ],
+        }}
+      />
       <div
         className="pointer-events-none absolute -right-32 -top-32 h-96 w-96 rounded-full opacity-15 blur-3xl"
         style={{ background: "radial-gradient(circle, #ffffff 0%, transparent 70%)" }}

@@ -22,23 +22,23 @@ export const metadata: Metadata = {
   },
 };
 
-const suburbs = [
-  "Surfers Paradise",
-  "Broadbeach",
-  "Robina",
-  "Burleigh Heads",
-  "Miami",
-  "Mermaid Beach",
-  "Southport",
-  "Coolangatta",
-  "Currumbin",
-  "Palm Beach",
-  "Main Beach",
-  "Varsity Lakes",
-  "Helensvale",
-  "Nerang",
-  "Coomera",
-  "Tugun",
+const suburbs: { name: string; slug?: string }[] = [
+  { name: "Surfers Paradise", slug: "surfers-paradise" },
+  { name: "Broadbeach", slug: "broadbeach" },
+  { name: "Robina", slug: "robina" },
+  { name: "Burleigh Heads", slug: "burleigh-heads" },
+  { name: "Miami" },
+  { name: "Mermaid Beach", slug: "mermaid-beach" },
+  { name: "Southport" },
+  { name: "Coolangatta" },
+  { name: "Currumbin" },
+  { name: "Palm Beach", slug: "palm-beach" },
+  { name: "Main Beach" },
+  { name: "Varsity Lakes" },
+  { name: "Helensvale" },
+  { name: "Nerang" },
+  { name: "Coomera" },
+  { name: "Tugun" },
 ];
 
 const reasons = [
@@ -96,10 +96,19 @@ export default function MovingGoldCoastPage() {
 
           <div className="mt-10 flex flex-wrap gap-3">
             {suburbs.map((suburb, i) => (
-              <Reveal key={suburb} delay={i * 30}>
-                <span className="inline-block rounded-full bg-white px-4 py-2 text-[13px] text-ink/70 ring-1 ring-ink/10">
-                  {suburb}
-                </span>
+              <Reveal key={suburb.name} delay={i * 30}>
+                {suburb.slug ? (
+                  <Link
+                    href={`/removalists/${suburb.slug}`}
+                    className="inline-block rounded-full bg-white px-4 py-2 text-[13px] font-medium text-ink ring-1 ring-ink/15 transition hover:-translate-y-0.5 hover:ring-ink/40"
+                  >
+                    {suburb.name}
+                  </Link>
+                ) : (
+                  <span className="inline-block rounded-full bg-white px-4 py-2 text-[13px] text-ink/70 ring-1 ring-ink/10">
+                    {suburb.name}
+                  </span>
+                )}
               </Reveal>
             ))}
           </div>

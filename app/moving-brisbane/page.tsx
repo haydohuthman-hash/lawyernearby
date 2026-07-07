@@ -22,23 +22,23 @@ export const metadata: Metadata = {
   },
 };
 
-const suburbs = [
-  "New Farm",
-  "Paddington",
-  "West End",
-  "Ascot",
-  "Hamilton",
-  "Bulimba",
-  "Indooroopilly",
-  "Toowong",
-  "Carindale",
-  "Chermside",
-  "Wilston",
-  "Clayfield",
-  "Sunnybank",
-  "Chapel Hill",
-  "Kangaroo Point",
-  "Fig Tree Pocket",
+const suburbs: { name: string; slug?: string }[] = [
+  { name: "New Farm", slug: "new-farm" },
+  { name: "Paddington", slug: "paddington" },
+  { name: "West End", slug: "west-end" },
+  { name: "Ascot", slug: "ascot" },
+  { name: "Hamilton" },
+  { name: "Bulimba", slug: "bulimba" },
+  { name: "Indooroopilly", slug: "indooroopilly" },
+  { name: "Toowong" },
+  { name: "Carindale" },
+  { name: "Chermside" },
+  { name: "Wilston" },
+  { name: "Clayfield" },
+  { name: "Sunnybank" },
+  { name: "Chapel Hill" },
+  { name: "Kangaroo Point" },
+  { name: "Fig Tree Pocket" },
 ];
 
 const reasons = [
@@ -96,10 +96,19 @@ export default function MovingBrisbanePage() {
 
           <div className="mt-10 flex flex-wrap gap-3">
             {suburbs.map((suburb, i) => (
-              <Reveal key={suburb} delay={i * 30}>
-                <span className="inline-block rounded-full bg-white px-4 py-2 text-[13px] text-ink/70 ring-1 ring-ink/10">
-                  {suburb}
-                </span>
+              <Reveal key={suburb.name} delay={i * 30}>
+                {suburb.slug ? (
+                  <Link
+                    href={`/removalists/${suburb.slug}`}
+                    className="inline-block rounded-full bg-white px-4 py-2 text-[13px] font-medium text-ink ring-1 ring-ink/15 transition hover:-translate-y-0.5 hover:ring-ink/40"
+                  >
+                    {suburb.name}
+                  </Link>
+                ) : (
+                  <span className="inline-block rounded-full bg-white px-4 py-2 text-[13px] text-ink/70 ring-1 ring-ink/10">
+                    {suburb.name}
+                  </span>
+                )}
               </Reveal>
             ))}
           </div>

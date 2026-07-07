@@ -18,6 +18,9 @@ const inter = Inter({
   weight: ["400", "500", "600", "700"],
 });
 
+const OG_IMAGE =
+  "https://d8j0ntlcm91z4.cloudfront.net/user_37P7ksDqPG5XEMOTptYX6VU1Jn8/hf_20260705_115508_90c88867-abe1-49be-b574-37c32cfa5725.png";
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
@@ -32,12 +35,14 @@ export const metadata: Metadata = {
     title: "Residence Relocations | Premium Moving & Rubbish Removal",
     description:
       "Premium moving and rubbish removal services with fixed prices and no hourly surprises.",
+    images: [{ url: OG_IMAGE, width: 1376, height: 768, alt: "Residence Relocations moving truck" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Residence Relocations | Premium Moving & Rubbish Removal",
     description:
       "Premium moving and rubbish removal services with fixed prices and no hourly surprises.",
+    images: [OG_IMAGE],
   },
 };
 
