@@ -15,7 +15,7 @@ export default function PageHero({
   breadcrumb: string;
 }) {
   return (
-    <section className="grain relative overflow-hidden bg-ink pb-16 pt-14 text-white sm:pb-24 sm:pt-20">
+    <section className="grain relative -mt-[88px] overflow-hidden bg-ink pt-[88px] text-white">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -30,7 +30,7 @@ export default function PageHero({
         className="pointer-events-none absolute -right-32 -top-32 h-96 w-96 rounded-full opacity-15 blur-3xl"
         style={{ background: "radial-gradient(circle, #ffffff 0%, transparent 70%)" }}
       />
-      <div className="relative mx-auto max-w-[1000px] px-5 sm:px-8">
+      <div className="relative mx-auto max-w-[1000px] px-5 pb-16 pt-14 sm:px-8 sm:pb-24 sm:pt-20">
         <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-[12px] text-white/45">
           <Link href="/" className="transition hover:text-white/80">
             Home

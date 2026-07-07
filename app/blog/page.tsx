@@ -27,7 +27,7 @@ export default function BlogIndex() {
     <main>
       <Navbar />
 
-      <section className="grain relative overflow-hidden bg-ink pb-16 pt-14 text-white sm:pb-20 sm:pt-20">
+      <section className="grain relative -mt-[88px] overflow-hidden bg-ink pb-16 pt-[calc(3.5rem+88px)] text-white sm:pb-20 sm:pt-[calc(5rem+88px)]">
         <div
           className="pointer-events-none absolute -right-32 -top-32 h-96 w-96 rounded-full opacity-15 blur-3xl"
           style={{ background: "radial-gradient(circle, #ffffff 0%, transparent 70%)" }}

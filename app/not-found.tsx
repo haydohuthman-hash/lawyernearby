@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <main>
       <Navbar />
-      <section className="grain relative flex min-h-[60vh] items-center overflow-hidden bg-ink py-24 text-white">
+      <section className="grain relative -mt-[88px] flex min-h-[60vh] items-center overflow-hidden bg-ink pb-24 pt-[calc(6rem+88px)] text-white">
         <div
           className="pointer-events-none absolute -right-32 -top-32 h-96 w-96 rounded-full opacity-15 blur-3xl"
           style={{ background: "radial-gradient(circle, #ffffff 0%, transparent 70%)" }}
