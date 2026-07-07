@@ -35,10 +35,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-500 ${
+      className={`sticky top-0 z-50 bg-ink/60 backdrop-blur-md transition-all duration-500 ${
         scrolled || menuOpen
           ? "border-b border-white/10 bg-ink/85 shadow-[0_8px_32px_rgba(0,0,0,0.45)] backdrop-blur-xl"
-          : "border-b border-transparent bg-transparent"
+          : "border-b border-transparent"
       }`}
     >
       <div
