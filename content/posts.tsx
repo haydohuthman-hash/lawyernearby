@@ -14,6 +14,8 @@ export type BlogPost = {
   updated: string;
   readMins: number;
   artIcon: ArtIcon;
+  /** Path under public/ for a generated photo header (see advanced/04-photo-header-workflow.md). Falls back to the artIcon treatment when omitted. */
+  photo?: string;
   faqs?: { question: string; answer: string }[];
   body: ReactNode;
 };

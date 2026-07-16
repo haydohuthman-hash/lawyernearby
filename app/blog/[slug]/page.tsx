@@ -84,7 +84,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
         </header>
 
-        <PostArt icon={post.artIcon} className="h-40 sm:h-56" />
+        <PostArt icon={post.artIcon} photo={post.photo} className="h-40 sm:h-56" />
 
         <div className="bg-cream py-14 sm:py-20">
           <div className="mx-auto max-w-[760px] px-5 sm:px-8">
@@ -136,7 +136,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                       href={`/blog/${r.slug}`}
                       className="group overflow-hidden rounded-2xl bg-white ring-1 ring-ink/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_20px_44px_rgba(10,10,10,0.1)]"
                     >
-                      <PostArt icon={r.artIcon} className="h-28" />
+                      <PostArt icon={r.artIcon} photo={r.photo} className="h-28" />
                       <div className="p-6">
                         <div className="text-[11px] font-medium tracking-[0.16em] text-ink/45">
                           {r.category.toUpperCase()}

@@ -1,3 +1,4 @@
+import { BASE_PATH } from "@/lib/site";
 import {
   TruckIcon,
   BoxIcon,
@@ -48,8 +49,32 @@ const ICONS = {
 
 export type ArtIcon = keyof typeof ICONS;
 
-export default function PostArt({ icon, className = "" }: { icon: ArtIcon; className?: string }) {
+export default function PostArt({
+  icon,
+  photo,
+  className = "",
+}: {
+  icon: ArtIcon;
+  /** Path under public/ (e.g. "/blog/headers/my-post.jpg") for a generated photo header. Falls back to the icon treatment when omitted. */
+  photo?: string;
+  className?: string;
+}) {
   const Icon = ICONS[icon];
+
+  if (photo) {
+    return (
+      <div className={`grain relative overflow-hidden bg-ink ${className}`}>
+        {/* eslint-disable-next-line @next/next/no-img-element -- static export with images.unoptimized, see next.config.mjs */}
+        <img
+          src={`${BASE_PATH}${photo}`}
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/70 via-ink/10 to-transparent" />
+      </div>
+    );
+  }
 
   return (
     <div className={`grain relative overflow-hidden bg-ink ${className}`}>
