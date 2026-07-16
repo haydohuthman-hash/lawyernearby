@@ -17,6 +17,7 @@ move a reader toward the quote calculator.
 | `01-brand-voice-and-aeo-guide.md` | Tone, voice, and how to write for both Google and AI answer engines |
 | `02-keyword-map.md` | Full keyword universe by category, intent, and coverage status |
 | `03-content-backlog.md` | Every post idea — published, planned, or parked — with target keyword and angle |
+| `04-photo-header-workflow.md` | How to generate real photo headers (character + background composite) to replace a post's icon header |
 
 ## The standing brief
 

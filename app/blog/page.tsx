@@ -58,7 +58,7 @@ export default function BlogIndex() {
               href={`/blog/${featured.slug}`}
               className="group block overflow-hidden rounded-2xl bg-white ring-1 ring-ink/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_28px_60px_rgba(10,10,10,0.12)]"
             >
-              <PostArt icon={featured.artIcon} className="h-40 sm:h-56" />
+              <PostArt icon={featured.artIcon} photo={featured.photo} className="h-40 sm:h-56" />
               <div className="p-8 sm:p-10">
                 <div className="flex items-center gap-3 text-[11px] font-medium tracking-[0.16em] text-ink/45">
                   <span>{featured.category.toUpperCase()}</span>
@@ -86,7 +86,7 @@ export default function BlogIndex() {
                   href={`/blog/${post.slug}`}
                   className="group flex h-full flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-ink/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_28px_60px_rgba(10,10,10,0.12)]"
                 >
-                  <PostArt icon={post.artIcon} className="h-32" />
+                  <PostArt icon={post.artIcon} photo={post.photo} className="h-32" />
                   <div className="flex flex-1 flex-col p-7">
                     <div className="flex items-center gap-3 text-[11px] font-medium tracking-[0.16em] text-ink/45">
                       <span>{post.category.toUpperCase()}</span>
