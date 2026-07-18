@@ -3,7 +3,7 @@
 Status key: ✅ published · 🟡 writing now · ⬜ planned · 🧊 parked (needs something
 we don't have yet, e.g. real customer anecdotes or a new service page)
 
-## Published (42 posts as of this doc)
+## Published (47 posts as of this doc)
 
 ✅ How Much Do Removalists Cost Brisbane to Gold Coast?
 ✅ The Ultimate Brisbane to Gold Coast Moving Checklist
@@ -82,6 +82,20 @@ entertainment listicle translating listing language into moving-day reality.
 ✅ A Field Guide to Queenslander Stairs (A Love Letter, and a Complaint) —
 entertainment + genuinely useful, local-architecture humour with real technique
 tips woven in.
+✅ How to Get Your Full Bond Back in Queensland: End-of-Lease Guide — the whole
+bond-back process (RTA, entry condition report, timeline, common deductions);
+complements the bond-clean comparison post rather than competing with it, links
+the pre-sale-cleaning service.
+✅ Who to Notify When You Move House: The Complete Change-of-Address Checklist —
+utilities/government/banks/forgotten-ones checklist, AEO direct-answer format,
+covers the "change of address checklist" intent the corridor checklist doesn't.
+✅ How to Move a Fridge, Washing Machine and Other Whitegoods Safely — defrost
+timing, transit bolts, upright rule and settling time; new fridge icon added.
+✅ Moving House With Plants: Getting Your Indoor Jungle There Alive — watering
+timing, heat management, car-vs-truck table, and the SEQ fire ant biosecurity
+zone rules for moving soil/potted plants (genuine local-knowledge angle).
+✅ A Taxonomy of the Boxes You'll Never Unpack — entertainment/listicle, the
+"two moves unopened" rule as the useful core, links garage sale + five stages.
 
 All posts now carry an `artIcon` field rendering a graphic header treatment
 (gradient + line icon, see `components/PostArt.tsx`) in place of a photo —

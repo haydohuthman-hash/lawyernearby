@@ -20,6 +20,7 @@ import {
   CloudRainIcon,
   MonitorIcon,
   StairsIcon,
+  FridgeIcon,
 } from "./icons";
 
 const ICONS = {
@@ -44,6 +45,7 @@ const ICONS = {
   cloud: CloudRainIcon,
   monitor: MonitorIcon,
   stairs: StairsIcon,
+  fridge: FridgeIcon,
 } as const;
 
 export type ArtIcon = keyof typeof ICONS;
