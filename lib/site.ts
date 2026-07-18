@@ -1,5 +1,14 @@
-// Canonical site URL. The deploy workflow sets NEXT_PUBLIC_SITE_URL to the
-// custom domain automatically once DNS for www.residencerelocations.com.au
-// points at GitHub Pages (see .github/workflows/pages.yml).
+// Canonical site URL, resolved in priority order:
+// 1. NEXT_PUBLIC_SITE_URL — set this explicitly once the custom domain
+//    (www.residencerelocations.com.au) is live, on whichever host serves it.
+// 2. VERCEL_PROJECT_PRODUCTION_URL — provided automatically by Vercel builds,
+//    so a Vercel deploy gets correct canonical/sitemap URLs with zero config.
+// 3. The GitHub Pages project URL as the final fallback.
+const vercelUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : undefined;
+
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://haydohuthman-hash.github.io/lawyernearby";
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  vercelUrl ??
+  "https://haydohuthman-hash.github.io/lawyernearby";
