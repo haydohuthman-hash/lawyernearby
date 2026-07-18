@@ -4030,6 +4030,605 @@ export const POSTS: BlogPost[] = [
       </>
     ),
   },
+  {
+    slug: "how-to-get-your-bond-back-qld",
+    artIcon: "key",
+    title: "How to Get Your Full Bond Back in Queensland: End-of-Lease Guide",
+    metaTitle: "How to Get Your Bond Back in QLD — End-of-Lease Guide",
+    description:
+      "A practical Queensland end-of-lease guide to getting your full rental bond back: the entry condition report, cleaning standards, the RTA refund process, and the deductions that catch people out.",
+    excerpt:
+      "Your bond is held by the RTA, not your agent — and getting all of it back comes down to evidence, cleaning, and timing. Here's the process from four weeks out.",
+    keyword: "how to get bond back qld",
+    category: "Guides",
+    date: "2026-07-18",
+    updated: "2026-07-18",
+    readMins: 6,
+    faqs: [
+      {
+        question: "How do I get my full bond back in Queensland?",
+        answer:
+          "Match the property to your entry condition report, clean to the standard described in your lease (including carpets, oven and walls), hand back every key, and lodge the bond refund through the RTA once you've vacated. Most disputes come down to cleaning and unreported damage, so photograph everything on your way out.",
+      },
+      {
+        question: "Who holds my rental bond in Queensland?",
+        answer:
+          "The Residential Tenancies Authority (RTA), a Queensland government body — not your agent or landlord. Refunds are requested through the RTA, and if you and the agent disagree about deductions, the RTA's free dispute resolution service handles it before anyone's money moves.",
+      },
+      {
+        question: "Do I need a professional bond clean to get my bond back?",
+        answer:
+          "Not always by law, but in practice a professional bond clean is the safest route — agents inspect against the entry condition report, and cleaning is the single most common reason bonds are partially withheld. If your lease specifies professional carpet cleaning (common where pets were approved), keep the receipt.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          Getting your full bond back in Queensland comes down to three things: <strong>evidence, cleaning,
+          and timing</strong>. Your bond is held by the Residential Tenancies Authority (RTA) — a state
+          government body, not your agent — and the refund process is straightforward when the property goes
+          back the way the entry condition report says you got it. Here&apos;s the whole process, working
+          backwards from handover day.
+        </p>
+
+        <h2>Who actually holds your bond in Queensland?</h2>
+        <p>
+          The RTA holds every registered rental bond in Queensland. Your agent lodged it there when you moved
+          in, and at the end of the lease the refund is requested through the RTA — the agent doesn&apos;t
+          simply keep or release your money. If there&apos;s a disagreement about deductions, the RTA runs a
+          free dispute resolution process before any disputed amount is paid out. That structure matters:
+          it means your job is to make the evidence clear, not to win an argument on the doorstep.
+        </p>
+
+        <h2>Your entry condition report is the whole game</h2>
+        <p>
+          The condition report you filled in when you moved in is the baseline the exit inspection is judged
+          against. Dig it out early — ideally four weeks before you move. Anything marked as already worn,
+          scuffed or damaged when you arrived is not your problem now. Anything that&apos;s changed since is
+          what you either fix, clean, or expect to discuss. Photograph every room (and inside the oven) on
+          your way out so you have your own dated record.
+        </p>
+
+        <h2>The timeline that makes it easy</h2>
+        <div className="article-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>When</th>
+                <th>What to do</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>4 weeks out</td>
+                <td>Give written notice per your lease, re-read the entry condition report, book removalists and any cleaners</td>
+              </tr>
+              <tr>
+                <td>2 weeks out</td>
+                <td>Fix small damage (wall hooks, scuffs), confirm what your lease says about carpets and pest treatment</td>
+              </tr>
+              <tr>
+                <td>Moving day</td>
+                <td>Everything out — cleaning to bond standard is nearly impossible around furniture</td>
+              </tr>
+              <tr>
+                <td>After the move</td>
+                <td>Bond clean, final photos of every room, return all keys and remotes, lodge the RTA refund</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          The order matters more than people expect: <strong>move first, clean second</strong>. A proper
+          bond clean needs an empty house, which is why we always suggest booking the clean for the day
+          after your <Link href="/#quote">move</Link>, not the same afternoon.
+        </p>
+
+        <h2>What actually gets deducted from bonds</h2>
+        <ul>
+          <li>
+            <strong>Cleaning</strong>{" "}— by far the most common. Ovens, rangehoods, shower screens, skirting
+            boards and window tracks are where exit inspections focus. See our{" "}
+            <Link href="/blog/bond-clean-vs-pre-sale-clean">bond clean guide</Link>{" "}for what the standard
+            actually covers.
+          </li>
+          <li>
+            <strong>Wall damage</strong>{" "}— picture hooks and TV mounts left unfilled, or paint patches that
+            don&apos;t match. Small filler-and-touch-up jobs are cheap to do yourself before inspection.
+          </li>
+          <li>
+            <strong>Carpets</strong>{" "}— if your lease requires professional carpet cleaning (very common
+            where pets were approved), do it and keep the receipt.
+          </li>
+          <li>
+            <strong>Missing keys and remotes</strong>{" "}— garage remotes and pool gate keys are the classic
+            forgotten items, and rekeying charges are out of all proportion to the size of the key.
+          </li>
+          <li>
+            <strong>Rubbish left behind</strong>{" "}— anything left in the house, garage or yard gets removed
+            at your cost. If you&apos;re shedding stuff on the way out, book{" "}
+            <Link href="/services/rubbish-removal">rubbish removal</Link>{" "}before handover, not after the
+            agent finds it.
+          </li>
+        </ul>
+
+        <h2>Should you pay for a professional bond clean?</h2>
+        <p>
+          Usually, yes — it&apos;s the single deduction category you can eliminate for a known price. A
+          professional{" "}<Link href="/services/pre-sale-cleaning">end-of-lease clean</Link>{" "}works to the
+          checklist agents actually inspect against, and if something&apos;s flagged at inspection, a
+          reputable cleaner will return to fix it. Weigh the cost against your bond: four weeks&apos; rent
+          is a lot to risk over an oven.
+        </p>
+
+        <p>
+          Moving out of a rental along the Brisbane–Gold Coast corridor?{" "}
+          <Link href="/#quote">Get a fixed-price moving quote</Link>{" "}and line the clean up behind it —
+          the right order does half the work of getting your bond back.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "who-to-notify-when-moving-house",
+    artIcon: "house",
+    title: "Who to Notify When You Move House: The Complete Change-of-Address Checklist",
+    metaTitle: "Who to Notify When Moving House — Change of Address Checklist",
+    description:
+      "The complete Australian change-of-address checklist: utilities, driver licence, Medicare, banks, insurance and mail redirection — who to notify, in what order, and the ones everyone forgets.",
+    excerpt:
+      "Utilities, licence, Medicare, banks, mail redirection — the full list of who to tell you've moved, in the order that avoids cold showers and missed bills.",
+    keyword: "change of address checklist australia",
+    category: "Guides",
+    date: "2026-07-18",
+    updated: "2026-07-18",
+    readMins: 5,
+    faqs: [
+      {
+        question: "Who do I need to notify when I move house in Australia?",
+        answer:
+          "The essentials are your electricity, gas and internet providers, your bank, your driver licence (updated through TMR in Queensland), Medicare, the ATO, the electoral roll, and your insurers. Set up an Australia Post mail redirection for at least three months to catch everyone you forget.",
+      },
+      {
+        question: "How long before moving should I book my electricity connection?",
+        answer:
+          "Give your energy provider at least three business days' notice for a standard connection at the new address, and book the disconnection at your old address for the day after you move out — that way you're never cleaning an empty house in the dark.",
+      },
+      {
+        question: "Do I need to update my address on my Queensland driver licence?",
+        answer:
+          "Yes — Queensland requires you to update your address with the Department of Transport and Main Roads within 14 days of moving. It's free to do online and takes a few minutes.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          The boxes get all the attention, but the admin is what actually follows you around after a move.
+          Here&apos;s the complete list of <strong>who to notify when you move house</strong>{" "}— grouped by
+          urgency, with the ones everyone forgets at the bottom. Work through it in this order and nothing
+          important lands at your old address.
+        </p>
+
+        <h2>Before moving day: the connections</h2>
+        <ul>
+          <li>
+            <strong>Electricity and gas</strong>{" "}— book the new connection at least three business days
+            ahead, and schedule the old disconnection for the day <em>after</em>{" "}you move out, so the final
+            clean isn&apos;t done in the dark with no hot water.
+          </li>
+          <li>
+            <strong>Internet</strong>{" "}— the longest lead time of anything on this list. Order the new
+            connection as soon as you have a move date; a couple of weeks&apos; notice is not too early.
+          </li>
+          <li>
+            <strong>Australia Post mail redirection</strong>{" "}— set it up before you move, starting on moving
+            day. Three months minimum; twelve if you can. This is the safety net for everyone you forget below.
+          </li>
+        </ul>
+
+        <h2>The first week: government</h2>
+        <div className="article-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Who</th>
+                <th>Why it matters</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Driver licence (TMR in QLD)</td>
+                <td>Required within 14 days of moving — free to update online</td>
+              </tr>
+              <tr>
+                <td>Vehicle registration</td>
+                <td>Updates alongside your licence with TMR; renewal notices go to the new address</td>
+              </tr>
+              <tr>
+                <td>Electoral roll (AEC)</td>
+                <td>Enrolment must reflect where you live — quick online update</td>
+              </tr>
+              <tr>
+                <td>Medicare & myGov</td>
+                <td>One myGov update flows through to Medicare and Centrelink</td>
+              </tr>
+              <tr>
+                <td>ATO</td>
+                <td>Updates via myGov too — where refunds and notices get sent</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>Money: banks and insurance</h2>
+        <p>
+          Banks, super funds and card providers are quick online updates. The one that genuinely matters is{" "}
+          <strong>insurance</strong>: contents insurance is tied to the address where the contents
+          actually are, so update it from moving day — and while you&apos;re there, check whether your
+          policy covers goods in transit, which pairs with our{" "}
+          <Link href="/blog/removalist-insurance-explained">guide to removalist insurance</Link>. Car
+          insurance premiums are also address-based, so that needs updating too.
+        </p>
+
+        <h2>The ones everyone forgets</h2>
+        <ul>
+          <li>Your employer&apos;s payroll and HR system</li>
+          <li>School or daycare records, and your GP/dentist if you&apos;re changing</li>
+          <li>Subscription deliveries — meal kits, pet food, contact lenses, wine clubs</li>
+          <li>Loyalty programs and online shopping defaults (the next parcel ships to the old place otherwise)</li>
+          <li>Pet microchip registry — the recovery contact should be your new address</li>
+          <li>Toll accounts and parking permits</li>
+        </ul>
+
+        <p>
+          A practical trick: keep the mail redirection running and note every redirected envelope that
+          arrives — each one is an organisation still holding your old address. After three months the
+          stragglers have all shown themselves.
+        </p>
+
+        <p>
+          Sorting the move itself is the easier half of the job.{" "}
+          <Link href="/#quote">Get a fixed quote</Link>{" "}for your Brisbane or Gold Coast move, then work
+          this list top to bottom — future you, standing in a lit house with hot water and working wifi,
+          will be grateful. For the packing side, start with the{" "}
+          <Link href="/blog/brisbane-to-gold-coast-moving-checklist">full moving checklist</Link>.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "how-to-move-a-fridge-washing-machine-whitegoods",
+    artIcon: "fridge",
+    title: "How to Move a Fridge, Washing Machine and Other Whitegoods Safely",
+    metaTitle: "How to Move a Fridge & Washing Machine Safely — Whitegoods Guide",
+    description:
+      "How to move a fridge, washing machine, dryer and dishwasher without wrecking them: defrost timing, transit bolts, keeping fridges upright, and how long to wait before switching back on.",
+    excerpt:
+      "Whitegoods are the easiest things in the house to ruin in transit. Defrost timing, transit bolts, and the settling rule — the prep that keeps them working.",
+    keyword: "how to move a fridge",
+    category: "Guides",
+    date: "2026-07-18",
+    updated: "2026-07-18",
+    readMins: 5,
+    faqs: [
+      {
+        question: "How long should a fridge be off before moving it?",
+        answer:
+          "Switch the fridge off and empty it at least 24 hours before the move so the freezer can fully defrost and the interior can dry. Moving a fridge with ice still in the freezer means meltwater through the electrics and your truck.",
+      },
+      {
+        question: "Can you lay a fridge down to move it?",
+        answer:
+          "Avoid it. Fridges should travel upright so the compressor oil stays where it belongs. If it absolutely must be tilted to get through a space, keep the angle shallow and brief, and let the fridge stand upright for at least a few hours before plugging it back in.",
+      },
+      {
+        question: "Do I need transit bolts to move a washing machine?",
+        answer:
+          "Front-loaders, yes — the transit bolts lock the drum so it can't slam around in the truck, which is the most common way washing machines are ruined in a move. They're the same bolts that came with the machine; if they're long gone, your machine's manufacturer sells replacements, or ask your removalist about drum bracing.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          Whitegoods are heavy, awkward, and — unlike a sofa — genuinely easy to ruin in transit if
+          they&apos;re not prepped. The good news: the prep is simple, it just has to start{" "}
+          <strong>the day before the truck arrives</strong>, not the morning of. Here&apos;s the routine for
+          each appliance.
+        </p>
+
+        <h2>How do you move a fridge?</h2>
+        <p>
+          Start 24 hours out: empty it, switch it off, and prop the doors open so the freezer defrosts and
+          the inside dries — towels in the base catch the meltwater. On the day, tape or strap the doors
+          shut, move it <strong>upright</strong>{" "}on a trolley, and keep it upright in the truck. Tilting a
+          fridge lets compressor oil run into places it shouldn&apos;t be.
+        </p>
+        <p>
+          At the other end, the classic question: <strong>how long before you switch it back on?</strong>{" "}
+          If it travelled upright, a couple of hours&apos; settling is a sensible buffer; if it was tilted
+          at any point, leave it standing longer — a few hours at minimum — before powering up. It&apos;s an
+          easy rule to follow, because the fridge is never the first thing you need working anyway.
+        </p>
+
+        <h2>How do you move a washing machine?</h2>
+        <p>
+          Two jobs: <strong>water out, drum locked</strong>. Run a final empty cycle a day or two before,
+          then disconnect the hoses and drain them into a bucket — there&apos;s always more water in there
+          than you expect. Leave the door open overnight to dry. Then fit the transit bolts (front-loaders):
+          they lock the suspended drum so it can&apos;t slam around in the truck. An unbraced drum is the
+          most common way washing machines die in a move.
+        </p>
+
+        <h2>The rest of the laundry and kitchen</h2>
+        <div className="article-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Appliance</th>
+                <th>Start prep</th>
+                <th>The key step</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fridge / freezer</td>
+                <td>24 hrs before</td>
+                <td>Fully defrost, dry, travel upright</td>
+              </tr>
+              <tr>
+                <td>Washing machine</td>
+                <td>1–2 days before</td>
+                <td>Drain hoses, fit transit bolts</td>
+              </tr>
+              <tr>
+                <td>Dryer</td>
+                <td>Moving day</td>
+                <td>Empty lint filter, tape the door, note wall-mount brackets</td>
+              </tr>
+              <tr>
+                <td>Dishwasher</td>
+                <td>1 day before</td>
+                <td>Run empty, disconnect and drain the inlet hose, tape racks</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>Measure the doorways before moving day</h2>
+        <p>
+          The fridge went <em>in</em>, so it must come <em>out</em>{" "}— except the new place has its own
+          doorways, and fridge spaces in modern kitchens are cut close. Measure the fridge cavity at the new
+          address (width, depth, and height under any overhead cupboard) before the truck is loaded, not
+          after. Doors and handles can come off a fridge to buy a few centimetres; benchtops can&apos;t.
+        </p>
+
+        <h2>Should you move whitegoods yourself?</h2>
+        <p>
+          A trolley, straps and a second pair of hands make a washing machine a manageable DIY job on flat
+          ground. Add stairs — especially{" "}
+          <Link href="/blog/a-field-guide-to-queenslander-stairs">Queenslander stairs</Link>{" "}— and the
+          equation changes fast: whitegoods are top-heavy, hard to grip, and unforgiving of a slip. A
+          professional crew moves them daily with the right gear; it&apos;s included in any{" "}
+          <Link href="/services/furniture-removal">furniture removal</Link>{" "}job, and your{" "}
+          <Link href="/#quote">fixed quote</Link>{" "}covers them like everything else in the house. Prep
+          them properly and they&apos;ll outlast the house they&apos;re moving to.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "moving-house-with-plants",
+    artIcon: "leaf",
+    title: "Moving House With Plants: Getting Your Indoor Jungle There Alive",
+    metaTitle: "Moving House With Plants — Keeping Them Alive in SEQ Heat",
+    description:
+      "How to move house with plants in South East Queensland: watering timing, pot packing, heat management, the fire ant biosecurity rules for moving soil, and which plants ride in the car.",
+    excerpt:
+      "Plants are the one thing in the truck that's actually alive. Watering timing, heat, pot packing — and the SEQ fire ant rules most people have never heard of.",
+    keyword: "moving house with plants",
+    category: "Guides",
+    date: "2026-07-18",
+    updated: "2026-07-18",
+    readMins: 5,
+    faqs: [
+      {
+        question: "Will removalists move potted plants?",
+        answer:
+          "Policies vary — soil and water make trucks messy, and a hot box truck is a hard environment for anything living. Many crews will take larger pots if they're drained and wrapped; smaller and more delicate plants nearly always travel better in your own air-conditioned car. Ask when you book so plants are planned for, not discovered on the day.",
+      },
+      {
+        question: "When should I water plants before moving house?",
+        answer:
+          "Two to three days before the move, not the morning of. That keeps the plant hydrated but lets pots drain and lighten — a freshly watered pot is heavier, drips through the truck, and wet soil spills far more easily in transit.",
+      },
+      {
+        question: "Are there rules about moving plants and soil in South East Queensland?",
+        answer:
+          "Yes — much of South East Queensland sits inside fire ant biosecurity zones, and moving materials that can carry fire ants (including soil and potted plants) is restricted in and out of those zones. Check both addresses against the fire ant biosecurity map before moving day and follow the current guidance for potted plants.",
+      },
+    ],
+    body: (
+      <>
+        <p>
+          Plants are the only thing on the truck that&apos;s actually alive, and moving day treats them
+          worst: heat, darkness, tipping, and a driver who can&apos;t hear them complain. Getting an indoor
+          jungle from Brisbane to the Gold Coast intact is mostly about <strong>timing and heat</strong>{" "}—
+          plus one genuinely Queensland-specific rule about soil that surprises almost everyone.
+        </p>
+
+        <h2>When should you water plants before a move?</h2>
+        <p>
+          <strong>Two to three days before, then stop.</strong>{" "}The plant stays hydrated, but the pot has
+          time to drain and lighten. Water on the morning of the move and you get the worst of everything: a
+          heavier pot, muddy drips through the truck and your car boot, and saturated soil that slops out at
+          the first corner.
+        </p>
+
+        <h2>The week before: prune, pot-check, and triage</h2>
+        <ul>
+          <li>
+            <strong>Prune anything leggy.</strong>{" "}Less foliage means less water stress and fewer snapped
+            stems in transit.
+          </li>
+          <li>
+            <strong>Check pots for hitchhikers.</strong>{" "}Ants, spiders and gecko eggs all love the
+            underside of a pot that hasn&apos;t moved in a year. Evict them at the old house.
+          </li>
+          <li>
+            <strong>Triage honestly.</strong>{" "}The half-dead herb pot is not making the trip. Gift it,
+            compost it, or admit what it is. Your{" "}
+            <Link href="/blog/downsizing-checklist-decluttering-before-a-move">declutter</Link>{" "}applies
+            to the garden too.
+          </li>
+        </ul>
+
+        <h2>The fire ant rule most people have never heard of</h2>
+        <p>
+          Much of South East Queensland — including large parts of the Brisbane–Gold Coast corridor — sits
+          inside <strong>fire ant biosecurity zones</strong>, and materials that can carry fire ants,
+          including <strong>soil and potted plants</strong>, are restricted when moving in and out of those
+          zones. Before moving day, check both your addresses against the Queensland Government&apos;s fire
+          ant biosecurity map and follow the current guidance for potted plants. It&apos;s a quick check,
+          and it&apos;s the difference between moving your plants and moving a biosecurity problem.
+        </p>
+
+        <h2>How do plants actually travel best?</h2>
+        <div className="article-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Plant</th>
+                <th>Best transport</th>
+                <th>Why</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Small indoor pots</td>
+                <td>Your car, boxed upright</td>
+                <td>Air-con beats a hot truck box; open-top boxes stop tipping</td>
+              </tr>
+              <tr>
+                <td>Hanging plants</td>
+                <td>Your car, on a passenger floor</td>
+                <td>Nothing to hang them from in a truck</td>
+              </tr>
+              <tr>
+                <td>Large floor pots</td>
+                <td>Truck, drained and wrapped</td>
+                <td>Too heavy for a back seat; wrap the pot, sleeve the foliage</td>
+              </tr>
+              <tr>
+                <td>Delicate favourites</td>
+                <td>Your car, last on, first off</td>
+                <td>Minimum time in transit, maximum supervision</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          The universal rule is <strong>last on, first off</strong>{" "}— plants board the truck (or the car)
+          after everything else and come off before the first box. In a Queensland summer, an hour in a
+          closed vehicle is genuinely dangerous for a plant, so tell your crew what&apos;s living cargo when
+          you book. Large ceramic pots, drained and wrapped, are just heavy fragile freight — the same{" "}
+          <Link href="/blog/how-to-wrap-furniture-properly">wrapping technique</Link>{" "}that protects
+          furniture protects them.
+        </p>
+
+        <h2>First week in the new place</h2>
+        <p>
+          Plants sulk after a move; it&apos;s normal. Put them somewhere with similar light to their old
+          spot, water lightly once they&apos;re settled, and don&apos;t re-pot for a few weeks — one stress
+          at a time. Most bounce back before you&apos;ve finished unpacking the kitchen.
+        </p>
+
+        <p>
+          Moving a jungle down the M1?{" "}<Link href="/#quote">Get a fixed quote</Link>{" "}and mention the
+          plants — we&apos;ll plan truck space for the big pots and leave the delicate ones for your back
+          seat, where they&apos;d rather be anyway.
+        </p>
+      </>
+    ),
+  },
+  {
+    slug: "taxonomy-of-boxes-you-never-unpack",
+    artIcon: "box",
+    title: "A Taxonomy of the Boxes You'll Never Unpack",
+    metaTitle: "A Taxonomy of the Boxes You'll Never Unpack",
+    description:
+      "A field taxonomy of the boxes that survive every move unopened: the Cable Box, the box marked 'Misc', the Trophy Box, and the one that's moved three houses without being opened once.",
+    excerpt:
+      "Every house has them: boxes that have survived multiple moves without ever being opened. A scientific classification, plus the one rule that ends the cycle.",
+    keyword: "boxes you never unpack",
+    category: "Entertainment",
+    date: "2026-07-18",
+    updated: "2026-07-18",
+    readMins: 4,
+    body: (
+      <>
+        <p>
+          Somewhere in your house — a garage shelf, the top of a wardrobe, under the stairs — there are
+          boxes that arrived sealed at this address and will leave it the same way. We see them on every
+          job. As a public service, here is a formal taxonomy of the species, so you can identify yours in
+          the wild.
+        </p>
+
+        <h2>1. The Cable Box (Genus: <em>Just In Case</em>)</h2>
+        <p>
+          Contains: eleven phone chargers for phones you no longer own, three HDMI cables of unknown
+          provenance, a router from two internet providers ago, and one mystery power adapter that might be
+          important, which is why the whole box survives. Every household has exactly one. If you have two,
+          one of them formed by cell division.
+        </p>
+
+        <h2>2. The Box Marked &quot;Misc&quot;</h2>
+        <p>
+          The apex predator of unpacked boxes. &quot;Misc&quot; is not a category; it&apos;s a confession —
+          written at 11pm the night before a previous move by a person who had stopped believing in
+          categories. Opening it now would mean confronting who you were then. Sealed it remains.
+        </p>
+
+        <h2>3. The Trophy Box</h2>
+        <p>
+          School ribbons, a debating trophy, a soccer medal from a year that starts with 19 or a very early
+          20. Can&apos;t be displayed (you&apos;re an adult), can&apos;t be binned (you&apos;re not a
+          monster). So it moves. Again. It has now travelled further than some gap years.
+        </p>
+
+        <h2>4. The Kitchen Optimist</h2>
+        <p>
+          The pasta maker, the juicer, the fondue set from a wedding registry. This box contains not
+          appliances but <em>aspirations</em>{" "}— a version of you who juices. That version has now lived at
+          three addresses without once being sighted.
+        </p>
+
+        <h2>5. The Heirloom (Unverified)</h2>
+        <p>
+          Something of Grandma&apos;s. Nobody is entirely sure what. It is wrapped in newspaper from a
+          decade that explains a lot about the wrapping technique, and it will be carried with two hands
+          and genuine reverence by everyone who touches it, including us. This one, honestly, gets a pass —
+          some boxes earn their seat on the truck.
+        </p>
+
+        <h2>The rule that ends the cycle</h2>
+        <p>
+          Here&apos;s the honest version, from people who lift these boxes for a living: if a box has
+          survived <strong>two moves unopened</strong>, you don&apos;t own its contents anymore — you&apos;re
+          just paying for their transport. Before the next move, open it once. Keep what makes you feel
+          something, and let the{" "}
+          <Link href="/blog/garage-sale-guide-before-you-move">garage sale</Link>{" "}or the{" "}
+          <Link href="/blog/five-stages-of-realising-you-own-too-much-stuff">five stages</Link>{" "}take the
+          rest. (The Heirloom is exempt. Obviously.)
+        </p>
+
+        <p>
+          And whatever survives the cull, we&apos;ll move it without judgement — the Cable Box rides as
+          proudly on our truck as the fridge does.{" "}
+          <Link href="/#quote">Get a fixed quote</Link>, Misc and all.
+        </p>
+      </>
+    ),
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {

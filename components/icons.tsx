@@ -305,3 +305,13 @@ export function StairsIcon({ className }: { className?: string }) {
     </svg>
   );
 }
+
+export function FridgeIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="6" y="3" width="12" height="18" rx="1.5" stroke="currentColor" strokeWidth="1.4" />
+      <path d="M6 10h12" stroke="currentColor" strokeWidth="1.4" />
+      <path d="M9 6v2M9 13v3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+    </svg>
+  );
+}

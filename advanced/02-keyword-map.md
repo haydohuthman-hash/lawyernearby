@@ -78,6 +78,13 @@ duplicate content on the same term.
 | moving house wet season brisbane | `/blog/storm-season-moving-brisbane-wet-weather` |
 | moving home office / home gym equipment | `/blog/moving-a-home-office-or-gym-setup` |
 | gold coast apartment move in rules / body corporate | `/blog/strata-body-corporate-move-in-rules-gold-coast` |
+| how to get bond back qld / end of lease guide | `/blog/how-to-get-your-bond-back-qld`. The full
+  process (RTA, condition report, deductions); the cleaning-comparison keyword stays with
+  the bond-clean-vs-pre-sale-clean post — they cross-link. |
+| change of address checklist / who to notify when moving | `/blog/who-to-notify-when-moving-house` |
+| how to move a fridge / washing machine / whitegoods | `/blog/how-to-move-a-fridge-washing-machine-whitegoods` |
+| moving house with plants | `/blog/moving-house-with-plants`. Includes the SEQ fire ant
+  biosecurity zone angle — genuinely local, rarely covered by competitors. |
 
 ## Urgency intent
 
@@ -119,6 +126,7 @@ visits, which lift domain authority for everything else.
 | "Too much stuff" moving humour | `/blog/five-stages-of-realising-you-own-too-much-stuff` |
 | Real estate listing language / moving day translation | `/blog/real-estate-listing-words-vs-what-they-actually-mean` |
 | Queenslander stairs / local architecture humour | `/blog/a-field-guide-to-queenslander-stairs` |
+| Boxes you never unpack / moving box humour | `/blog/taxonomy-of-boxes-you-never-unpack` |
 
 ## Deliberately not targeting
 
